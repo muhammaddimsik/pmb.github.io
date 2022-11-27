@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #181C27;
+}
+
+body {
+  height: 2000px;
+}
+
+.wrapper {
+  margin: 1em 1.2em;
+}
+
+.btn {
+  padding: 8px 26px;
+  color: white;
+  background-color: #57B98A;
+  border: none;
+  border-radius: 32px;
+  font-size: .9rem;
+}
+
+.btn:hover {
+  background-color: #69d19f;
+  color: #ECFFF9;
+  cursor: pointer;
+}
+
+.background {
+  width: 100%;
+  height: 574px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #ECFFF9;
+  z-index: -1;
+}
+
+.headings {
+  margin-top: 40px;
+}
+
+.headings .label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.headings h2 {
+  font-size: 1.3em;
+}
+
+.headings .sub-head {
+  color: #57B98A;
+}
+
+.logo a {
+  color: #181C27;
+  text-decoration: none;
+  font-size: .9rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  font-weight: 600;
+}
+
+.logo a img {
+  width: 40px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: white;
+  width: 70%;
+  height: 100vh;
+  z-index: 100;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  -webkit-transition: -webkit-transform .5s ease-in-out;
+  transition: -webkit-transform .5s ease-in-out;
+  transition: transform .5s ease-in-out;
+  transition: transform .5s ease-in-out, -webkit-transform .5s ease-in-out;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 5em 0 0 0;
+}
+
+nav ul li .arrow-down {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 20px;
+  color: #181C27;
+}
+
+nav ul li ul {
+  margin: 0 0 0 1em;
+  display: none;
+}
+
+nav ul .btn {
+  margin: 1em 0 0 2em;
+}
+
+nav ul a {
+  padding: .6em 2em;
+  display: block;
+  color: black;
+  text-decoration: none;
+  font-size: .85rem;
+}
+
+nav ul a:hover {
+  background-color: #e7e7e7;
+}
+
+nav .close {
+  float: right;
+  margin: 2em;
+  width: 2.5em;
+}
+
+nav .open-item {
+  display: block;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header svg {
+  width: 3em;
+  margin-top: .6em;
+  cursor: pointer;
+}
+
+#hero-section p {
+  font-size: 14px;
+  color: #181C27;
+  margin: 16px 0;
+  font-weight: 500;
+}
+
+#hero-section .btn {
+  font-size: 13px;
+  margin-right: 8px;
+}
+
+#hero-section a {
+  font-size: 14px;
+  color: #181C27;
+  font-weight: 500;
+}
+
+#hero-section .icon {
+  margin-top: 20px;
+}
+
+#hero-section img {
+  margin-top: 20px;
+}
+
+.box {
+  background-color: #ECFFF9;
+  border: 2px solid #57B98A;
+  margin-top: 20px;
+}
+
+.box h3 {
+  font-size: 16px;
+  margin: 12px 20px;
+}
+
+.box .rectangle {
+  width: 40px;
+  height: 2px;
+  background-color: #57B98A;
+  margin: -10px 0 0 20px;
+  border-radius: 2px;
+}
+
+.box .item {
+  margin: 20px 0;
+}
+
+.box .item p {
+  font-size: 12px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 6px;
+}
+
+.box .item p span {
+  margin-right: 12px;
+  color: #57B98A;
+}
+
+.box .item p .diff {
+  color: #ECFFF9;
+}
+
+.box .item .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.box .item .flex p:nth-child(2) {
+  width: 50px;
+}
+
+.box-third p:nth-child(even) {
+  margin-left: 34px;
+}
+
+@media only screen and (min-width: 920px) {
+  .menu {
+    display: none;
+  }
+  nav {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    position: unset;
+    width: auto;
+    height: auto;
+    display: block;
+    background: none;
+  }
+  nav .close {
+    display: none;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
+  nav ul a {
+    padding: .5em 1.5em;
+    font-size: .9rem;
+    text-decoration: none;
+  }
+  nav ul a:hover {
+    background: none;
+  }
+}
+
+.open-nav {
+  -webkit-transform: translate(0);
+          transform: translate(0);
+}
+
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    width: 1020px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=main.css.map */
