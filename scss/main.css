@@ -1,64 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: 'Plus Jakarta Sans', sans-serif;
-  color: #181C27;
-}
-
-body {
-  height: 2000px;
-}
-
-.wrapper {
-  margin: 1em 1.2em;
-}
-
-.btn {
-  padding: 8px 26px;
-  color: white;
-  background-color: #57B98A;
-  border: none;
-  border-radius: 32px;
-  font-size: .9rem;
-}
-
-.btn:hover {
-  background-color: #69d19f;
-  color: #ECFFF9;
-  cursor: pointer;
-}
-
-.background {
-  width: 100%;
-  height: 574px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  background-color: #ECFFF9;
-  z-index: -1;
-}
-
-.headings {
-  margin-top: 40px;
-}
-
-.headings .label {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: 700;
-}
-
-.headings h2 {
-  font-size: 1.3em;
-}
-
-.headings .sub-head {
-  color: #57B98A;
-}
-
 .logo a {
   color: #181C27;
   text-decoration: none;
@@ -150,6 +90,53 @@ header svg {
   cursor: pointer;
 }
 
+.wrapper {
+  margin: 1em 1.2em;
+}
+
+.btn {
+  padding: 8px 26px;
+  color: white;
+  background-color: #57B98A;
+  border: none;
+  border-radius: 32px;
+  font-size: .9rem;
+}
+
+.btn:hover {
+  background-color: #69d19f;
+  color: #ECFFF9;
+  cursor: pointer;
+}
+
+.background {
+  width: 100%;
+  height: 574px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background-color: #ECFFF9;
+  z-index: -1;
+}
+
+.headings {
+  margin-top: 40px;
+}
+
+.headings .label {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.headings h2 {
+  font-size: 1.3em;
+}
+
+.headings .sub-head {
+  color: #57B98A;
+}
+
 #hero-section p {
   font-size: 14px;
   color: #181C27;
@@ -232,6 +219,54 @@ header svg {
   margin-left: 34px;
 }
 
+#alur-pendaftaran {
+  background-color: #ECFFF9;
+  height: 60vh;
+}
+
+#alur-pendaftaran .wrapper .headings {
+  padding-top: 40px;
+}
+
+iframe {
+  margin: 20px 0 40px 0;
+}
+
+#whatsapp {
+  background-color: #57B98A;
+  padding: 20px 0;
+}
+
+#whatsapp .wrapper .text-wa {
+  color: #ECFFF9;
+  font-weight: 500;
+}
+
+#whatsapp .wrapper .btn-white {
+  padding: 8px 26px;
+  color: white;
+  background-color: #57B98A;
+  border: none;
+  border-radius: 32px;
+  font-size: .9rem;
+  background-color: #ECFFF9;
+  margin-top: 20px;
+}
+
+#whatsapp .wrapper .btn-white a {
+  color: #57B98A;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 @media only screen and (min-width: 920px) {
   .menu {
     display: none;
@@ -274,5 +309,106 @@ header svg {
     width: 1020px;
     margin: 0 auto;
   }
+}
+
+footer {
+  background-color: #181C27;
+  color: #ECFFF9;
+  padding: 40px 0;
+}
+
+footer .wrapper .wa {
+  color: #ECFFF9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+footer .wrapper .col-one img {
+  width: 80px;
+}
+
+footer .wrapper .col-one .footer-head {
+  margin-bottom: 20px;
+}
+
+footer .wrapper .col-one .footer-head h3 {
+  color: #ECFFF9;
+  margin-top: 4px;
+  text-transform: uppercase;
+}
+
+footer .wrapper .col-one .footer-desc {
+  margin-bottom: 20px;
+}
+
+footer .wrapper .col-one .footer-desc p {
+  color: #ECFFF9;
+  margin-top: 4px;
+}
+
+footer .wrapper .col-two {
+  margin-top: 60px;
+}
+
+footer .wrapper .col-two h3 {
+  color: #ECFFF9;
+}
+
+footer .wrapper .col-two .rectangle {
+  width: 26px;
+  height: 2px;
+  background-color: #57B98A;
+  border-radius: 2px;
+  margin-top: 2px;
+}
+
+footer .wrapper .col-two ul {
+  margin-top: 20px;
+}
+
+footer .wrapper .col-two ul li {
+  margin-top: 6px;
+}
+
+footer .wrapper .col-two ul li a {
+  text-decoration: none;
+  color: #ECFFF9;
+}
+
+footer .wrapper .icon {
+  margin-top: 20px;
+}
+
+footer .wrapper .copyright {
+  margin-top: 40px;
+}
+
+footer .wrapper .copyright hr {
+  margin-bottom: 20px;
+}
+
+footer .wrapper .copyright p {
+  color: #ECFFF9;
+  text-align: end;
+  font-size: 12px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: #181C27;
+}
+
+body {
+  padding-bottom: 80px;
 }
 /*# sourceMappingURL=main.css.map */

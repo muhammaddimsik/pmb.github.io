@@ -1,0 +1,14 @@
+@mixin btn-main {
+    padding: 8px 26px;
+    color: white;
+    background-color: $primary;
+    border: none;
+    border-radius: 32px;
+    font-size: .9rem;
+}
+
+@mixin btn-main-hover {
+    background-color: $primary-hover;
+    color: $third;
+    cursor: pointer;
+}
