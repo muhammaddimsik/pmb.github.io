@@ -10,6 +10,14 @@
 }
 
 body{
-    padding-bottom: 80px;
+    padding-bottom: 800px;
+}
+
+.rectangle{
+    width: 26px;
+    height: 2px;
+    background-color: $primary;
+    border-radius: 2px;
+    margin-top: 2px;
 }
 
