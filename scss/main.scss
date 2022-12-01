@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
-@import 'variable', 'mixin', 'header', 'home', 'footer', 'tif';
+@import 'variable', 'mixin', 'header', 'home', 'footer', 'tif', 'tin', 'tkom', 'fisika';
 
 *{
     margin: 0;
@@ -10,7 +10,7 @@
 }
 
 body{
-    padding-bottom: 800px;
+    padding-bottom: 80px;
 }
 
 .rectangle{
