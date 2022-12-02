@@ -1,0 +1,79 @@
+.bg-contact{
+    background-image: url(../img/bg-contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -2;
+    height: 387px;
+    width: 99%;
+}
+
+#contact{
+    .wrapper{
+        margin-top: 60px;
+        .icon-all{
+            margin-top: 40px;
+            .adress, .email, .telepon, .whatsapp{
+                font-size: 16px;
+                font-weight: 600;
+                display: flex;
+                gap: 14px;
+                margin-top: 20px;
+                margin-left: 20px;
+            }
+        }
+    }
+    .wrapper{
+        margin-top: 60px;
+        form {
+            margin: 0 auto;
+            width: 100%;
+            height: 410px;
+            background-color: white;
+            fieldset {
+                padding: 2rem 2.5rem;
+                border: none;
+                box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
+                position: absolute;
+                width: 300px;
+                height: 480px;
+                left: 20px;
+                top: 809px;
+                background-color: white;
+                label {
+                    display: block;
+                    margin: 0.5rem 0;
+                    font-size: 14px;
+                    font-weight: 600;
+                    input, textarea{
+                        border: none;
+                        margin: 10px 0 0 0;
+                        width: 100%;
+                        min-height: 2em;
+                        padding: 8px;
+                        border: 1px solid rgba(24, 28, 39, 0.4);
+                    }
+                }
+                button[type="submit"] {
+                    display: block;
+                    width: 60%;
+                    margin: 1em auto;
+                    height: 2em;
+                    font-size: 1.1rem;
+                    background-color: $primary;
+                    min-width: 300px;
+                    border: none;
+                    color: $third;
+                }
+            }
+        }
+    }
+}
+
+.kotak{
+    width: 100%;
+    height: 100px;
+    background-color: $primary;
+}
