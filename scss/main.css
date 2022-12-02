@@ -111,7 +111,7 @@ header svg {
 
 .background {
   width: 100%;
-  height: 574px;
+  height: 627px;
   position: absolute;
   left: 0px;
   top: 0px;
@@ -161,6 +161,7 @@ header svg {
 
 #hero-section img {
   margin-top: 20px;
+  width: 100%;
 }
 
 .box {
@@ -317,7 +318,7 @@ footer {
   padding: 40px 0;
 }
 
-footer .wrapper .wa {
+footer .wrapper .wa a {
   color: #ECFFF9;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -327,6 +328,7 @@ footer .wrapper .wa {
           align-items: center;
   gap: 6px;
   margin-top: 4px;
+  text-decoration: none;
 }
 
 footer .wrapper .col-one img {

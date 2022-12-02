@@ -4,11 +4,14 @@ footer{
     padding: 40px 0;
     .wrapper{
         .wa{
-            color: $third;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            margin-top: 4px;
+            a{
+                color: $third;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                margin-top: 4px;
+                text-decoration: none;
+            }
         }
         .col-one{
             img{
