@@ -2,7 +2,7 @@
     margin: 1em 1.2em;
 }
 
-.btn{
+.btn-a{
     @include btn-main;
     &:hover{
         @include btn-main-hover()
@@ -44,11 +44,11 @@
         margin: 16px 0;
         font-weight: 500;
     }
-    .btn{
+    .btn-a{
         font-size: 13px;
         margin-right: 8px;
     }
-    a{
+    .campus-profil{
         font-size: 14px;
         color: $text;
         font-weight: 500;

@@ -49,8 +49,23 @@ nav ul li ul {
   display: none;
 }
 
-nav ul .btn {
+nav ul .btn-b {
   margin: 1em 0 0 2em;
+  width: 100px;
+  text-align: center;
+  padding: 8px 26px;
+  color: white;
+  background-color: #57B98A;
+  border: none;
+  border-radius: 32px;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+nav ul .btn-b:hover {
+  background-color: #69d19f;
+  color: #ECFFF9;
+  cursor: pointer;
 }
 
 nav ul a {
@@ -94,16 +109,17 @@ header svg {
   margin: 1em 1.2em;
 }
 
-.btn {
+.btn-a {
   padding: 8px 26px;
   color: white;
   background-color: #57B98A;
   border: none;
   border-radius: 32px;
   font-size: .9rem;
+  text-decoration: none;
 }
 
-.btn:hover {
+.btn-a:hover {
   background-color: #69d19f;
   color: #ECFFF9;
   cursor: pointer;
@@ -144,12 +160,12 @@ header svg {
   font-weight: 500;
 }
 
-#hero-section .btn {
+#hero-section .btn-a {
   font-size: 13px;
   margin-right: 8px;
 }
 
-#hero-section a {
+#hero-section .campus-profil {
   font-size: 14px;
   color: #181C27;
   font-weight: 500;
@@ -250,6 +266,7 @@ iframe {
   border: none;
   border-radius: 32px;
   font-size: .9rem;
+  text-decoration: none;
   background-color: #ECFFF9;
   margin-top: 20px;
 }
@@ -673,6 +690,129 @@ footer .wrapper .copyright p {
   width: 100%;
   height: 100px;
   background-color: #57B98A;
+}
+
+#daftar .wrapper {
+  margin-top: 220px;
+}
+
+#daftar .wrapper form {
+  margin: 0 auto;
+  width: 100%;
+  height: 500px;
+  background-color: white;
+}
+
+#daftar .wrapper form fieldset {
+  padding: 2rem 2.5rem;
+  border: none;
+  -webkit-box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 90%;
+  height: 82%;
+  top: 100px;
+  background-color: white;
+}
+
+#daftar .wrapper form fieldset .logo-b {
+  margin-bottom: 40px;
+}
+
+#daftar .wrapper form fieldset .logo-b img {
+  width: 80px;
+  display: block;
+  margin: 2px auto;
+}
+
+#daftar .wrapper form fieldset .logo-b p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#daftar .wrapper form fieldset label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#daftar .wrapper form fieldset label .field {
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#daftar .wrapper form fieldset label .field svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 3px;
+  border: 1px solid rgba(24, 28, 39, 0.4);
+  border-right: none;
+}
+
+#daftar .wrapper form fieldset label .field input, #daftar .wrapper form fieldset label .field textarea {
+  border: none;
+  width: 100%;
+  min-height: 2em;
+  padding: 12px 10px;
+  border: 1px solid rgba(24, 28, 39, 0.4);
+}
+
+#daftar .wrapper form fieldset .btn-d {
+  margin-top: 1.6em;
+  width: 100%;
+  background-color: #57B98A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 0;
+  text-decoration: none;
+}
+
+#daftar .wrapper form fieldset .btn-d p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ECFFF9;
+}
+
+#daftar .wrapper form fieldset .btn-m {
+  margin-top: .2em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 0;
+  text-decoration: none;
+  border: 1px solid #181C27;
+}
+
+#daftar .wrapper form fieldset .btn-m p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #181C27;
+}
+
+#daftar .wrapper form fieldset .btn-m p:nth-child(2) {
+  font-weight: 500;
+  color: #57B98A;
+  text-decoration: underline;
 }
 
 * {
