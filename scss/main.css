@@ -1103,6 +1103,142 @@ footer .wrapper .copyright p {
   text-align: center;
 }
 
+#head {
+  margin-top: 56px;
+}
+
+#head .wrapper .link a {
+  text-decoration: none;
+  color: #57B98A;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+#head .wrapper .link a svg {
+  margin-left: 6px;
+}
+
+#head .wrapper .status {
+  margin: 20px 0;
+}
+
+#head .wrapper .status h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#head .wrapper .status p {
+  background-color: #FDB500;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 6px 20px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+#head .wrapper .nav {
+  overflow: scroll;
+}
+
+#head .wrapper .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: static;
+}
+
+#head .wrapper .nav ul li {
+  list-style: none;
+  background-color: #ECFFF9;
+  padding: 8px 20px;
+}
+
+#head .wrapper .nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#head .wrapper .nav ul li:nth-child(1) {
+  background-color: #57B98A;
+}
+
+#head .wrapper .nav ul li:nth-child(1) a {
+  color: #ECFFF9;
+}
+
+#head .wrapper .nav::-webkit-scrollbar {
+  display: none;
+}
+
+#identitas {
+  margin: 40px 0;
+}
+
+#identitas .wrapper .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#identitas .wrapper .name h3 {
+  font-size: 22px;
+}
+
+#identitas .wrapper .name a {
+  background-color: #57B98A;
+  text-decoration: none;
+  color: #ECFFF9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  padding: 6px 10px;
+  height: 60px;
+}
+
+#identitas .wrapper .name a svg {
+  width: 48px;
+  margin-right: 10px;
+}
+
+#identitas .wrapper .pict {
+  text-align: center;
+}
+
+#identitas .wrapper .pict h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#table .wrapper table {
+  border-collapse: collapse;
+}
+
+#table .wrapper table tr td {
+  color: #181C27;
+  font-weight: 700;
+  padding: 6px 10px;
+}
+
+#table .wrapper table tr td:nth-child(even) {
+  text-align: right;
+  font-weight: 500;
+}
+
+#table .wrapper table tr:nth-child(odd) {
+  background-color: #EEEEEE;
+}
+
 * {
   margin: 0;
   padding: 0;
