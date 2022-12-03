@@ -72,3 +72,15 @@ footer{
         }
     }
 }
+
+#white-footer{
+    background-color: white;
+    .wrapper{
+        .copyright{
+            p{
+                color: $text;
+                font-weight: 600;
+            }
+        }
+    }
+}

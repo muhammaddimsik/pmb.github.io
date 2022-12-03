@@ -418,6 +418,15 @@ footer .wrapper .copyright p {
   font-size: 12px;
 }
 
+#white-footer {
+  background-color: white;
+}
+
+#white-footer .wrapper .copyright p {
+  color: #181C27;
+  font-weight: 600;
+}
+
 .bg-tif {
   background-image: url(../img/bg-tif.png);
   background-repeat: no-repeat;
@@ -937,6 +946,161 @@ footer .wrapper .copyright p {
   font-weight: 500;
   color: #57B98A;
   text-decoration: underline;
+}
+
+#profil .wrapper .profil-box {
+  border: 1.8px solid #57B98A;
+  margin-top: 40px;
+}
+
+#profil .wrapper .profil-box .logo-b {
+  margin-bottom: 40px;
+}
+
+#profil .wrapper .profil-box .logo-b img {
+  width: 80px;
+  display: block;
+  margin: 2px auto;
+}
+
+#profil .wrapper .profil-box .logo-b p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#profil .wrapper .profil-box .profil-pict img {
+  width: 160px;
+  display: block;
+  margin: 0 auto;
+}
+
+#profil .wrapper .profil-box .profil-pict .btn-keluar {
+  margin: 0.8em auto;
+  width: 42%;
+  background-color: #57B98A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 0;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+#profil .wrapper .profil-box .profil-pict .btn-keluar p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ECFFF9;
+}
+
+#profil .wrapper .profil-box .text {
+  padding: 10px 24px;
+}
+
+#profil .wrapper .profil-box .text .identity {
+  margin-bottom: 20px;
+}
+
+#profil .wrapper .profil-box .text .identity .name, #profil .wrapper .profil-box .text .identity .kode-akses {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+#profil .wrapper .profil-box .text .identity .name p, #profil .wrapper .profil-box .text .identity .kode-akses p {
+  font-size: 16px;
+}
+
+#profil .wrapper .profil-box .text .identity .name p:nth-child(2), #profil .wrapper .profil-box .text .identity .kode-akses p:nth-child(2) {
+  font-weight: 600;
+}
+
+#profil .wrapper .profil-box .text .identity .name p:nth-child(2) {
+  text-transform: uppercase;
+}
+
+#profil .wrapper .profil-box .text .note {
+  margin: 20px 0;
+}
+
+#profil .wrapper .profil-box .text .note p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+#profil .wrapper .profil-box .text .note p:nth-child(1) {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+#menu .wrapper .heading-menu {
+  margin: 60px 40px;
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: center;
+}
+
+#menu .wrapper .heading-menu hr {
+  margin-top: 20px;
+}
+
+#menu .wrapper .box-menu {
+  margin: 40px;
+  border: 1.8px solid #57B98A;
+  border-radius: 0 20px 0 20px;
+}
+
+#menu .wrapper .box-menu img {
+  width: 100%;
+}
+
+#menu .wrapper .box-menu .text {
+  margin: 14px 20px;
+}
+
+#menu .wrapper .box-menu .text .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#menu .wrapper .box-menu h4 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: justify;
+}
+
+#menu .wrapper .box-menu p, #menu .wrapper .box-menu a {
+  font-size: 16px;
+}
+
+#menu .wrapper .box-menu p {
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+#menu .wrapper .box-menu a {
+  padding: 10px 20px;
+  background-color: #57B98A;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  color: #ECFFF9;
+  display: block;
+  margin: 20px auto;
+  width: 86%;
+  text-align: center;
 }
 
 * {
