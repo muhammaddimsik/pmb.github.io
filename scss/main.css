@@ -815,6 +815,130 @@ footer .wrapper .copyright p {
   text-decoration: underline;
 }
 
+#masuk .wrapper {
+  margin-top: 20px;
+}
+
+#masuk .wrapper form {
+  margin: 0 auto;
+  width: 100%;
+  height: 380px;
+  background-color: white;
+}
+
+#masuk .wrapper form fieldset {
+  padding: 2rem 2.5rem;
+  border: none;
+  -webkit-box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
+          box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  width: 90%;
+  height: 48%;
+  top: 100px;
+  background-color: white;
+}
+
+#masuk .wrapper form fieldset .logo-b {
+  margin-bottom: 40px;
+}
+
+#masuk .wrapper form fieldset .logo-b img {
+  width: 80px;
+  display: block;
+  margin: 2px auto;
+}
+
+#masuk .wrapper form fieldset .logo-b p {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#masuk .wrapper form fieldset label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#masuk .wrapper form fieldset label .field {
+  margin: 10px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#masuk .wrapper form fieldset label .field svg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 3px;
+  border: 1px solid rgba(24, 28, 39, 0.4);
+}
+
+#masuk .wrapper form fieldset label .field input, #masuk .wrapper form fieldset label .field textarea {
+  border: none;
+  width: 100%;
+  min-height: 2em;
+  padding: 12px 10px;
+  border: 1px solid rgba(24, 28, 39, 0.4);
+  border-left: none;
+  border-right: none;
+}
+
+#masuk .wrapper form fieldset .btn-d {
+  margin-top: 1.6em;
+  width: 100%;
+  background-color: #57B98A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 0;
+  text-decoration: none;
+}
+
+#masuk .wrapper form fieldset .btn-d p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ECFFF9;
+}
+
+#masuk .wrapper form fieldset .btn-m {
+  margin-top: .2em;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px 0;
+  text-decoration: none;
+  border: 1px solid #181C27;
+}
+
+#masuk .wrapper form fieldset .btn-m p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #181C27;
+}
+
+#masuk .wrapper form fieldset .btn-m p:nth-child(2) {
+  font-weight: 500;
+  color: #57B98A;
+  text-decoration: underline;
+}
+
 * {
   margin: 0;
   padding: 0;
