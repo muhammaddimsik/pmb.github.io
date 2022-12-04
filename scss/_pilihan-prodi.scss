@@ -1,0 +1,111 @@
+#head-pp{
+    margin-top: 56px;
+    .wrapper{
+        .link{
+            a{
+                text-decoration: none;
+                color: $primary;
+                font-size: 14px;
+                font-weight: 600;
+                margin-right: 6px;
+                svg{
+                    margin-left: 6px;
+                }
+            }
+        }
+        .status{
+            margin: 20px 0;
+            h3{
+                font-size: 22px;
+                font-weight: 600;
+            }
+            p{
+                background-color: $jingga;
+                display: inline-block;
+                color: $white;
+                padding: 6px 20px;
+                text-align: center;
+                font-weight: 600;
+                margin-top: 8px;
+            }
+        }
+        .nav{
+            overflow: scroll;
+            ul{
+                display: flex;
+                position: static;
+                li{
+                    list-style: none;
+                    background-color: $third;
+                    padding: 8px 20px;
+                    a{
+                        text-decoration: none;
+                        font-size: 16px;
+                        font-weight: 600;
+                        text-align: center;
+                        white-space: nowrap;
+                    }
+                }
+                li:nth-child(3){
+                    background-color: $primary;
+                    a{
+                        color: $third;
+                    }
+                }
+            }
+        }
+        .nav::-webkit-scrollbar{
+            display: none;
+        }
+    }
+}
+
+#identitas-pp{
+    margin: 40px 0;
+    .wrapper{
+        .name{
+            display: flex;
+            gap: 50px;
+            margin-bottom: 20px;
+            h3{
+                font-size: 22px;
+            }
+            a{
+                background-color: $primary;
+                text-decoration: none;
+                color: $third;
+                display: flex;
+                align-items: center;
+                border-radius: 20px;
+                padding: 6px 10px;
+                height: 60px;
+                svg{
+                    width: 48px;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
+
+#table-pp{
+    .wrapper{
+        table{
+            border-collapse: collapse;
+            tr{
+                td{
+                    color: $text;
+                    font-weight: 700;
+                    padding: 6px 10px;
+                }
+                td:nth-child(even){
+                    text-align: right;
+                    font-weight: 500;
+                }
+            }
+            tr:nth-child(odd){
+                background-color: $gray;
+            }
+        }
+    }
+}
