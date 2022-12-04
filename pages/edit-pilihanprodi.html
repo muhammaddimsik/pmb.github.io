@@ -25,7 +25,7 @@
     <!-- navbar end -->
 
     <!-- head start -->
-    <section id="head-k">
+    <section id="head-pp">
       <div class="wrapper">
         <div class="link">
           <a href="user-dashboard.html"
@@ -62,7 +62,7 @@
               />
             </svg>
           </a>
-          <a href="keluarga.html">keluarga </a>
+          <a href="pilihan-prodi.html">Pilihan Prodi </a>
         </div>
         <div class="status">
           <h3>Status Kelengkapan Data</h3>
@@ -104,80 +104,92 @@
     <!-- head end -->
 
     <!-- identitas start -->
-    <section id="identitas-k">
+    <section id="identitas-edit">
       <div class="wrapper">
         <div class="name">
-          <h3>Data Keluarga</h3>
-          <a href="edit-keluarga.html"
-            ><svg
-              width="100%"
-              height="100%"
-              viewBox="0 0 18 18"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fill-rule="evenodd"
-                clip-rule="evenodd"
-                d="M16.0912 4.06181C16.2353 4.28015 16.2113 4.57686 16.0191 4.76907L9.12479 11.6634C9.05412 11.734 8.9659 11.7846 8.8692 11.8099L5.99788 12.5599C5.90423 12.5843 5.8077 12.5838 5.717 12.5607C5.62058 12.5362 5.53075 12.4861 5.45799 12.4134C5.31678 12.2721 5.26103 12.0667 5.31149 11.8734L6.06149 9.00213C6.08359 8.91752 6.12506 8.83396 6.18243 8.76841L13.1023 1.85225C13.1628 1.79168 13.2358 1.74635 13.3152 1.71872C13.3741 1.69824 13.4365 1.6875 13.5 1.6875C13.6492 1.6875 13.7923 1.74676 13.8978 1.85225L16.0191 3.97357C16.0465 4.00103 16.0706 4.03062 16.0912 4.06181ZM14.8258 4.37132L13.5 3.0455L7.11139 9.43412L6.64265 11.2287L8.43723 10.7599L14.8258 4.37132Z"
-                fill="#ECFFF9"
-              />
-              <path
-                d="M14.731 12.8702C14.9361 11.117 15.0013 9.35158 14.9268 7.59059C14.9232 7.50628 14.9549 7.42424 15.0146 7.36456L15.7521 6.62707C15.8427 6.53639 15.9977 6.59396 16.0062 6.72191C16.1449 8.81415 16.0923 10.9159 15.8484 13.0009C15.671 14.5178 14.4527 15.7066 12.9437 15.8752C10.3438 16.1658 7.65627 16.1658 5.05634 15.8752C3.5473 15.7066 2.32905 14.5178 2.15163 13.0009C1.84073 10.3427 1.84073 7.6573 2.15163 4.99907C2.32905 3.48217 3.5473 2.29342 5.05634 2.12476C7.02865 1.90432 9.05136 1.85111 11.048 1.96512C11.1767 1.97247 11.2353 2.12818 11.1442 2.21932L10.3998 2.96374C10.3408 3.02276 10.2598 3.05445 10.1764 3.05164C8.5066 2.99532 6.82543 3.05904 5.1813 3.2428C4.18372 3.35429 3.3846 4.1415 3.26902 5.12976C2.96827 7.70115 2.96827 10.2988 3.26902 12.8702C3.3846 13.8585 4.18372 14.6457 5.1813 14.7572C7.69819 15.0385 10.3019 15.0385 12.8188 14.7572C13.8163 14.6457 14.6154 13.8585 14.731 12.8702Z"
-                fill="#ECFFF9"
-              />
-            </svg>
-            Perbaharui data Keluarga</a
-          >
+          <h3>Edit Pilihan Program Studi</h3>
         </div>
       </div>
     </section>
     <!-- identitas end -->
 
-    <!-- table start -->
-    <section id="table-k">
+    <!-- input start -->
+    <section id="input">
       <div class="wrapper">
-        <table>
-          <tr>
-            <td>Nomor Kartu Keluarga (No. KK)</td>
-            <td>3325033020320002</td>
-          </tr>
-          <tr>
-            <td>NIK Kepala Keluarga</td>
-            <td>3326030405020001</td>
-          </tr>
-          <tr>
-            <td>Nama Ayah</td>
-            <td>Alexander Wahyudi</td>
-          </tr>
-          <tr>
-            <td>Pekerjaan Ayah</td>
-            <td>Buruh Tani</td>
-          </tr>
-          <tr>
-            <td>Penghasilan Ayah</td>
-            <td>2.500.000</td>
-          </tr>
-          <tr>
-            <td>Nama Ibu</td>
-            <td>Amanda Rawles</td>
-          </tr>
-          <tr>
-            <td>Pekerjaan Ibu</td>
-            <td>Ibu Rumah Tangga</td>
-          </tr>
-          <tr>
-            <td>Penghasilan Ibu</td>
-            <td>0</td>
-          </tr>
-          <tr>
-            <td>Penerima Kartu Program Sejahtera (PKS)</td>
-            <td>Ya</td>
-          </tr>
-        </table>
+        <form action="">
+          <fieldset>
+            <label for="prodi1"
+              >Pilihan Program Studi(1)
+              <select name="prodi1" id="prodi1" required>
+                <option value="">-Pilih program studi-</option>
+                <option value="tif">S1-Teknologi Informasi</option>
+                <option value="tkom">S1-Teknologi Komputer</option>
+                <option value="tin">S1-Teknologi Industri</option>
+                <option value="fisika">S1-Fisika</option>
+                <option value="batik">D3-Kriya Batik</option>
+                <option value="akuntansi">D3-Akuntansi</option>
+                <option value="ap">D3-Administrasi Perkantoran</option>
+              </select>
+            </label>
+            <label for="prodi2"
+              >Pilihan Program Studi(2)
+              <select name="prodi2" id="prodi2" required>
+                <option value="">-Pilih program studi-</option>
+                <option value="tif">S1-Teknologi Informasi</option>
+                <option value="tkom">S1-Teknologi Komputer</option>
+                <option value="tin">S1-Teknologi Industri</option>
+                <option value="fisika">S1-Fisika</option>
+                <option value="batik">D3-Kriya Batik</option>
+                <option value="akuntansi">D3-Akuntansi</option>
+                <option value="ap">D3-Administrasi Perkantoran</option>
+              </select>
+            </label>
+            <label for="kelas"
+              >Pilihan Kelas
+              <select name="kelas" id="kelas" required>
+                <option value="">-Pilih kelas-</option>
+                <option value="reguler">Reguler</option>
+                <option value="malam">Malam</option>
+              </select>
+            </label>
+            <label for="info"
+              >Darimana mengetahui ITSNU Pekalongan?
+              <select name="info" id="info" required>
+                <option value="sosialisasi">Sosialisasi Sekolah</option>
+                <option value="instagram">Instagram</option>
+                <option value="facebook">Facebook</option>
+                <option value="tiktok">Tiktok</option>
+                <option value="baliho">Baliho (Pinggir jalan)</option>
+                <option value="saudara">Saudara/Teman</option>
+                <option value="organisasi">
+                  Organisasi NU (Kota/Kecamatan/Kelurahan/Ranting)
+                </option>
+              </select>
+            </label>
+          </fieldset>
+          <div class="btn-biodata">
+            <button type="submit">
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M3.48905 6.2367C3.65487 4.81893 4.85611 3.75 6.28355 3.75H17.0262C17.2083 3.75 17.3842 3.81626 17.5211 3.93641L20.2815 6.3602C20.9021 6.90511 21.245 7.70008 21.2153 8.52543L20.8713 18.0988C20.8182 19.5781 19.6035 20.75 18.1231 20.75H6.11285C4.78322 20.75 3.6607 19.762 3.49185 18.4432C2.99535 14.565 2.97397 10.6407 3.42816 6.75728L3.48905 6.2367ZM6.28355 5.25C5.61713 5.25 5.05631 5.74905 4.97889 6.41096L4.91801 6.93153C4.47799 10.6937 4.49871 14.4955 4.97971 18.2527C5.05271 18.8229 5.53801 19.25 6.11285 19.25H6.74994V15C6.74994 14.0335 7.53344 13.25 8.49994 13.25H15.4999C16.4664 13.25 17.2499 14.0335 17.2499 15V19.25H18.1231C18.796 19.25 19.3481 18.7173 19.3723 18.0449L19.7163 8.47157C19.7298 8.09641 19.5739 7.73505 19.2918 7.48737L16.7499 5.2555V7.59998C16.7499 8.56647 15.9664 9.34998 14.9999 9.34998H8.99994C8.03344 9.34998 7.24994 8.56647 7.24994 7.59998V5.25H6.28355ZM8.74994 5.25V7.59998C8.74994 7.73805 8.86187 7.84998 8.99994 7.84998H14.9999C15.138 7.84998 15.2499 7.73805 15.2499 7.59998V5.25H8.74994ZM15.7499 19.25H8.24994V15C8.24994 14.8619 8.36187 14.75 8.49994 14.75H15.4999C15.638 14.75 15.7499 14.8619 15.7499 15V19.25Z"
+                  fill="#ECFFF9"
+                />
+              </svg>
+              Simpan
+            </button>
+          </div>
+        </form>
       </div>
     </section>
-    <!-- table end -->
+    <!-- input end -->
 
     <!-- footer start -->
     <footer id="white-footer">

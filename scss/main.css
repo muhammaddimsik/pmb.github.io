@@ -1635,6 +1635,701 @@ footer .wrapper .copyright p {
   border: none;
 }
 
+#head-edit {
+  margin-top: 56px;
+}
+
+#head-edit .wrapper .link a {
+  text-decoration: none;
+  color: #57B98A;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+#head-edit .wrapper .link a svg {
+  margin-left: 6px;
+}
+
+#head-edit .wrapper .status {
+  margin: 20px 0;
+}
+
+#head-edit .wrapper .status h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#head-edit .wrapper .status p {
+  background-color: #FDB500;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 6px 20px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+#head-edit .wrapper .nav {
+  overflow: scroll;
+}
+
+#head-edit .wrapper .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: static;
+}
+
+#head-edit .wrapper .nav ul li {
+  list-style: none;
+  background-color: #ECFFF9;
+  padding: 8px 20px;
+}
+
+#head-edit .wrapper .nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#head-edit .wrapper .nav ul li:nth-child(1) {
+  background-color: #57B98A;
+}
+
+#head-edit .wrapper .nav ul li:nth-child(1) a {
+  color: #ECFFF9;
+}
+
+#head-edit .wrapper .nav::-webkit-scrollbar {
+  display: none;
+}
+
+#identitas-edit {
+  margin: 40px 0;
+}
+
+#identitas-edit .wrapper .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#identitas-edit .wrapper .name h3 {
+  font-size: 22px;
+}
+
+#identitas-edit .wrapper .name a {
+  background-color: #57B98A;
+  text-decoration: none;
+  color: #ECFFF9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  padding: 6px 10px;
+  height: 60px;
+}
+
+#identitas-edit .wrapper .name a svg {
+  width: 48px;
+  margin-right: 10px;
+}
+
+#identitas-edit .wrapper .pict {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#identitas-edit .wrapper .pict h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#identitas-edit .wrapper .file {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#identitas-edit .wrapper .file label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EEEEEE;
+  height: 40px;
+  width: 212px;
+  gap: 20px;
+}
+
+#identitas-edit .wrapper .file label svg {
+  background-color: #57B98A;
+  width: 44px;
+  height: 100%;
+  padding: 6px;
+}
+
+#identitas-edit .wrapper .file label input {
+  display: none;
+}
+
+#input .wrapper form fieldset {
+  border: none;
+}
+
+#input .wrapper form fieldset label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#input .wrapper form fieldset label input, #input .wrapper form fieldset label #kelamin {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: #EEEEEE;
+  font-size: 16px;
+  padding: 0 6px;
+}
+
+#input .wrapper form fieldset label .alamat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#input .wrapper form fieldset label .alamat select {
+  display: block;
+  margin-top: 8px;
+  width: 49%;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: #EEEEEE;
+  padding: 0 6px;
+  font-size: 16px;
+}
+
+#input .wrapper form fieldset label textarea {
+  display: block;
+  margin-top: 8px;
+  width: 100%;
+  border: 1px solid gray;
+  background-color: #EEEEEE;
+  padding: 10px 12px;
+  font-size: 16px;
+}
+
+#input .wrapper form fieldset .ttl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#input .wrapper form fieldset .ttl label {
+  width: 49%;
+}
+
+#input .wrapper form .btn-biodata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#input .wrapper form .btn-biodata button {
+  margin-top: 20px;
+  padding: 8px 20px;
+  background-color: #57B98A;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ECFFF9;
+  border-radius: 20px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+}
+
+#head-edit {
+  margin-top: 56px;
+}
+
+#head-edit .wrapper .link a {
+  text-decoration: none;
+  color: #57B98A;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+#head-edit .wrapper .link a svg {
+  margin-left: 6px;
+}
+
+#head-edit .wrapper .status {
+  margin: 20px 0;
+}
+
+#head-edit .wrapper .status h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#head-edit .wrapper .status p {
+  background-color: #FDB500;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 6px 20px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+#head-edit .wrapper .nav {
+  overflow: scroll;
+}
+
+#head-edit .wrapper .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: static;
+}
+
+#head-edit .wrapper .nav ul li {
+  list-style: none;
+  background-color: #ECFFF9;
+  padding: 8px 20px;
+}
+
+#head-edit .wrapper .nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#head-edit .wrapper .nav ul li:nth-child(1) {
+  background-color: #57B98A;
+}
+
+#head-edit .wrapper .nav ul li:nth-child(1) a {
+  color: #ECFFF9;
+}
+
+#head-edit .wrapper .nav::-webkit-scrollbar {
+  display: none;
+}
+
+#identitas-edit {
+  margin: 40px 0;
+}
+
+#identitas-edit .wrapper .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#identitas-edit .wrapper .name h3 {
+  font-size: 22px;
+}
+
+#identitas-edit .wrapper .name a {
+  background-color: #57B98A;
+  text-decoration: none;
+  color: #ECFFF9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  padding: 6px 10px;
+  height: 60px;
+}
+
+#identitas-edit .wrapper .name a svg {
+  width: 48px;
+  margin-right: 10px;
+}
+
+#identitas-edit .wrapper .pict {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#identitas-edit .wrapper .pict h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#identitas-edit .wrapper .file {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#identitas-edit .wrapper .file label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EEEEEE;
+  height: 40px;
+  width: 212px;
+  gap: 20px;
+}
+
+#identitas-edit .wrapper .file label svg {
+  background-color: #57B98A;
+  width: 44px;
+  height: 100%;
+  padding: 6px;
+}
+
+#identitas-edit .wrapper .file label input {
+  display: none;
+}
+
+#input .wrapper form fieldset {
+  border: none;
+}
+
+#input .wrapper form fieldset label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#input .wrapper form fieldset label input, #input .wrapper form fieldset label #kps {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: #EEEEEE;
+  font-size: 16px;
+  padding: 0 6px;
+}
+
+#input .wrapper form fieldset label .alamat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#input .wrapper form fieldset label .alamat select {
+  display: block;
+  margin-top: 8px;
+  width: 49%;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: #EEEEEE;
+  padding: 0 6px;
+  font-size: 16px;
+}
+
+#input .wrapper form .btn-biodata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#input .wrapper form .btn-biodata button {
+  margin-top: 20px;
+  padding: 8px 20px;
+  background-color: #57B98A;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ECFFF9;
+  border-radius: 20px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+}
+
+#head-edit {
+  margin-top: 56px;
+}
+
+#head-edit .wrapper .link a {
+  text-decoration: none;
+  color: #57B98A;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 6px;
+}
+
+#head-edit .wrapper .link a svg {
+  margin-left: 6px;
+}
+
+#head-edit .wrapper .status {
+  margin: 20px 0;
+}
+
+#head-edit .wrapper .status h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#head-edit .wrapper .status p {
+  background-color: #FDB500;
+  display: inline-block;
+  color: #FFFFFF;
+  padding: 6px 20px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+#head-edit .wrapper .nav {
+  overflow: scroll;
+}
+
+#head-edit .wrapper .nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: static;
+}
+
+#head-edit .wrapper .nav ul li {
+  list-style: none;
+  background-color: #ECFFF9;
+  padding: 8px 20px;
+}
+
+#head-edit .wrapper .nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#head-edit .wrapper .nav ul li:nth-child(1) {
+  background-color: #57B98A;
+}
+
+#head-edit .wrapper .nav ul li:nth-child(1) a {
+  color: #ECFFF9;
+}
+
+#head-edit .wrapper .nav::-webkit-scrollbar {
+  display: none;
+}
+
+#identitas-edit {
+  margin: 40px 0;
+}
+
+#identitas-edit .wrapper .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#identitas-edit .wrapper .name h3 {
+  font-size: 22px;
+}
+
+#identitas-edit .wrapper .name a {
+  background-color: #57B98A;
+  text-decoration: none;
+  color: #ECFFF9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 20px;
+  padding: 6px 10px;
+  height: 60px;
+}
+
+#identitas-edit .wrapper .name a svg {
+  width: 48px;
+  margin-right: 10px;
+}
+
+#identitas-edit .wrapper .pict {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#identitas-edit .wrapper .pict h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#identitas-edit .wrapper .file {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#identitas-edit .wrapper .file label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EEEEEE;
+  height: 40px;
+  width: 212px;
+  gap: 20px;
+}
+
+#identitas-edit .wrapper .file label svg {
+  background-color: #57B98A;
+  width: 44px;
+  height: 100%;
+  padding: 6px;
+}
+
+#identitas-edit .wrapper .file label input {
+  display: none;
+}
+
+#input .wrapper form fieldset {
+  border: none;
+}
+
+#input .wrapper form fieldset label {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+#input .wrapper form fieldset label input, #input .wrapper form fieldset label #prodi1, #input .wrapper form fieldset label #prodi2, #input .wrapper form fieldset label #info, #input .wrapper form fieldset label #kelas {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: #EEEEEE;
+  font-size: 16px;
+  padding: 0 6px;
+}
+
+#input .wrapper form fieldset label .alamat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#input .wrapper form fieldset label .alamat select {
+  display: block;
+  margin-top: 8px;
+  width: 49%;
+  height: 40px;
+  border: 1px solid gray;
+  background-color: #EEEEEE;
+  padding: 0 6px;
+  font-size: 16px;
+}
+
+#input .wrapper form .btn-biodata {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+#input .wrapper form .btn-biodata button {
+  margin-top: 20px;
+  padding: 8px 20px;
+  background-color: #57B98A;
+  font-size: 16px;
+  font-weight: 500;
+  color: #ECFFF9;
+  border-radius: 20px;
+  border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 4px;
+}
+
 * {
   margin: 0;
   padding: 0;
