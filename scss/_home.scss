@@ -58,7 +58,7 @@
     }
     img{
         margin-top: 20px;
-        width: 100%;
+        width: 380px;
     }
 }
 // hero section end
@@ -163,11 +163,12 @@ iframe{
 
 // tablet
 @media only screen and (min-width: 920px){
-
+    header{
+        margin-top: 40px;
+    }
     .menu{
         display: none;
     }
-
     nav{
         transform: translateX(0);
         position: unset;
@@ -175,7 +176,6 @@ iframe{
         height: auto;
         display: block;
         background: none;
-
         .close{
             display: none;
         }
@@ -183,14 +183,184 @@ iframe{
         ul{
             display: flex;
             margin: 0;
-
+            // align-items: center;
+            .btn-b{
+                margin: 0;
+            }
             a{
                 padding: .5em 1.5em;
-                font-size: .9rem;
+                font-size: .85rem;
                 text-decoration: none;
-
                 &:hover{
                     background: none;
+                }
+            }
+            li{
+                .menu-dropdown{
+                    display: none;                   
+                }
+                &:hover{
+                    .menu-dropdown{
+                        display: block;
+                        background-color: $white;
+                        position: absolute;
+                        top: 30px;
+                        left: 100px;
+                        z-index: 999;
+                        li{
+                            &:hover{
+                                background-color: $gray;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .background{
+        width: 586px;
+        height: 478px;
+        position: absolute;
+        left: 770px;
+        right: 0;
+        top: 0px;
+        background-color: $third;
+        z-index: -1;
+    }
+    #hero-section{
+        .wrapper{
+            display: flex;
+            align-items: center;
+            gap: 100px;
+            .content{
+                .headings{
+                    h2{
+                        font-size: 28px;
+                    }
+                }
+                p{
+                    font-size: 16px;
+                    margin: 22px 0 30px 0;
+                }
+                a{
+                    font-size: 14px;
+                    margin-right: 20px;
+                }
+                .icon{
+                    margin-top: 20px;
+                    svg{
+                        width: 160px;
+                        height: 40px;
+                    }
+                }
+            }
+            img{
+                width: 450px;
+            }
+        }
+    }
+
+    #waktu-pendaftaran{
+        .wrapper{
+            margin-top: 70px;
+            .headings{
+                margin-bottom: 20px;
+            }
+            .flex{
+                display: flex;
+                justify-content: space-between;
+                .box{
+                    width: 32%;
+                }
+            }
+        }
+    }
+
+    #alur-pendaftaran{
+        .wrapper{
+            margin-top: 40px;
+        }
+    }
+
+    #panduan{
+        .wrapper{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            flex-direction: row-reverse;
+            iframe{
+                height: 260px;
+                width: 460px;
+            }
+            .headings{
+                margin-top: 0;
+                h2:nth-child(3){
+                    width: 400px;
+                }
+            }
+        }
+    }
+
+    #whatsapp{
+        .wrapper{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px 80px;
+            .headings{
+                margin-top: 0;
+            }
+            .btn-white{
+                margin-top: 0;
+            }
+        }
+    }
+
+    footer{
+        .wrapper{
+            .link{
+                display: flex;
+                justify-content: space-between;
+                .col-one{
+                    .footer-head{
+                        h3{
+                            font-size: 16px;
+                        }
+                    }
+                    .footer-desc{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    .wa{
+                        a{
+                            font-size: 14px;
+                            svg{
+                                width: 20px;
+                            }
+                        }
+                    }
+                }
+                .col-two{
+                    h3{
+                        font-size: 16px;
+                    }
+                    ul{
+                        li{
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .icon{
+                        .wa{
+                            a{
+                                font-size: 14px;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -204,8 +374,9 @@ iframe{
 // desktop
 @media only screen and (min-width: 1200px){
     .wrapper{
-        width: 1020px;
+        width: 940px;
         margin: 0 auto;
+        overflow-x: hidden;
     }
 }
 // desktop

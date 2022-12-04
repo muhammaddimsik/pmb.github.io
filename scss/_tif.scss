@@ -94,3 +94,18 @@
         }
     }
 }
+
+@media only screen and (min-width: 920px){
+    #visi-misi{
+        .wrapper{
+            display: flex;
+            justify-content: space-between;
+            .visi, .tujuan{
+                width: 30%;
+            }
+            .misi{
+                width: 35%;
+            }
+        }
+    }
+}

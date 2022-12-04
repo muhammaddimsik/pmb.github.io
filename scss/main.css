@@ -21,7 +21,7 @@ nav {
   background-color: white;
   width: 70%;
   height: 100vh;
-  z-index: 100;
+  z-index: 1;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition: -webkit-transform .5s ease-in-out;
@@ -177,7 +177,7 @@ header svg {
 
 #hero-section img {
   margin-top: 20px;
-  width: 100%;
+  width: 380px;
 }
 
 .box {
@@ -286,6 +286,9 @@ iframe {
 }
 
 @media only screen and (min-width: 920px) {
+  header {
+    margin-top: 40px;
+  }
   .menu {
     display: none;
   }
@@ -307,13 +310,162 @@ iframe {
     display: flex;
     margin: 0;
   }
+  nav ul .btn-b {
+    margin: 0;
+  }
   nav ul a {
     padding: .5em 1.5em;
-    font-size: .9rem;
+    font-size: .85rem;
     text-decoration: none;
   }
   nav ul a:hover {
     background: none;
+  }
+  nav ul li .menu-dropdown {
+    display: none;
+  }
+  nav ul li:hover .menu-dropdown {
+    display: block;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    z-index: 999;
+  }
+  nav ul li:hover .menu-dropdown li:hover {
+    background-color: #EEEEEE;
+  }
+  .background {
+    width: 586px;
+    height: 478px;
+    position: absolute;
+    left: 770px;
+    right: 0;
+    top: 0px;
+    background-color: #ECFFF9;
+    z-index: -1;
+  }
+  #hero-section .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 100px;
+  }
+  #hero-section .wrapper .content .headings h2 {
+    font-size: 28px;
+  }
+  #hero-section .wrapper .content p {
+    font-size: 16px;
+    margin: 22px 0 30px 0;
+  }
+  #hero-section .wrapper .content a {
+    font-size: 14px;
+    margin-right: 20px;
+  }
+  #hero-section .wrapper .content .icon {
+    margin-top: 20px;
+  }
+  #hero-section .wrapper .content .icon svg {
+    width: 160px;
+    height: 40px;
+  }
+  #hero-section .wrapper img {
+    width: 450px;
+  }
+  #waktu-pendaftaran .wrapper {
+    margin-top: 70px;
+  }
+  #waktu-pendaftaran .wrapper .headings {
+    margin-bottom: 20px;
+  }
+  #waktu-pendaftaran .wrapper .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #waktu-pendaftaran .wrapper .flex .box {
+    width: 32%;
+  }
+  #alur-pendaftaran .wrapper {
+    margin-top: 40px;
+  }
+  #panduan .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  #panduan .wrapper iframe {
+    height: 260px;
+    width: 460px;
+  }
+  #panduan .wrapper .headings {
+    margin-top: 0;
+  }
+  #panduan .wrapper .headings h2:nth-child(3) {
+    width: 400px;
+  }
+  #whatsapp .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 40px 80px;
+  }
+  #whatsapp .wrapper .headings {
+    margin-top: 0;
+  }
+  #whatsapp .wrapper .btn-white {
+    margin-top: 0;
+  }
+  footer .wrapper .link {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer .wrapper .link .col-one .footer-head h3 {
+    font-size: 16px;
+  }
+  footer .wrapper .link .col-one .footer-desc p {
+    font-size: 14px;
+  }
+  footer .wrapper .link .col-one .wa a {
+    font-size: 14px;
+  }
+  footer .wrapper .link .col-one .wa a svg {
+    width: 20px;
+  }
+  footer .wrapper .link .col-two h3 {
+    font-size: 16px;
+  }
+  footer .wrapper .link .col-two ul li a {
+    font-size: 14px;
+  }
+  footer .wrapper .link .col-two .icon .wa a {
+    font-size: 14px;
   }
 }
 
@@ -324,8 +476,9 @@ iframe {
 
 @media only screen and (min-width: 1200px) {
   .wrapper {
-    width: 1020px;
+    width: 940px;
     margin: 0 auto;
+    overflow-x: hidden;
   }
 }
 
@@ -529,6 +682,23 @@ footer .wrapper .copyright p {
 #profil-lulusan .wrapper .analis-olah-data p, #profil-lulusan .wrapper .pengembangan-bisnis p {
   font-size: 14px;
   text-align: justify;
+}
+
+@media only screen and (min-width: 920px) {
+  #visi-misi .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #visi-misi .wrapper .visi, #visi-misi .wrapper .tujuan {
+    width: 30%;
+  }
+  #visi-misi .wrapper .misi {
+    width: 35%;
+  }
 }
 
 .bg-tin {
@@ -1493,6 +1663,15 @@ footer .wrapper .copyright p {
   background-color: #EEEEEE;
 }
 
+.wrapper .nav ul li:nth-child(5) a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #head-ub {
   margin-top: 56px;
 }
@@ -2337,10 +2516,6 @@ footer .wrapper .copyright p {
           box-sizing: border-box;
   font-family: 'Plus Jakarta Sans', sans-serif;
   color: #181C27;
-}
-
-body {
-  padding-bottom: 80px;
 }
 
 .rectangle {
