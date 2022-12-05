@@ -92,3 +92,33 @@
         }
     }
 }
+
+@media only screen and (min-width: 920px){
+    #masuk{
+        .wrapper{
+            form{
+                height: 400px;
+                margin-top: 50px;
+                fieldset{
+                    height: 460px;
+                    width: 420px;
+                    padding: 3rem 2.5rem;
+                    left: 36%;
+                    top: 140px;
+                    .btn-d{
+                        align-items: center;
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    .btn-m{
+                        align-items: center;
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

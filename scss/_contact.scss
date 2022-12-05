@@ -11,6 +11,9 @@
 }
 
 #contact{
+    .arrow{
+        display: none;
+    }
     .wrapper{
         margin-top: 60px;
         .icon-all{
@@ -58,7 +61,7 @@
                 }
                 button[type="submit"] {
                     display: block;
-                    width: 60%;
+                    width: 100%;
                     margin: 1em auto;
                     height: 2em;
                     font-size: 1.1rem;
@@ -76,4 +79,32 @@
     width: 100%;
     height: 100px;
     background-color: $primary;
+}
+
+@media only screen and (min-width: 920px){
+    .bg-contact{
+        background-image: url(../img/kontak-d.png);
+        height: 600px;
+        width: 100%;
+    }
+
+    #contact{
+        margin-top: 100px;
+        .arrow{
+            position: absolute;
+            top: 660px;
+            left: 400px;
+        }
+        .wrapper{
+            form{
+                height: 230px;
+                fieldset{
+                    left: 600px;
+                    top: 780px;
+                    width: 520px;
+                    height: 540px;
+                }
+            }
+        }
+    }
 }
