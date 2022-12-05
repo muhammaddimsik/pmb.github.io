@@ -61,10 +61,11 @@
                     background-color: $primary;
                     display: flex;
                     justify-content: center;
+                    align-items: center;
                     padding: 8px 0;
                     text-decoration: none;
                     p{
-                        font-size: 16px;
+                        font-size: 14px;
                         font-weight: 400;
                         color: $third;
                     }
@@ -74,11 +75,12 @@
                     width: 100%;
                     display: flex;
                     justify-content: center;
+                    align-items: center;
                     padding: 8px 0;
                     text-decoration: none;
                     border: 1px solid $text;
                     p{
-                        font-size: 16px;
+                        font-size: 14px;
                         font-weight: 400;
                         color: $text;
                     }
@@ -93,32 +95,42 @@
     }
 }
 
+.motif{
+    display: none;
+}
+
+.masuk{
+    display: none;
+}
+
 @media only screen and (min-width: 920px){
     #masuk{
         .wrapper{
             form{
-                height: 400px;
-                margin-top: 50px;
+                height: 100%;
+                padding: 10px 25%;
+                margin-bottom: 20px;
+                background: none;
                 fieldset{
+                    position: static;
                     height: 460px;
                     width: 420px;
                     padding: 3rem 2.5rem;
-                    left: 36%;
-                    top: 140px;
-                    .btn-d{
-                        align-items: center;
-                        p{
-                            font-size: 14px;
-                        }
-                    }
-                    .btn-m{
-                        align-items: center;
-                        p{
-                            font-size: 14px;
-                        }
-                    }
                 }
             }
         }
+    }
+    .hidden{
+        display: none;
+        border: 2px solid black ;
+    }
+    .motif{
+        display: block;
+        position: absolute;
+        z-index: -1;
+        width: 1127.9px;
+        height: 1112px;
+        left: 610px;
+        top: -92px;
     }
 }

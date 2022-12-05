@@ -1111,7 +1111,7 @@ footer .wrapper .copyright p {
 }
 
 #daftar .wrapper {
-  margin-top: 220px;
+  margin-top: 20px;
 }
 
 #daftar .wrapper form {
@@ -1197,12 +1197,15 @@ footer .wrapper .copyright p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 0;
   text-decoration: none;
 }
 
 #daftar .wrapper form fieldset .btn-d p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #ECFFF9;
 }
@@ -1216,13 +1219,16 @@ footer .wrapper .copyright p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 0;
   text-decoration: none;
   border: 1px solid #181C27;
 }
 
 #daftar .wrapper form fieldset .btn-m p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #181C27;
 }
@@ -1231,6 +1237,42 @@ footer .wrapper .copyright p {
   font-weight: 500;
   color: #57B98A;
   text-decoration: underline;
+}
+
+.motif {
+  display: none;
+}
+
+.masuk {
+  display: none;
+}
+
+@media only screen and (min-width: 920px) {
+  #daftar .wrapper form {
+    height: 100%;
+    padding: 10px 25%;
+    margin-bottom: 20px;
+    background: none;
+  }
+  #daftar .wrapper form fieldset {
+    position: static;
+    height: 760px;
+    width: 420px;
+    padding: 3rem 2.5rem;
+  }
+  .hidden {
+    display: none;
+    border: 2px solid black;
+  }
+  .motif {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 1127.9px;
+    height: 1112px;
+    left: 610px;
+    top: -92px;
+  }
 }
 
 #masuk .wrapper {
@@ -1321,12 +1363,15 @@ footer .wrapper .copyright p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 0;
   text-decoration: none;
 }
 
 #masuk .wrapper form fieldset .btn-d p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #ECFFF9;
 }
@@ -1340,13 +1385,16 @@ footer .wrapper .copyright p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 8px 0;
   text-decoration: none;
   border: 1px solid #181C27;
 }
 
 #masuk .wrapper form fieldset .btn-m p {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   color: #181C27;
 }
@@ -1357,33 +1405,39 @@ footer .wrapper .copyright p {
   text-decoration: underline;
 }
 
+.motif {
+  display: none;
+}
+
+.masuk {
+  display: none;
+}
+
 @media only screen and (min-width: 920px) {
   #masuk .wrapper form {
-    height: 400px;
-    margin-top: 50px;
+    height: 100%;
+    padding: 10px 25%;
+    margin-bottom: 20px;
+    background: none;
   }
   #masuk .wrapper form fieldset {
+    position: static;
     height: 460px;
     width: 420px;
     padding: 3rem 2.5rem;
-    left: 36%;
-    top: 140px;
   }
-  #masuk .wrapper form fieldset .btn-d {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .hidden {
+    display: none;
+    border: 2px solid black;
   }
-  #masuk .wrapper form fieldset .btn-d p {
-    font-size: 14px;
-  }
-  #masuk .wrapper form fieldset .btn-m {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #masuk .wrapper form fieldset .btn-m p {
-    font-size: 14px;
+  .motif {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 1127.9px;
+    height: 1112px;
+    left: 610px;
+    top: -92px;
   }
 }
 
@@ -2785,10 +2839,6 @@ footer .wrapper .copyright p {
           box-sizing: border-box;
   font-family: 'Plus Jakarta Sans', sans-serif;
   color: #181C27;
-}
-
-.hidden {
-  display: hidden;
 }
 
 .rectangle {
