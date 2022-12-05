@@ -60,12 +60,13 @@
     }
 }
 
-#identitas-pp{
+
+#table-pp{
     margin: 40px 0;
     .wrapper{
         .name{
             display: flex;
-            gap: 50px;
+            gap: 70px;
             margin-bottom: 20px;
             h3{
                 font-size: 22px;
@@ -85,11 +86,6 @@
                 }
             }
         }
-    }
-}
-
-#table-pp{
-    .wrapper{
         table{
             border-collapse: collapse;
             tr{
@@ -105,6 +101,53 @@
             }
             tr:nth-child(odd){
                 background-color: $gray;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 920px){
+    #head-pp{
+        .wrapper{
+            .nav{
+                width: 100%;
+                background-color: $third;
+                ul{
+                    li{
+                        padding: 8px 31px;
+                    }
+                }
+            }
+        }
+    }
+    #table-pp{
+        .wrapper{
+            border: 2px solid $primary;
+            padding: 20px 60px;
+            .name{
+                align-items: center;
+                justify-content: space-between;
+                margin-bottom: 40px;
+                a{
+                    padding: 0 30px;
+                    height: 50px;
+                    border-radius: 40px;
+                    font-size: 14px;
+                    font-weight: 500;
+                    svg{
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+            table{
+                width: 100%;
+                tr{
+                    td:nth-child(even){
+                        text-align: left;
+                        width: 50%;
+                    }
+                }
             }
         }
     }

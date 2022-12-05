@@ -128,3 +128,38 @@
         }
     }
 }
+
+@media only screen and (min-width: 920px){
+    #head-ub{
+        .wrapper{
+            .nav{
+                width: 100%;
+                background-color: $third;
+                ul{
+                    li{
+                        padding: 8px 31px;
+                    }
+                }
+            }
+        }
+    }
+    #input-ub{
+        .wrapper{
+            form{
+                margin-top: 60px;
+                fieldset{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    .file{
+                        width: 300px;
+                        margin-bottom: 30px;
+                        label{
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
