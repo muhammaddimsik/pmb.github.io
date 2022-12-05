@@ -1,5 +1,5 @@
-.bg-akuntansi{
-    background-image: url(../img/bg-akuntansi.png);
+.bg-ak{
+    background-image: url(../img/bg-ap.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -8,4 +8,12 @@
     z-index: -2;
     height: 387px;
     width: 99%;
+}
+
+@media only screen and (min-width: 920px){
+    .bg-ak{
+        background-image: url(../img/ak-d.png);
+        height: 600px;
+        width: 100%;
+    }
 }

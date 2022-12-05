@@ -9,3 +9,11 @@
     height: 387px;
     width: 99%;
 }
+
+@media only screen and (min-width: 920px){
+    .bg-tkom{
+        background-image: url(../img/tkom-d.png);
+        height: 600px;
+        width: 100%;
+    }
+}

@@ -169,6 +169,29 @@ iframe{
     .menu{
         display: none;
     }
+    header{
+        nav{
+            .nav-text{
+                li{
+                    ul{
+                        li{
+                            a{
+                                color: $text;
+                            }
+                        }
+                    }
+                    a{
+                        color: $text;
+                        svg{
+                            path{
+                                fill: $text;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
     nav{
         transform: translateX(0);
         position: unset;

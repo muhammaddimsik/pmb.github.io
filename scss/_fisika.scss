@@ -13,11 +13,48 @@
 #profil-lulusan{
     .wrapper{
         .analis-olah-data{
-            ul{
-                margin-left: 20px;
-                li{
-                    font-size: 14px;
-                    text-align: justify;
+            .text{
+                ul{
+                    margin-left: 20px;
+                    li{
+                        font-size: 14px;
+                        text-align: justify;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 920px){
+    .bg-fisika{
+        background-image: url(../img/fisika-d.png);
+        height: 600px;
+        width: 100%;
+    }
+    #profil-lulusan{
+        .wrapper{
+            .flex{
+                display: flex;
+                justify-content: center;
+                margin-top: 40px;
+                img{
+                    width: 100%;
+                    height: 240px;
+                }
+                .text{
+                    p{
+                        font-size: 14px;
+                        text-align: justify;
+                        margin-bottom: 20px;
+                    }
+                    ul{
+                        margin-left: 20px;
+                        li{
+                            font-size: 14px;
+                            text-align: justify;
+                        }
+                    }
                 }
             }
         }

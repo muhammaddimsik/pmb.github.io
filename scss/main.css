@@ -292,6 +292,15 @@ iframe {
   .menu {
     display: none;
   }
+  header nav .nav-text li ul li a {
+    color: #181C27;
+  }
+  header nav .nav-text li a {
+    color: #181C27;
+  }
+  header nav .nav-text li a svg path {
+    fill: #181C27;
+  }
   nav {
     -webkit-transform: translateX(0);
             transform: translateX(0);
@@ -606,25 +615,6 @@ footer .wrapper .copyright p {
   background: rgba(24, 28, 39, 0.8);
 }
 
-.heading-prodi {
-  width: 100%;
-  height: 334px;
-  margin-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.heading-prodi h2 {
-  font-size: 22px;
-  color: #ECFFF9;
-  font-weight: 600;
-  margin-top: 6px;
-}
-
 #visi-misi .wrapper .visi {
   margin-top: 60px;
 }
@@ -662,29 +652,43 @@ footer .wrapper .copyright p {
   padding: 10px 0 20px 0;
 }
 
-#profil-lulusan .wrapper .analis-olah-data, #profil-lulusan .wrapper .pengembangan-bisnis {
+#profil-lulusan .wrapper .flex .analis-olah-data, #profil-lulusan .wrapper .flex .pengembangan-bisnis {
   margin-top: 40px;
 }
 
-#profil-lulusan .wrapper .analis-olah-data h4, #profil-lulusan .wrapper .analis-olah-data p, #profil-lulusan .wrapper .analis-olah-data img, #profil-lulusan .wrapper .pengembangan-bisnis h4, #profil-lulusan .wrapper .pengembangan-bisnis p, #profil-lulusan .wrapper .pengembangan-bisnis img {
+#profil-lulusan .wrapper .flex .analis-olah-data h4, #profil-lulusan .wrapper .flex .analis-olah-data p, #profil-lulusan .wrapper .flex .analis-olah-data img, #profil-lulusan .wrapper .flex .pengembangan-bisnis h4, #profil-lulusan .wrapper .flex .pengembangan-bisnis p, #profil-lulusan .wrapper .flex .pengembangan-bisnis img {
   margin-bottom: 20px;
 }
 
-#profil-lulusan .wrapper .analis-olah-data img, #profil-lulusan .wrapper .pengembangan-bisnis img {
+#profil-lulusan .wrapper .flex .analis-olah-data img, #profil-lulusan .wrapper .flex .pengembangan-bisnis img {
   width: 100%;
 }
 
-#profil-lulusan .wrapper .analis-olah-data h4, #profil-lulusan .wrapper .pengembangan-bisnis h4 {
+#profil-lulusan .wrapper .flex .analis-olah-data h4, #profil-lulusan .wrapper .flex .pengembangan-bisnis h4 {
   font-size: 20px;
   text-align: center;
 }
 
-#profil-lulusan .wrapper .analis-olah-data p, #profil-lulusan .wrapper .pengembangan-bisnis p {
+#profil-lulusan .wrapper .flex .analis-olah-data p, #profil-lulusan .wrapper .flex .pengembangan-bisnis p {
   font-size: 14px;
   text-align: justify;
 }
 
 @media only screen and (min-width: 920px) {
+  .bg-tif {
+    background-image: url(../img/tif-d.png);
+    height: 600px;
+    width: 100%;
+  }
+  header nav ul li ul li a {
+    color: #181C27;
+  }
+  header nav ul li a {
+    color: #ECFFF9;
+  }
+  header nav ul li a svg path {
+    fill: #ECFFF9;
+  }
   #visi-misi .wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -698,6 +702,62 @@ footer .wrapper .copyright p {
   }
   #visi-misi .wrapper .misi {
     width: 35%;
+  }
+  #profil-lulusan .wrapper .headings .label, #profil-lulusan .wrapper .headings .sub-head, #profil-lulusan .wrapper .headings h2 {
+    text-align: center;
+  }
+  #profil-lulusan .wrapper .headings .label {
+    font-size: 14px;
+  }
+  #profil-lulusan .wrapper .headings .sub-head, #profil-lulusan .wrapper .headings h2 {
+    font-size: 26px;
+  }
+  #profil-lulusan .wrapper .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 40px;
+  }
+  #profil-lulusan .wrapper .flex .analis-olah-data, #profil-lulusan .wrapper .flex .pengembangan-bisnis {
+    width: 40%;
+  }
+  #profil-lulusan .wrapper .flex .analis-olah-data h4, #profil-lulusan .wrapper .flex .pengembangan-bisnis h4 {
+    font-size: 20px;
+  }
+  #profil-tif .wrapper, #profil-ti .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  #profil-tif .wrapper iframe, #profil-ti .wrapper iframe {
+    height: 260px;
+    width: 460px;
+  }
+  #profil-tif .wrapper .headings, #profil-ti .wrapper .headings {
+    margin-top: 0;
+  }
+  #profil-tif .wrapper .headings h2:nth-child(3), #profil-ti .wrapper .headings h2:nth-child(3) {
+    width: 400px;
+  }
+  #foto-kegiatan .wrapper .headings .label {
+    font-size: 14px;
+  }
+  #foto-kegiatan .wrapper .headings .sub-head, #foto-kegiatan .wrapper .headings h2 {
+    font-size: 26px;
   }
 }
 
@@ -713,6 +773,14 @@ footer .wrapper .copyright p {
   width: 99%;
 }
 
+@media only screen and (min-width: 920px) {
+  .bg-tin {
+    background-image: url(../img/tin-d.png);
+    height: 600px;
+    width: 100%;
+  }
+}
+
 .bg-tkom {
   background-image: url(../img/bg-tkom.png);
   background-repeat: no-repeat;
@@ -723,6 +791,14 @@ footer .wrapper .copyright p {
   z-index: -2;
   height: 387px;
   width: 99%;
+}
+
+@media only screen and (min-width: 920px) {
+  .bg-tkom {
+    background-image: url(../img/tkom-d.png);
+    height: 600px;
+    width: 100%;
+  }
 }
 
 .bg-fisika {
@@ -737,13 +813,46 @@ footer .wrapper .copyright p {
   width: 99%;
 }
 
-#profil-lulusan .wrapper .analis-olah-data ul {
+#profil-lulusan .wrapper .analis-olah-data .text ul {
   margin-left: 20px;
 }
 
-#profil-lulusan .wrapper .analis-olah-data ul li {
+#profil-lulusan .wrapper .analis-olah-data .text ul li {
   font-size: 14px;
   text-align: justify;
+}
+
+@media only screen and (min-width: 920px) {
+  .bg-fisika {
+    background-image: url(../img/fisika-d.png);
+    height: 600px;
+    width: 100%;
+  }
+  #profil-lulusan .wrapper .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 40px;
+  }
+  #profil-lulusan .wrapper .flex img {
+    width: 100%;
+    height: 240px;
+  }
+  #profil-lulusan .wrapper .flex .text p {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  #profil-lulusan .wrapper .flex .text ul {
+    margin-left: 20px;
+  }
+  #profil-lulusan .wrapper .flex .text ul li {
+    font-size: 14px;
+    text-align: justify;
+  }
 }
 
 .bg-batik {
@@ -758,8 +867,16 @@ footer .wrapper .copyright p {
   width: 99%;
 }
 
-.bg-akuntansi {
-  background-image: url(../img/bg-akuntansi.png);
+@media only screen and (min-width: 920px) {
+  .bg-batik {
+    background-image: url(../img/batik-d.png);
+    height: 600px;
+    width: 100%;
+  }
+}
+
+.bg-ak {
+  background-image: url(../img/bg-ap.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -768,6 +885,14 @@ footer .wrapper .copyright p {
   z-index: -2;
   height: 387px;
   width: 99%;
+}
+
+@media only screen and (min-width: 920px) {
+  .bg-ak {
+    background-image: url(../img/ak-d.png);
+    height: 600px;
+    width: 100%;
+  }
 }
 
 .bg-ap {
@@ -780,6 +905,91 @@ footer .wrapper .copyright p {
   z-index: -2;
   height: 387px;
   width: 99%;
+}
+
+.heading-prodi {
+  width: 100%;
+  height: 334px;
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.heading-prodi h2 {
+  font-size: 22px;
+  color: #ECFFF9;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+@media only screen and (min-width: 920px) {
+  .bg-ap {
+    background-image: url(../img/ap-d.png);
+    height: 600px;
+    width: 100%;
+  }
+  .bg-transparent {
+    height: 600px;
+  }
+  .heading-prodi {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 500px;
+  }
+  .heading-prodi h2 {
+    font-size: 28px;
+  }
+  #visi-misi {
+    margin-top: 20px;
+  }
+  #profil-lulusan .wrapper .flex-ap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+  }
+  #profil-lulusan .wrapper .flex-ap img {
+    width: 40%;
+    height: 240px;
+  }
+  #profil-lulusan .wrapper .flex-ap .text {
+    width: 40%;
+  }
+  #profil-lulusan .wrapper .flex-ap .text p {
+    font-size: 14px;
+    text-align: justify;
+    margin-bottom: 20px;
+  }
+  #profil-lulusan .wrapper .flex-ap .text ul {
+    margin-left: 20px;
+  }
+  #profil-lulusan .wrapper .flex-ap .text ul li {
+    font-size: 14px;
+    text-align: justify;
+  }
 }
 
 .bg-contact {
