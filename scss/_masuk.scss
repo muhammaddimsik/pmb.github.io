@@ -1,19 +1,17 @@
 #masuk{
     .wrapper{
         margin-top: 20px;
+        height: 340px;
         form {
             margin: 0 auto;
-            width: 100%;
-            height: 380px;
+            position: absolute;
+            top: 100px;
             background-color: white;
             fieldset {
                 padding: 2rem 2.5rem;
                 border: none;
                 box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
-                position: absolute;
-                width: 90%;
-                height: 48%;
-                top: 100px;
+                width: 100%;
                 background-color: white;
                 .logo-b{
                     margin-bottom: 40px;

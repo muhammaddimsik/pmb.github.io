@@ -158,15 +158,17 @@ header svg {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  margin: 20px 0;
 }
 
 #hero-section .wrapper .content .icon a {
-  width: 40px;
+  width: 30px;
   margin: 0;
 }
 
 #hero-section .wrapper .content .icon a svg {
   width: 100%;
+  height: 30px;
   text-align: center;
 }
 
@@ -190,7 +192,7 @@ header svg {
 
 #hero-section img {
   margin-top: 20px;
-  width: 380px;
+  width: 100%;
 }
 
 .box {
@@ -260,6 +262,7 @@ header svg {
 
 iframe {
   margin: 20px 0 40px 0;
+  width: 100%;
 }
 
 #whatsapp {
@@ -1040,38 +1043,36 @@ footer .wrapper .copyright p {
   margin-left: 20px;
 }
 
-#contact .wrapper {
-  margin-top: 60px;
+#contact .container {
+  margin-top: 40px;
+  height: 480px;
 }
 
-#contact .wrapper form {
+#contact .container form {
   margin: 0 auto;
-  width: 100%;
-  height: 410px;
   background-color: white;
+  position: absolute;
+  left: 20px;
+  top: 809px;
 }
 
-#contact .wrapper form fieldset {
+#contact .container form fieldset {
   padding: 2rem 2.5rem;
   border: none;
   -webkit-box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  width: 300px;
-  height: 480px;
-  left: 20px;
-  top: 809px;
+  width: 100%;
   background-color: white;
 }
 
-#contact .wrapper form fieldset label {
+#contact .container form fieldset label {
   display: block;
   margin: 0.5rem 0;
   font-size: 14px;
   font-weight: 600;
 }
 
-#contact .wrapper form fieldset label input, #contact .wrapper form fieldset label textarea {
+#contact .container form fieldset label input, #contact .container form fieldset label textarea {
   border: none;
   margin: 10px 0 0 0;
   width: 100%;
@@ -1080,14 +1081,13 @@ footer .wrapper .copyright p {
   border: 1px solid rgba(24, 28, 39, 0.4);
 }
 
-#contact .wrapper form fieldset button[type="submit"] {
+#contact .container form fieldset button[type="submit"] {
   display: block;
   width: 100%;
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
   background-color: #57B98A;
-  min-width: 300px;
   border: none;
   color: #ECFFF9;
 }
@@ -1108,18 +1108,18 @@ footer .wrapper .copyright p {
     margin-top: 100px;
   }
   #contact .arrow {
+    display: block;
     position: absolute;
     top: 660px;
     left: 400px;
   }
-  #contact .wrapper form {
-    height: 230px;
+  #contact .container {
+    height: 200px;
   }
-  #contact .wrapper form fieldset {
+  #contact .container form {
     left: 600px;
     top: 780px;
     width: 520px;
-    height: 540px;
   }
 }
 
@@ -1290,12 +1290,13 @@ footer .wrapper .copyright p {
 
 #masuk .wrapper {
   margin-top: 20px;
+  height: 340px;
 }
 
 #masuk .wrapper form {
   margin: 0 auto;
-  width: 100%;
-  height: 380px;
+  position: absolute;
+  top: 100px;
   background-color: white;
 }
 
@@ -1304,10 +1305,7 @@ footer .wrapper .copyright p {
   border: none;
   -webkit-box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  width: 90%;
-  height: 48%;
-  top: 100px;
+  width: 100%;
   background-color: white;
 }
 

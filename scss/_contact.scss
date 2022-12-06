@@ -28,22 +28,20 @@
             }
         }
     }
-    .wrapper{
-        margin-top: 60px;
+    .container{
+        margin-top: 40px;
+        height: 480px;
         form {
             margin: 0 auto;
-            width: 100%;
-            height: 410px;
             background-color: white;
+            position: absolute;
+            left: 20px;
+            top: 809px;
             fieldset {
                 padding: 2rem 2.5rem;
                 border: none;
                 box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
-                position: absolute;
-                width: 300px;
-                height: 480px;
-                left: 20px;
-                top: 809px;
+                width: 100%;
                 background-color: white;
                 label {
                     display: block;
@@ -66,7 +64,6 @@
                     height: 2em;
                     font-size: 1.1rem;
                     background-color: $primary;
-                    min-width: 300px;
                     border: none;
                     color: $third;
                 }
@@ -91,19 +88,17 @@
     #contact{
         margin-top: 100px;
         .arrow{
+            display: block;
             position: absolute;
             top: 660px;
             left: 400px;
         }
-        .wrapper{
+        .container{
+            height: 200px;
             form{
-                height: 230px;
-                fieldset{
-                    left: 600px;
-                    top: 780px;
-                    width: 520px;
-                    height: 540px;
-                }
+                left: 600px;
+                top: 780px;
+                width: 520px;
             }
         }
     }
