@@ -1052,7 +1052,8 @@ footer .wrapper .copyright p {
   margin: 0 auto;
   background-color: white;
   position: absolute;
-  left: 20px;
+  left: 6%;
+  right: 6%;
   top: 809px;
 }
 
@@ -1117,7 +1118,7 @@ footer .wrapper .copyright p {
     height: 200px;
   }
   #contact .container form {
-    left: 600px;
+    left: 500px;
     top: 780px;
     width: 520px;
   }
@@ -1125,13 +1126,16 @@ footer .wrapper .copyright p {
 
 #daftar .wrapper {
   margin-top: 20px;
+  height: 650px;
 }
 
 #daftar .wrapper form {
   margin: 0 auto;
-  width: 100%;
-  height: 500px;
   background-color: white;
+  position: absolute;
+  top: 100px;
+  left: 6%;
+  right: 6%;
 }
 
 #daftar .wrapper form fieldset {
@@ -1139,10 +1143,6 @@ footer .wrapper .copyright p {
   border: none;
   -webkit-box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
           box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.1);
-  position: absolute;
-  width: 90%;
-  height: 82%;
-  top: 100px;
   background-color: white;
 }
 
@@ -1261,16 +1261,16 @@ footer .wrapper .copyright p {
 }
 
 @media only screen and (min-width: 920px) {
+  #daftar .wrapper {
+    height: 800px;
+  }
   #daftar .wrapper form {
-    height: 100%;
-    padding: 10px 25%;
+    padding: 20px 25%;
     margin-bottom: 20px;
     background: none;
   }
   #daftar .wrapper form fieldset {
     position: static;
-    height: 760px;
-    width: 420px;
     padding: 3rem 2.5rem;
   }
   .hidden {
@@ -1297,6 +1297,8 @@ footer .wrapper .copyright p {
   margin: 0 auto;
   position: absolute;
   top: 100px;
+  left: 6%;
+  right: 6%;
   background-color: white;
 }
 
@@ -1364,6 +1366,12 @@ footer .wrapper .copyright p {
   border-right: none;
 }
 
+#masuk .wrapper form fieldset .pan {
+  font-size: 8px;
+  font-weight: 500;
+  color: #a5a5a5;
+}
+
 #masuk .wrapper form fieldset .btn-d {
   margin-top: 1.6em;
   width: 100%;
@@ -1425,17 +1433,18 @@ footer .wrapper .copyright p {
 }
 
 @media only screen and (min-width: 920px) {
+  #masuk .wrapper {
+    height: 540px;
+  }
   #masuk .wrapper form {
-    height: 100%;
-    padding: 10px 25%;
+    padding: 60px 30%;
     margin-bottom: 20px;
     background: none;
   }
   #masuk .wrapper form fieldset {
     position: static;
-    height: 460px;
-    width: 420px;
     padding: 3rem 2.5rem;
+    width: 400px;
   }
   .hidden {
     display: none;
