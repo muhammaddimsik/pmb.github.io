@@ -1808,6 +1808,7 @@ footer .wrapper .copyright p {
 
 #table .wrapper .flex .pict {
   text-align: center;
+  margin-bottom: 20px;
 }
 
 #table .wrapper .flex .pict h4 {
@@ -2022,7 +2023,7 @@ footer .wrapper .copyright p {
   }
   #table-k .wrapper {
     border: 2px solid #57B98A;
-    padding: 20px 60px;
+    padding: 20px 60px 80px 60px;
   }
   #table-k .wrapper .name {
     -webkit-box-align: center;
@@ -2133,7 +2134,7 @@ footer .wrapper .copyright p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 70px;
+  gap: 60px;
   margin-bottom: 20px;
 }
 
@@ -2190,7 +2191,7 @@ footer .wrapper .copyright p {
   }
   #table-pp .wrapper {
     border: 2px solid #57B98A;
-    padding: 20px 60px;
+    padding: 20px 60px 80px 60px;
   }
   #table-pp .wrapper .name {
     -webkit-box-align: center;
@@ -2474,11 +2475,11 @@ footer .wrapper .copyright p {
   display: none;
 }
 
-#identitas-edit {
+#input {
   margin: 40px 0;
 }
 
-#identitas-edit .wrapper .name {
+#input .wrapper .name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2486,11 +2487,11 @@ footer .wrapper .copyright p {
   margin-bottom: 20px;
 }
 
-#identitas-edit .wrapper .name h3 {
+#input .wrapper .name h3 {
   font-size: 22px;
 }
 
-#identitas-edit .wrapper .name a {
+#input .wrapper .name a {
   background-color: #57B98A;
   text-decoration: none;
   color: #ECFFF9;
@@ -2505,22 +2506,26 @@ footer .wrapper .copyright p {
   height: 60px;
 }
 
-#identitas-edit .wrapper .name a svg {
+#input .wrapper .name a svg {
   width: 48px;
   margin-right: 10px;
 }
 
-#identitas-edit .wrapper .pict {
+#input .wrapper .flex .pict-profil {
+  margin-bottom: 40px;
+}
+
+#input .wrapper .flex .pict-profil .pict {
   text-align: center;
   margin-bottom: 10px;
 }
 
-#identitas-edit .wrapper .pict h4 {
+#input .wrapper .flex .pict-profil .pict h4 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-#identitas-edit .wrapper .file {
+#input .wrapper .flex .pict-profil .file {
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2530,7 +2535,7 @@ footer .wrapper .copyright p {
           justify-content: center;
 }
 
-#identitas-edit .wrapper .file label {
+#input .wrapper .flex .pict-profil .file label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2543,22 +2548,22 @@ footer .wrapper .copyright p {
   gap: 20px;
 }
 
-#identitas-edit .wrapper .file label svg {
+#input .wrapper .flex .pict-profil .file label svg {
   background-color: #57B98A;
   width: 44px;
   height: 100%;
   padding: 6px;
 }
 
-#identitas-edit .wrapper .file label input {
+#input .wrapper .flex .pict-profil .file label input {
   display: none;
 }
 
-#input .wrapper form fieldset {
+#input .wrapper .flex form fieldset {
   border: none;
 }
 
-#input .wrapper form fieldset label {
+#input .wrapper .flex form fieldset label {
   display: block;
   font-size: 16px;
   font-weight: 600;
@@ -2566,7 +2571,7 @@ footer .wrapper .copyright p {
   margin-bottom: 10px;
 }
 
-#input .wrapper form fieldset label input, #input .wrapper form fieldset label #kelamin {
+#input .wrapper .flex form fieldset label input, #input .wrapper .flex form fieldset label #kelamin {
   display: block;
   margin-top: 10px;
   width: 100%;
@@ -2577,7 +2582,7 @@ footer .wrapper .copyright p {
   padding: 0 6px;
 }
 
-#input .wrapper form fieldset label .alamat {
+#input .wrapper .flex form fieldset label .alamat {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2588,7 +2593,7 @@ footer .wrapper .copyright p {
           justify-content: space-between;
 }
 
-#input .wrapper form fieldset label .alamat select {
+#input .wrapper .flex form fieldset label .alamat select {
   display: block;
   margin-top: 8px;
   width: 49%;
@@ -2599,7 +2604,7 @@ footer .wrapper .copyright p {
   font-size: 16px;
 }
 
-#input .wrapper form fieldset label textarea {
+#input .wrapper .flex form fieldset label textarea {
   display: block;
   margin-top: 8px;
   width: 100%;
@@ -2609,7 +2614,7 @@ footer .wrapper .copyright p {
   font-size: 16px;
 }
 
-#input .wrapper form fieldset .ttl {
+#input .wrapper .flex form fieldset .ttl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2618,11 +2623,11 @@ footer .wrapper .copyright p {
           justify-content: space-between;
 }
 
-#input .wrapper form fieldset .ttl label {
+#input .wrapper .flex form fieldset .ttl label {
   width: 49%;
 }
 
-#input .wrapper form .btn-biodata {
+#input .wrapper .flex form .btn-biodata {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2631,7 +2636,7 @@ footer .wrapper .copyright p {
           justify-content: end;
 }
 
-#input .wrapper form .btn-biodata button {
+#input .wrapper .flex form .btn-biodata button {
   margin-top: 20px;
   padding: 8px 20px;
   background-color: #57B98A;
@@ -2654,8 +2659,34 @@ footer .wrapper .copyright p {
     width: 100%;
     background-color: #ECFFF9;
   }
+  #head-edit .wrapper .nav ul {
+    width: 100%;
+  }
   #head-edit .wrapper .nav ul li {
     padding: 8px 31px;
+    width: 100%;
+    text-align: center;
+  }
+  #input .wrapper {
+    border: 2px solid #57B98A;
+    padding: 20px 60px;
+  }
+  #input .wrapper .name {
+    margin-bottom: 40px;
+  }
+  #input .wrapper .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #input .wrapper .flex .pict-profil .pict h4 {
+    display: none;
+  }
+  #input .wrapper .flex form {
+    width: 550px;
   }
 }
 
@@ -2883,6 +2914,12 @@ footer .wrapper .copyright p {
   gap: 4px;
 }
 
+@media only screen and (min-width: 920px) {
+  #input .wrapper {
+    padding-bottom: 80px;
+  }
+}
+
 #head-edit {
   margin-top: 56px;
 }
@@ -2955,11 +2992,11 @@ footer .wrapper .copyright p {
   display: none;
 }
 
-#identitas-edit {
+#input {
   margin: 40px 0;
 }
 
-#identitas-edit .wrapper .name {
+#input .wrapper .name {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2967,72 +3004,8 @@ footer .wrapper .copyright p {
   margin-bottom: 20px;
 }
 
-#identitas-edit .wrapper .name h3 {
+#input .wrapper .name h3 {
   font-size: 22px;
-}
-
-#identitas-edit .wrapper .name a {
-  background-color: #57B98A;
-  text-decoration: none;
-  color: #ECFFF9;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  border-radius: 20px;
-  padding: 6px 10px;
-  height: 60px;
-}
-
-#identitas-edit .wrapper .name a svg {
-  width: 48px;
-  margin-right: 10px;
-}
-
-#identitas-edit .wrapper .pict {
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-#identitas-edit .wrapper .pict h4 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-#identitas-edit .wrapper .file {
-  margin-bottom: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#identitas-edit .wrapper .file label {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #EEEEEE;
-  height: 40px;
-  width: 212px;
-  gap: 20px;
-}
-
-#identitas-edit .wrapper .file label svg {
-  background-color: #57B98A;
-  width: 44px;
-  height: 100%;
-  padding: 6px;
-}
-
-#identitas-edit .wrapper .file label input {
-  display: none;
 }
 
 #input .wrapper form fieldset {
@@ -3105,6 +3078,12 @@ footer .wrapper .copyright p {
       -ms-flex-align: center;
           align-items: center;
   gap: 4px;
+}
+
+@media only screen and (min-width: 920px) {
+  #input .wrapper {
+    padding-bottom: 80px;
+  }
 }
 
 * {
