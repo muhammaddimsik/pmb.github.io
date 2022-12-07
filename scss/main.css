@@ -1274,8 +1274,9 @@ footer .wrapper .copyright p {
 }
 
 #daftar .wrapper .modal .modal-content {
+  border-radius: 10px;
   background-color: #fefefe;
-  margin: 15% auto;
+  margin: 40% auto;
   /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
@@ -1315,7 +1316,106 @@ footer .wrapper .copyright p {
   font-weight: 600;
 }
 
-#daftar .wrapper .modal .modal-content .text {
+#daftar .wrapper .modal .modal-content table {
+  margin: 20px auto;
+  width: 100%;
+}
+
+#daftar .wrapper .modal .modal-content table tr td {
+  font-size: 13px;
+}
+
+#daftar .wrapper .modal .modal-content .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 20px auto;
+}
+
+#daftar .wrapper .modal .modal-content button {
+  width: 60%;
+  padding: 8px 0;
+  background-color: #57B98A;
+  border: none;
+  border-radius: 20px;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+#daftar .wrapper .modal .modal-content button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ECFFF9;
+}
+
+#daftar .wrapper .modal-1 {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+#daftar .wrapper .modal-1 .modal-content {
+  border-radius: 10px;
+  background-color: #fefefe;
+  margin: 40% auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 90%;
+  /* Could be more or less, depending on screen size */
+}
+
+#daftar .wrapper .modal-1 .modal-content .header-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#daftar .wrapper .modal-1 .modal-content .header-modal .tutup {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#daftar .wrapper .modal-1 .modal-content .header-modal .tutup svg path:hover, #daftar .wrapper .modal-1 .modal-content .header-modal .tutup svg path:focus {
+  color: black;
+  cursor: pointer;
+}
+
+#daftar .wrapper .modal-1 .modal-content .header-modal p {
+  font-weight: 600;
+}
+
+#daftar .wrapper .modal-1 .modal-content .text {
   text-align: center;
   -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
@@ -1324,21 +1424,21 @@ footer .wrapper .copyright p {
   margin: 8px 12px 20px;
 }
 
-#daftar .wrapper .modal .modal-content .text svg {
+#daftar .wrapper .modal-1 .modal-content .text svg {
   width: 50px;
   margin: 8px;
 }
 
-#daftar .wrapper .modal .modal-content .text h3 {
+#daftar .wrapper .modal-1 .modal-content .text h3 {
   margin: 8px auto;
 }
 
-#daftar .wrapper .modal .modal-content .text p {
+#daftar .wrapper .modal-1 .modal-content .text p {
   font-size: 10px;
   margin-bottom: 18px;
 }
 
-#daftar .wrapper .modal .modal-content .text button {
+#daftar .wrapper .modal-1 .modal-content .text button {
   width: 60%;
   padding: 8px 0;
   background-color: #57B98A;
@@ -1347,6 +1447,13 @@ footer .wrapper .copyright p {
   color: #ECFFF9;
   border-radius: 20px;
   margin-bottom: 40px;
+  cursor: pointer;
+}
+
+#daftar .wrapper .modal-1 .modal-content .text button a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #ECFFF9;
 }
 
 .motif {
@@ -1362,6 +1469,7 @@ footer .wrapper .copyright p {
     height: 800px;
   }
   #daftar .wrapper form {
+    display: block;
     padding: 20px 25%;
     margin-bottom: 20px;
     background: none;
@@ -1369,6 +1477,20 @@ footer .wrapper .copyright p {
   #daftar .wrapper form fieldset {
     position: static;
     padding: 3rem 2.5rem;
+  }
+  #daftar .wrapper .modal .modal-content {
+    margin: 10% auto;
+    width: 400px;
+  }
+  #daftar .wrapper .modal .modal-content table, #daftar .wrapper .modal .modal-content .flex {
+    padding: 0 20px;
+  }
+  #daftar .wrapper .modal-1 .modal-content {
+    margin: 10% auto;
+    width: 400px;
+  }
+  #daftar .wrapper .modal-1 .modal-content .text {
+    padding: 0 20px;
   }
   .hidden {
     display: none;
