@@ -227,14 +227,20 @@
           <fieldset>
             <label for="name"
               >Nama
-              <input type="text" id="name" placeholder="Masukan nama anda" />
-            </label>
-            <label for="name"
-              >Email
               <input
                 type="text"
                 id="name"
+                placeholder="Masukan nama anda"
+                required
+              />
+            </label>
+            <label for="email"
+              >Email
+              <input
+                type="email"
+                id="email"
                 placeholder="Masukan alamat email anda"
+                required
               />
             </label>
             <label for="name"
@@ -245,6 +251,7 @@
                 cols="30"
                 rows="10"
                 placeholder="Ketik pesan anda disini"
+                required
               ></textarea>
             </label>
             <button type="submit">Kirim</button>

@@ -67,6 +67,7 @@
                     background-color: $primary;
                     border: none;
                     color: $third;
+                    cursor: pointer;
                 }
             }
         }
@@ -91,14 +92,17 @@
         .arrow{
             display: block;
             position: absolute;
-            top: 660px;
+            top: 630px;
             left: 400px;
+            img{
+                width: 260px;
+            }
         }
         .container{
             height: 200px;
             form{
                 left: 500px;
-                top: 780px;
+                top: 740px;
                 width: 520px;
             }
         }

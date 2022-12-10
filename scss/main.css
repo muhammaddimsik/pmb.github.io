@@ -251,13 +251,18 @@ header svg {
   margin-left: 34px;
 }
 
-#alur-pendaftaran {
-  background-color: #ECFFF9;
-  height: 60vh;
+#waktu-pendaftaran .wrapper .headings {
+  padding-top: 40px;
 }
 
-#alur-pendaftaran .wrapper .headings {
-  padding-top: 40px;
+#waktu-pendaftaran .wrapper .alur-mobile img {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#waktu-pendaftaran .wrapper .alur-desktop {
+  display: none;
 }
 
 iframe {
@@ -363,14 +368,12 @@ iframe {
     background-color: #EEEEEE;
   }
   .background {
+    position: absolute;
+    z-index: -1;
     width: 586px;
     height: 478px;
-    position: absolute;
     left: 770px;
-    right: 0;
-    top: 0px;
     background-color: #ECFFF9;
-    z-index: -1;
   }
   #hero-section .wrapper {
     display: -webkit-box;
@@ -409,18 +412,27 @@ iframe {
     margin-bottom: 20px;
   }
   #waktu-pendaftaran .wrapper .flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #waktu-pendaftaran .wrapper .flex .box {
     width: 32%;
+    margin: 0;
   }
-  #alur-pendaftaran .wrapper {
-    margin-top: 40px;
+  #waktu-pendaftaran .wrapper .flex .alur-mobile {
+    display: none;
+  }
+  #waktu-pendaftaran .wrapper .flex .alur-desktop {
+    display: block;
+  }
+  #waktu-pendaftaran .wrapper .flex .alur-desktop img {
+    width: 100%;
+    margin: 0;
   }
   #panduan .wrapper {
     display: -webkit-box;
@@ -505,6 +517,21 @@ iframe {
   .wrapper {
     width: 940px;
     margin: 0 auto;
+  }
+}
+
+@media only screen and (min-width: 1300px) {
+  .wrapper {
+    width: 940px;
+    margin: 0 auto;
+  }
+  .background {
+    position: absolute;
+    z-index: -1;
+    width: 586px;
+    height: 478px;
+    left: 700px;
+    background-color: #ECFFF9;
   }
 }
 
@@ -830,6 +857,17 @@ footer .wrapper .copyright p {
   width: 99%;
 }
 
+#profil-lulusan .wrapper .analis-olah-data img {
+  width: 100%;
+  margin: 20px auto;
+}
+
+#profil-lulusan .wrapper .analis-olah-data .text p {
+  font-size: 14px;
+  text-align: justify;
+  margin-bottom: 14px;
+}
+
 #profil-lulusan .wrapper .analis-olah-data .text ul {
   margin-left: 20px;
 }
@@ -948,6 +986,31 @@ footer .wrapper .copyright p {
   color: #ECFFF9;
   font-weight: 600;
   margin-top: 6px;
+}
+
+#profil-lulusan .wrapper .flex-ap {
+  margin: 10px auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 0;
+}
+
+#profil-lulusan .wrapper .flex-ap img {
+  width: 100%;
+}
+
+#profil-lulusan .wrapper .flex-ap .text p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#profil-lulusan .wrapper .flex-ap .text ul li {
+  margin-left: 20px;
+  font-size: 14px;
 }
 
 @media only screen and (min-width: 920px) {
@@ -1092,6 +1155,7 @@ footer .wrapper .copyright p {
   background-color: #57B98A;
   border: none;
   color: #ECFFF9;
+  cursor: pointer;
 }
 
 .kotak {
@@ -1112,15 +1176,18 @@ footer .wrapper .copyright p {
   #contact .arrow {
     display: block;
     position: absolute;
-    top: 660px;
+    top: 630px;
     left: 400px;
+  }
+  #contact .arrow img {
+    width: 260px;
   }
   #contact .container {
     height: 200px;
   }
   #contact .container form {
     left: 500px;
-    top: 780px;
+    top: 740px;
     width: 520px;
   }
 }
@@ -1216,6 +1283,17 @@ footer .wrapper .copyright p {
           align-items: center;
   padding: 8px 0;
   text-decoration: none;
+  border: none;
+}
+
+#daftar .wrapper form fieldset .btn-d a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #daftar .wrapper form fieldset .btn-d p {
@@ -1607,6 +1685,17 @@ footer .wrapper .copyright p {
           align-items: center;
   padding: 8px 0;
   text-decoration: none;
+  border: none;
+}
+
+#masuk .wrapper form fieldset .btn-d a {
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #masuk .wrapper form fieldset .btn-d p {
@@ -3313,17 +3402,103 @@ footer .wrapper .copyright p {
   }
 }
 
-.container {
+#foto-kegiatan .container {
   display: none;
 }
 
+#foto-kegiatan .wrapper .slideshow-c {
+  max-width: 1000px;
+  position: relative;
+  margin: 10px auto 0 auto;
+}
+
+#foto-kegiatan .wrapper .slideshow-c .mySlides {
+  display: none;
+}
+
+#foto-kegiatan .wrapper .slideshow-c .mySlides img {
+  width: 100%;
+  height: 50vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#foto-kegiatan .wrapper .slideshow-c .fade {
+  -webkit-animation-name: fade;
+          animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: .4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+#foto-kegiatan .wrapper .slideshow-c .prev, #foto-kegiatan .wrapper .slideshow-c .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-transition: 0.6s ease;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#foto-kegiatan .wrapper .slideshow-c .next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+#foto-kegiatan .wrapper .slideshow-c .prev:hover, #foto-kegiatan .wrapper .slideshow-c .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#foto-kegiatan .wrapper .dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 1px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  -webkit-transition: background-color 0.6s ease;
+  transition: background-color 0.6s ease;
+}
+
+#foto-kegiatan .wrapper .active, #foto-kegiatan .wrapper .dot:hover {
+  background-color: #717171;
+}
+
 @media only screen and (min-width: 920px) {
-  .container {
+  #foto-kegiatan .wrapper .container {
     width: 100%;
     margin: 2rem auto;
     display: block;
   }
-  .container .gallery {
+  #foto-kegiatan .wrapper .container .gallery {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[8];
@@ -3332,14 +3507,14 @@ footer .wrapper .copyright p {
         grid-template-rows: repeat(8, 5vw);
     grid-gap: 1.5rem;
   }
-  .container .gallery .gallery__img {
+  #foto-kegiatan .wrapper .container .gallery .gallery__img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     display: block;
   }
-  .container .gallery .gallery__item--1 {
+  #foto-kegiatan .wrapper .container .gallery .gallery__item--1 {
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 3;
@@ -3347,7 +3522,7 @@ footer .wrapper .copyright p {
         grid-row-start: 1;
     grid-row-end: 3;
   }
-  .container .gallery .gallery__item--2 {
+  #foto-kegiatan .wrapper .container .gallery .gallery__item--2 {
     -ms-grid-column: 3;
         grid-column-start: 3;
     grid-column-end: 5;
@@ -3355,7 +3530,7 @@ footer .wrapper .copyright p {
         grid-row-start: 1;
     grid-row-end: 3;
   }
-  .container .gallery .gallery__item--3 {
+  #foto-kegiatan .wrapper .container .gallery .gallery__item--3 {
     -ms-grid-column: 5;
         grid-column-start: 5;
     grid-column-end: 9;
@@ -3363,7 +3538,7 @@ footer .wrapper .copyright p {
         grid-row-start: 1;
     grid-row-end: 6;
   }
-  .container .gallery .gallery__item--4 {
+  #foto-kegiatan .wrapper .container .gallery .gallery__item--4 {
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 5;
@@ -3371,7 +3546,7 @@ footer .wrapper .copyright p {
         grid-row-start: 3;
     grid-row-end: 6;
   }
-  .container .gallery .gallery__item--5 {
+  #foto-kegiatan .wrapper .container .gallery .gallery__item--5 {
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 5;
@@ -3379,13 +3554,19 @@ footer .wrapper .copyright p {
         grid-row-start: 6;
     grid-row-end: 9;
   }
-  .container .gallery .gallery__item--6 {
+  #foto-kegiatan .wrapper .container .gallery .gallery__item--6 {
     -ms-grid-column: 5;
         grid-column-start: 5;
     grid-column-end: 9;
     -ms-grid-row: 6;
         grid-row-start: 6;
     grid-row-end: 9;
+  }
+  #foto-kegiatan .wrapper .slideshow-c {
+    display: none;
+  }
+  #foto-kegiatan .wrapper .dot {
+    display: none;
   }
 }
 

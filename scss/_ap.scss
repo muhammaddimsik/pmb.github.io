@@ -26,6 +26,33 @@
     }
 }
 
+#profil-lulusan{
+    .wrapper{
+        .flex-ap{
+            margin: 10px auto;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0;
+            
+            img{
+                width: 100%;
+            }
+            .text{
+                p{
+                    font-size: 14px;
+                    margin-bottom: 10px;
+                }
+                ul{
+                    li{
+                        margin-left: 20px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (min-width: 920px){
     .bg-ap{
         background-image: url(../img/ap-d.png);
