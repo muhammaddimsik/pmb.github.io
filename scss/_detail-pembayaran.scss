@@ -1,0 +1,77 @@
+#detail-pembayaran{
+    .wrapper{
+        .content{
+            border: 2px solid $primary;
+            margin-top: 20px;
+            padding: 10px 20px;
+            .logo-d{
+                img{
+                    width: 80px;
+                    display: block;
+                    margin: 0 auto;
+                }
+                p{
+                    text-align: center;
+                    font-weight: 500;
+                    font-size: 18px;
+                    text-transform: uppercase;
+                    margin: 10px 0 30px;
+                }
+            }
+            p{
+                font-size: 14px;
+            }
+            p:nth-child(2){
+                font-weight: 600;
+            }
+            .rincian{
+                margin-bottom: 20px;
+                .bold{
+                    font-weight: 600;
+                    margin-bottom: 5px;
+                }
+                .flex{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                hr{
+                    margin: 20px 0;
+                }
+            }
+            button{
+                border: none;
+                background-color: $primary;
+                padding: 10px 20px;
+                width: 100%;
+                border-radius: 20px;
+                margin: 20px 0;
+                a{
+                    text-decoration: none;
+                    color: $third;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 920px){
+    #detail-pembayaran{
+        .wrapper{
+            border: 2px solid violet;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .headings{
+                display: inline-block;
+                margin: 0 auto;
+                border: 2px solid tomato;
+                h3{
+                    font-size: 22px;
+                }
+            }
+            .content{
+                width: 40%;
+            }
+        }
+    }
+}
