@@ -24,32 +24,44 @@ const modal = document.getElementById("myModal");
 const modalTwo = document.querySelector(".modal-1");
 
 // Get the button that opens the modal
+
 const btn = document.getElementById("myBtn");
+btn.addEventListener("click", () => {
+  modal.style.display = "block";
+});
 
 // Get the <span> element that closes the modal
 const tutup = document.querySelector(".tutup");
 const tutupTwo = document.querySelector(".tutup-2");
 
-// // When the user clicks on the button, open the modal
-// btn.onclick = function () {
+// When the user clicks on the button, open the modal
+// btn.onClick = function () {
 //   modal.style.display = "block";
 // };
 
-// // When the user clicks on <span> (x), close the modal
-// tutup.onclick = function () {
-//   modal.style.display = "none";
-// };
+// When the user clicks on <span> (x), close the modal
+tutup.addEventListener("click", () => {
+  modal.style.display = "none";
+});
 
-// tutupTwo.onclick = function () {
-//   modalTwo.style.display = "none";
-//   modal.style.display = "none";
-// };
+tutupTwo.onClick = function () {
+  modalTwo.style.display = "none";
+  modal.style.display = "none";
+};
 
-// swap.onclick = function () {
-//   modalTwo.style.display = "block";
-// };
+swap.onClick = function () {
+  modalTwo.style.display = "block";
+};
 
 // When the user clicks anywhere outside of the modal, close it
+// window.addEventListener("click", (event) => {
+//   if (event.target == modal) {
+//     modal.style.display = "none";
+//   } else if (event.target == modalTwo) {
+//     modal.style.display = "none";
+//     modalTwo.style.display = "none";
+//   }
+// });
 window.onclick = function (event) {
   if (event.target == modal) {
     modal.style.display = "none";
@@ -59,36 +71,38 @@ window.onclick = function (event) {
   }
 };
 
-let slideIndex = 1;
-showSlides(slideIndex);
+console.log(swap);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides((slideIndex += n));
-}
+// let slideIndex = 1;
+// showSlides(slideIndex);
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides((slideIndex = n));
-}
+// // Next/previous controls
+// function plusSlides(n) {
+//   showSlides((slideIndex += n));
+// }
 
-function showSlides(n) {
-  let i;
-  const slides = document.getElementsByClassName("mySlides");
-  const dots = document.getElementsByClassName("dot");
-  console.log(dots);
-  if (n > slides.length) {
-    slideIndex = 1;
-  }
-  if (n < 1) {
-    slideIndex = slides.length;
-  }
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex - 1].style.display = "block";
-  dots[slideIndex - 1].className += " active";
-}
+// // Thumbnail image controls
+// function currentSlide(n) {
+//   showSlides((slideIndex = n));
+// }
+
+// function showSlides(n) {
+//   let i;
+//   const slides = document.getElementsByClassName("mySlides");
+//   const dots = document.getElementsByClassName("dot");
+//   console.log(dots);
+//   if (n > slides.length) {
+//     slideIndex = 1;
+//   }
+//   if (n < 1) {
+//     slideIndex = slides.length;
+//   }
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex - 1].style.display = "block";
+//   dots[slideIndex - 1].className += " active";
+// }

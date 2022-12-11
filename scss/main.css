@@ -3770,7 +3770,6 @@ footer .wrapper .copyright p {
 
 @media only screen and (min-width: 920px) {
   #detail-pembayaran .wrapper {
-    border: 2px solid violet;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3785,7 +3784,6 @@ footer .wrapper .copyright p {
   #detail-pembayaran .wrapper .headings {
     display: inline-block;
     margin: 0 auto;
-    border: 2px solid tomato;
   }
   #detail-pembayaran .wrapper .headings h3 {
     font-size: 22px;
@@ -3793,8 +3791,11 @@ footer .wrapper .copyright p {
   #detail-pembayaran .wrapper .content {
     width: 40%;
   }
+  #modal-section .wrapper .modal {
+    display: none;
+  }
   #modal-section .wrapper .modal .modal-content {
-    margin: 12% auto;
+    margin: 2% auto;
   }
 }
 
