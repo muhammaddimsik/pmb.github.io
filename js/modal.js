@@ -7,7 +7,7 @@ const modalTwo = document.querySelector(".modal-1");
 
 // Get the button that opens the modal
 
-const btn = document.getElementById("myBtn");
+const btn = document.querySelector(".btn-d");
 btn.addEventListener("click", () => {
   modal.style.display = "block";
 });
@@ -16,24 +16,19 @@ btn.addEventListener("click", () => {
 const tutup = document.querySelector(".tutup");
 const tutupTwo = document.querySelector(".tutup-2");
 
-// When the user clicks on the button, open the modal
-// btn.onClick = function () {
-//   modal.style.display = "block";
-// };
-
 // When the user clicks on <span> (x), close the modal
 tutup.addEventListener("click", () => {
   modal.style.display = "none";
 });
 
-tutupTwo.onClick = function () {
-  modalTwo.style.display = "none";
+swap.addEventListener("click", () => {
   modal.style.display = "none";
-};
-
-swap.onClick = function () {
   modalTwo.style.display = "block";
-};
+});
+
+tutupTwo.addEventListener("click", () => {
+  modalTwo.style.display = "none";
+});
 
 window.onclick = function (event) {
   if (event.target == modal) {
