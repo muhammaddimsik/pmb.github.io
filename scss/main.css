@@ -1234,6 +1234,38 @@ footer .wrapper .copyright p {
   text-transform: uppercase;
 }
 
+#daftar .wrapper form fieldset .alert-nik, #daftar .wrapper form fieldset .alert-nisn, #daftar .wrapper form fieldset .alert-email {
+  border: 1px solid #842029;
+  font-size: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 14px;
+  padding: 8px 12px;
+  background-color: #F8D7DA;
+}
+
+#daftar .wrapper form fieldset .alert-nik p, #daftar .wrapper form fieldset .alert-nisn p, #daftar .wrapper form fieldset .alert-email p {
+  color: #842029;
+  font-weight: 600;
+  text-align: justify;
+}
+
+#daftar .wrapper form fieldset .alert-nik {
+  display: none;
+}
+
+#daftar .wrapper form fieldset .alert-nisn {
+  display: none;
+}
+
+#daftar .wrapper form fieldset .alert-email {
+  display: none;
+}
+
 #daftar .wrapper form fieldset label {
   display: block;
   margin: 0.5rem 0;
@@ -1287,6 +1319,7 @@ footer .wrapper .copyright p {
   padding: 8px 0;
   text-decoration: none;
   border: none;
+  cursor: pointer;
 }
 
 #daftar .wrapper form fieldset .btn-d a {
@@ -1387,6 +1420,7 @@ footer .wrapper .copyright p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 #daftar .wrapper .modal .modal-content .header-modal .tutup svg path:hover, #daftar .wrapper .modal .modal-content .header-modal .tutup svg path:focus {
@@ -1477,7 +1511,7 @@ footer .wrapper .copyright p {
           justify-content: space-between;
 }
 
-#daftar .wrapper .modal-1 .modal-content .header-modal .tutup {
+#daftar .wrapper .modal-1 .modal-content .header-modal .tutup-2 {
   font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1486,9 +1520,10 @@ footer .wrapper .copyright p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
-#daftar .wrapper .modal-1 .modal-content .header-modal .tutup svg path:hover, #daftar .wrapper .modal-1 .modal-content .header-modal .tutup svg path:focus {
+#daftar .wrapper .modal-1 .modal-content .header-modal .tutup-2 svg:hover path {
   color: black;
   cursor: pointer;
 }
@@ -1499,8 +1534,6 @@ footer .wrapper .copyright p {
 
 #daftar .wrapper .modal-1 .modal-content .text {
   text-align: center;
-  -webkit-box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
-          box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
   border-radius: 8px;
   padding: 4px 8px;
   margin: 8px 12px 20px;
@@ -1585,13 +1618,13 @@ footer .wrapper .copyright p {
 
 #masuk .wrapper {
   margin-top: 20px;
-  height: 340px;
+  height: 420px;
 }
 
 #masuk .wrapper form {
   margin: 0 auto;
   position: absolute;
-  top: 100px;
+  top: 14%;
   left: 6%;
   right: 6%;
   background-color: white;
@@ -1607,7 +1640,7 @@ footer .wrapper .copyright p {
 }
 
 #masuk .wrapper form fieldset .logo-b {
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 #masuk .wrapper form fieldset .logo-b img {
@@ -1621,6 +1654,34 @@ footer .wrapper .copyright p {
   text-align: center;
   font-weight: 600;
   text-transform: uppercase;
+}
+
+#masuk .wrapper form fieldset .alert-nopendaftaran, #masuk .wrapper form fieldset .alert-kode {
+  border: 1px solid #842029;
+  font-size: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 14px;
+  padding: 8px 12px;
+  background-color: #F8D7DA;
+}
+
+#masuk .wrapper form fieldset .alert-nopendaftaran p, #masuk .wrapper form fieldset .alert-kode p {
+  color: #842029;
+  font-weight: 600;
+  text-align: justify;
+}
+
+#masuk .wrapper form fieldset .alert-kode {
+  display: none;
+}
+
+#masuk .wrapper form fieldset .alert-nopendaftaran {
+  display: none;
 }
 
 #masuk .wrapper form fieldset label {
@@ -1661,10 +1722,23 @@ footer .wrapper .copyright p {
   border-right: none;
 }
 
+#masuk .wrapper form fieldset label .field #pendaftaran {
+  border: 1px solid rgba(24, 28, 39, 0.4);
+  border-left: none;
+}
+
+#masuk .wrapper form fieldset label .field .hide {
+  display: none;
+}
+
+#masuk .wrapper form fieldset label .field .hide, #masuk .wrapper form fieldset label .field .show {
+  cursor: pointer;
+}
+
 #masuk .wrapper form fieldset .pan {
-  font-size: 8px;
+  font-size: 10px;
   font-weight: 500;
-  color: #a5a5a5;
+  color: #767676;
 }
 
 #masuk .wrapper form fieldset .btn-d {
@@ -1683,6 +1757,7 @@ footer .wrapper .copyright p {
   padding: 8px 0;
   text-decoration: none;
   border: none;
+  cursor: pointer;
 }
 
 #masuk .wrapper form fieldset .btn-d a {
@@ -1740,12 +1815,13 @@ footer .wrapper .copyright p {
 
 @media only screen and (min-width: 920px) {
   #masuk .wrapper {
-    height: 540px;
+    height: 580px;
   }
   #masuk .wrapper form {
     padding: 60px 30%;
     margin-bottom: 20px;
     background: none;
+    top: 10%;
   }
   #masuk .wrapper form fieldset {
     position: static;
@@ -3690,6 +3766,7 @@ footer .wrapper .copyright p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  cursor: pointer;
 }
 
 #modal-section .wrapper .modal-1 .modal-content .header-modal .tutup svg:hover, #modal-section .wrapper .modal-1 .modal-content .header-modal .tutup svg:focus {
@@ -3908,7 +3985,7 @@ footer .wrapper .copyright p {
 }
 
 #modal-section .wrapper .modal-3 {
-  display: block;
+  display: none;
   /* Hidden by default */
   position: fixed;
   /* Stay in place */

@@ -84,6 +84,7 @@
                         display: flex;
                         text-align: center;
                         justify-content: center;
+                        cursor: pointer;
                         svg{
                             &:hover, &:focus{
                                 cursor: pointer;
@@ -250,7 +251,7 @@
             }
         }
         .modal-3 {
-            display: block; /* Hidden by default */
+            display: none; /* Hidden by default */
             position: fixed; /* Stay in place */
             z-index: 1; /* Sit on top */
             left: 0;
