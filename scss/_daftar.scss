@@ -30,6 +30,7 @@
                 }
                 .alert-nik, .alert-nisn, .alert-email{
                     border: 1px solid #842029;
+                    display: flex;
                     font-size: 14px;
                     align-items: center;
                     justify-content: center;
@@ -41,15 +42,6 @@
                         font-weight: 600;
                         text-align: justify;
                     }
-                }
-                .alert-nik{
-                    display: none; //kalau mau ditampilkan dikasih nilai flex jangan block
-                }
-                .alert-nisn{
-                    display: none; //kalau mau ditampilkan dikasih nilai flex jangan block
-                }
-                .alert-email{
-                    display: none; //kalau mau ditampilkan dikasih nilai flex jangan block
                 }
                 label {
                     display: block;

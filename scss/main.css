@@ -1236,6 +1236,9 @@ footer .wrapper .copyright p {
 
 #daftar .wrapper form fieldset .alert-nik, #daftar .wrapper form fieldset .alert-nisn, #daftar .wrapper form fieldset .alert-email {
   border: 1px solid #842029;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-size: 14px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1252,18 +1255,6 @@ footer .wrapper .copyright p {
   color: #842029;
   font-weight: 600;
   text-align: justify;
-}
-
-#daftar .wrapper form fieldset .alert-nik {
-  display: none;
-}
-
-#daftar .wrapper form fieldset .alert-nisn {
-  display: none;
-}
-
-#daftar .wrapper form fieldset .alert-email {
-  display: none;
 }
 
 #daftar .wrapper form fieldset label {
@@ -1618,13 +1609,13 @@ footer .wrapper .copyright p {
 
 #masuk .wrapper {
   margin-top: 20px;
-  height: 420px;
+  height: 480px;
 }
 
 #masuk .wrapper form {
   margin: 0 auto;
   position: absolute;
-  top: 14%;
+  top: 12%;
   left: 6%;
   right: 6%;
   background-color: white;
@@ -1656,7 +1647,34 @@ footer .wrapper .copyright p {
   text-transform: uppercase;
 }
 
+#masuk .wrapper form fieldset .alert-masuk {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #084298;
+  font-size: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background-color: #CFE2FF;
+}
+
+#masuk .wrapper form fieldset .alert-masuk p {
+  color: #084298;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 13px;
+}
+
 #masuk .wrapper form fieldset .alert-nopendaftaran, #masuk .wrapper form fieldset .alert-kode {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   border: 1px solid #842029;
   font-size: 14px;
   -webkit-box-align: center;
@@ -1674,14 +1692,6 @@ footer .wrapper .copyright p {
   color: #842029;
   font-weight: 600;
   text-align: justify;
-}
-
-#masuk .wrapper form fieldset .alert-kode {
-  display: none;
-}
-
-#masuk .wrapper form fieldset .alert-nopendaftaran {
-  display: none;
 }
 
 #masuk .wrapper form fieldset label {
@@ -1815,7 +1825,7 @@ footer .wrapper .copyright p {
 
 @media only screen and (min-width: 920px) {
   #masuk .wrapper {
-    height: 580px;
+    height: 640px;
   }
   #masuk .wrapper form {
     padding: 60px 30%;
