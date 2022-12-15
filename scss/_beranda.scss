@@ -79,59 +79,59 @@
 // hero section end
 
 // waktu pendaftaran start
-.box{
-    background-color: $third;
-    border: 2px solid $primary;
-    margin-top: 20px;
-
-    h3{
-        font-size: 16px;
-        margin: 12px 20px;
-    }
-    .rectangle{
-        width: 40px;
-        height: 2px;
-        background-color: $primary;
-        margin: -10px 0 0 20px;
-        border-radius: 2px;
-    }
-
-    .item{
-        margin: 20px 0;
-        p{
-            font-size: 12px;
-            margin-left: 20px;
-            margin-right: 20px;
-            margin-bottom: 6px;
-    
-            span{
-                margin-right: 12px;
-                color: $primary;
-            }
-            .diff{
-                color: $third;
-            }
-        }
-        .flex{
-            display: flex;
-            justify-content: space-between;
-            p:nth-child(2){
-                width: 50px;
-            }
-        }
-    }
-}
-
-.box-third{
-    p:nth-child(even) {
-        margin-left: 34px;
-      }
-}
-// waktu pendaftaran end
 #waktu-pendaftaran{
     .wrapper{
         .headings{
             padding-top: 40px;
+        }
+        .content{
+            .flex{
+                margin-bottom: 20px;
+                .box{
+                    background-color: $third;
+                    border: 2px solid $primary;
+                    margin-top: 20px;
+                
+                    h3{
+                        font-size: 16px;
+                        margin: 12px 20px;
+                    }
+                    .rectangle{
+                        width: 40px;
+                        height: 2px;
+                        background-color: $primary;
+                        margin: -10px 0 0 20px;
+                        border-radius: 2px;
+                    }
+                
+                    .item{
+                        margin: 20px 0;
+                        display: flex;
+                        justify-content: space-between;
+                        margin: 0 20px 6px 20px;
+                        padding: 20px 0;
+                        p{
+                            font-size: 13px;
+                            margin-bottom: 6px;
+                            font-weight: 500;
+                        }
+                    }
+                    .box-third{
+                        margin: 20px 0;
+                        p{
+                            font-size: 13px;
+                            margin: 0 20px 6px 20px;
+                            font-weight: 500;
+                            span{
+                                margin-right: 10px;
+                            }
+                        }
+                        p:nth-child(even) {
+                            margin-left: 40px;
+                          }
+                    }
+                }
+            }
         }
         .alur-mobile{
             img{
@@ -142,6 +142,56 @@
         }
         .alur-desktop{
             display: none;
+        }
+    }
+}
+// waktu pendaftaran end
+
+#biaya{
+    .wrapper{
+        .flex{
+            .biaya-box{
+                margin-top: 26px;
+                h4{
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: capitalize;
+                    margin-bottom: 8px;
+                }
+                table{
+                    width: 100%;
+                    tr:nth-child(1){
+                        td{
+                            font-weight: 600;
+                            text-align: center;
+                            background-color: $third;
+                        }
+                    }
+                    tr{
+                        td{
+                            ul{
+                                margin: 10px 0 0 20px;
+                            }
+                        }
+                    }
+                }
+                table, tr, td{
+                    border: 1px solid rgb(221, 221, 221);
+                    border-collapse: collapse;
+                }
+                tr, td{
+                    font-size: 12px;
+                    padding: 6px 4px;
+                }
+                .d3, .s1{
+                    font-size: 20px;
+                    font-weight: 500;
+                    text-align: center;
+                }
+                .right{
+                    text-align: right;
+                }
+            }
         }
     }
 }
@@ -308,13 +358,17 @@ iframe{
             .headings{
                 margin-bottom: 20px;
             }
-            .flex{
+            .content{
                 display: block;
                 justify-content: space-between;
                 align-items: center;
-                .box{
-                    width: 32%;
-                    margin: 0;
+                .flex{
+                    display: flex;
+                    gap: 20px;
+                    .box{
+                        width: 32%;
+                        margin: 0;
+                    }
                 }
                 .alur-mobile{
                     display: none;
@@ -330,12 +384,33 @@ iframe{
         }
     }
 
+    #biaya{
+        margin-top: 80px;
+        .wrapper{
+            .headings{
+                margin-bottom: 40px;
+                p, h2{
+                    text-align: center;
+                }
+            }
+            .flex{
+                display: flex;
+                gap: 30px;
+                flex-wrap: wrap;
+                justify-content: center;
+                .biaya-box{
+                    width: 46%;
+                }
+            }
+        }
+    }
+
     #panduan{
         .wrapper{
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin-top: 40px;
+            margin-top: 80px;
             margin-bottom: 40px;
             flex-direction: row-reverse;
             iframe{

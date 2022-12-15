@@ -18,3 +18,17 @@
     margin-top: 2px;
 }
 
+.btn-final{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .btn-akhir{
+        @include btn-main();
+        padding: 8px 40px;
+        font-size: 16px;
+        &:hover{
+            @include btn-main-hover();
+        }
+    }
+}
+

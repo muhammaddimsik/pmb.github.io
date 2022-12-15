@@ -195,18 +195,26 @@ header svg {
   width: 100%;
 }
 
-.box {
+#waktu-pendaftaran .wrapper .headings {
+  padding-top: 40px;
+}
+
+#waktu-pendaftaran .wrapper .content .flex {
+  margin-bottom: 20px;
+}
+
+#waktu-pendaftaran .wrapper .content .flex .box {
   background-color: #ECFFF9;
   border: 2px solid #57B98A;
   margin-top: 20px;
 }
 
-.box h3 {
+#waktu-pendaftaran .wrapper .content .flex .box h3 {
   font-size: 16px;
   margin: 12px 20px;
 }
 
-.box .rectangle {
+#waktu-pendaftaran .wrapper .content .flex .box .rectangle {
   width: 40px;
   height: 2px;
   background-color: #57B98A;
@@ -214,45 +222,40 @@ header svg {
   border-radius: 2px;
 }
 
-.box .item {
+#waktu-pendaftaran .wrapper .content .flex .box .item {
   margin: 20px 0;
-}
-
-.box .item p {
-  font-size: 12px;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 6px;
-}
-
-.box .item p span {
-  margin-right: 12px;
-  color: #57B98A;
-}
-
-.box .item p .diff {
-  color: #ECFFF9;
-}
-
-.box .item .flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin: 0 20px 6px 20px;
+  padding: 20px 0;
 }
 
-.box .item .flex p:nth-child(2) {
-  width: 50px;
+#waktu-pendaftaran .wrapper .content .flex .box .item p {
+  font-size: 13px;
+  margin-bottom: 6px;
+  font-weight: 500;
 }
 
-.box-third p:nth-child(even) {
-  margin-left: 34px;
+#waktu-pendaftaran .wrapper .content .flex .box .box-third {
+  margin: 20px 0;
 }
 
-#waktu-pendaftaran .wrapper .headings {
-  padding-top: 40px;
+#waktu-pendaftaran .wrapper .content .flex .box .box-third p {
+  font-size: 13px;
+  margin: 0 20px 6px 20px;
+  font-weight: 500;
+}
+
+#waktu-pendaftaran .wrapper .content .flex .box .box-third p span {
+  margin-right: 10px;
+}
+
+#waktu-pendaftaran .wrapper .content .flex .box .box-third p:nth-child(even) {
+  margin-left: 40px;
 }
 
 #waktu-pendaftaran .wrapper .alur-mobile img {
@@ -263,6 +266,51 @@ header svg {
 
 #waktu-pendaftaran .wrapper .alur-desktop {
   display: none;
+}
+
+#biaya .wrapper .flex .biaya-box {
+  margin-top: 26px;
+}
+
+#biaya .wrapper .flex .biaya-box h4 {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+
+#biaya .wrapper .flex .biaya-box table {
+  width: 100%;
+}
+
+#biaya .wrapper .flex .biaya-box table tr:nth-child(1) td {
+  font-weight: 600;
+  text-align: center;
+  background-color: #ECFFF9;
+}
+
+#biaya .wrapper .flex .biaya-box table tr td ul {
+  margin: 10px 0 0 20px;
+}
+
+#biaya .wrapper .flex .biaya-box table, #biaya .wrapper .flex .biaya-box tr, #biaya .wrapper .flex .biaya-box td {
+  border: 1px solid #dddddd;
+  border-collapse: collapse;
+}
+
+#biaya .wrapper .flex .biaya-box tr, #biaya .wrapper .flex .biaya-box td {
+  font-size: 12px;
+  padding: 6px 4px;
+}
+
+#biaya .wrapper .flex .biaya-box .d3, #biaya .wrapper .flex .biaya-box .s1 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#biaya .wrapper .flex .biaya-box .right {
+  text-align: right;
 }
 
 iframe {
@@ -411,7 +459,7 @@ iframe {
   #waktu-pendaftaran .wrapper .headings {
     margin-bottom: 20px;
   }
-  #waktu-pendaftaran .wrapper .flex {
+  #waktu-pendaftaran .wrapper .content {
     display: block;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -420,19 +468,48 @@ iframe {
         -ms-flex-align: center;
             align-items: center;
   }
-  #waktu-pendaftaran .wrapper .flex .box {
+  #waktu-pendaftaran .wrapper .content .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 20px;
+  }
+  #waktu-pendaftaran .wrapper .content .flex .box {
     width: 32%;
     margin: 0;
   }
-  #waktu-pendaftaran .wrapper .flex .alur-mobile {
+  #waktu-pendaftaran .wrapper .content .alur-mobile {
     display: none;
   }
-  #waktu-pendaftaran .wrapper .flex .alur-desktop {
+  #waktu-pendaftaran .wrapper .content .alur-desktop {
     display: block;
   }
-  #waktu-pendaftaran .wrapper .flex .alur-desktop img {
+  #waktu-pendaftaran .wrapper .content .alur-desktop img {
     width: 100%;
     margin: 0;
+  }
+  #biaya {
+    margin-top: 80px;
+  }
+  #biaya .wrapper .headings {
+    margin-bottom: 40px;
+  }
+  #biaya .wrapper .headings p, #biaya .wrapper .headings h2 {
+    text-align: center;
+  }
+  #biaya .wrapper .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #biaya .wrapper .flex .biaya-box {
+    width: 46%;
   }
   #panduan .wrapper {
     display: -webkit-box;
@@ -443,7 +520,7 @@ iframe {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 40px;
+    margin-top: 80px;
     margin-bottom: 40px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
@@ -2917,21 +2994,21 @@ footer .wrapper .copyright p {
   margin-right: 10px;
 }
 
-#input .wrapper .flex .pict-profil {
+#input .wrapper form .flex .pict-profil {
   margin-bottom: 40px;
 }
 
-#input .wrapper .flex .pict-profil .pict {
+#input .wrapper form .flex .pict-profil .pict {
   text-align: center;
   margin-bottom: 10px;
 }
 
-#input .wrapper .flex .pict-profil .pict h4 {
+#input .wrapper form .flex .pict-profil .pict h4 {
   font-size: 20px;
   margin-bottom: 10px;
 }
 
-#input .wrapper .flex .pict-profil .file {
+#input .wrapper form .flex .pict-profil .file {
   margin-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2941,7 +3018,7 @@ footer .wrapper .copyright p {
           justify-content: center;
 }
 
-#input .wrapper .flex .pict-profil .file label {
+#input .wrapper form .flex .pict-profil .file label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2954,22 +3031,22 @@ footer .wrapper .copyright p {
   gap: 20px;
 }
 
-#input .wrapper .flex .pict-profil .file label svg {
+#input .wrapper form .flex .pict-profil .file label svg {
   background-color: #57B98A;
   width: 44px;
   height: 100%;
   padding: 6px;
 }
 
-#input .wrapper .flex .pict-profil .file label input {
+#input .wrapper form .flex .pict-profil .file label input {
   display: none;
 }
 
-#input .wrapper .flex form fieldset {
+#input .wrapper form .flex fieldset {
   border: none;
 }
 
-#input .wrapper .flex form fieldset label {
+#input .wrapper form .flex fieldset label {
   display: block;
   font-size: 16px;
   font-weight: 600;
@@ -2977,7 +3054,7 @@ footer .wrapper .copyright p {
   margin-bottom: 10px;
 }
 
-#input .wrapper .flex form fieldset label input, #input .wrapper .flex form fieldset label #kelamin {
+#input .wrapper form .flex fieldset label input, #input .wrapper form .flex fieldset label #kelamin {
   display: block;
   margin-top: 10px;
   width: 100%;
@@ -2988,7 +3065,7 @@ footer .wrapper .copyright p {
   padding: 0 6px;
 }
 
-#input .wrapper .flex form fieldset label .alamat {
+#input .wrapper form .flex fieldset label .alamat {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2999,7 +3076,7 @@ footer .wrapper .copyright p {
           justify-content: space-between;
 }
 
-#input .wrapper .flex form fieldset label .alamat select {
+#input .wrapper form .flex fieldset label .alamat select {
   display: block;
   margin-top: 8px;
   width: 49%;
@@ -3010,7 +3087,7 @@ footer .wrapper .copyright p {
   font-size: 16px;
 }
 
-#input .wrapper .flex form fieldset label textarea {
+#input .wrapper form .flex fieldset label textarea {
   display: block;
   margin-top: 8px;
   width: 100%;
@@ -3020,7 +3097,7 @@ footer .wrapper .copyright p {
   font-size: 16px;
 }
 
-#input .wrapper .flex form fieldset .ttl {
+#input .wrapper form .flex fieldset .ttl {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3029,11 +3106,11 @@ footer .wrapper .copyright p {
           justify-content: space-between;
 }
 
-#input .wrapper .flex form fieldset .ttl label {
+#input .wrapper form .flex fieldset .ttl label {
   width: 49%;
 }
 
-#input .wrapper .flex form .btn-biodata {
+#input .wrapper form .btn-biodata {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3042,7 +3119,7 @@ footer .wrapper .copyright p {
           justify-content: end;
 }
 
-#input .wrapper .flex form .btn-biodata button {
+#input .wrapper form .btn-biodata button {
   margin-top: 20px;
   padding: 8px 20px;
   background-color: #57B98A;
@@ -3080,19 +3157,23 @@ footer .wrapper .copyright p {
   #input .wrapper .name {
     margin-bottom: 40px;
   }
-  #input .wrapper .flex {
+  #input .wrapper form .flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin-top: 40px;
   }
-  #input .wrapper .flex .pict-profil .pict h4 {
+  #input .wrapper form .flex .pict-profil .pict h4 {
     display: none;
   }
-  #input .wrapper .flex form {
-    width: 550px;
+  #input .wrapper form .flex .pict-profil .file label {
+    cursor: pointer;
+  }
+  #input .wrapper form .flex fieldset {
+    width: 68%;
   }
 }
 
@@ -4187,5 +4268,35 @@ footer .wrapper .copyright p {
   background-color: #57B98A;
   border-radius: 2px;
   margin-top: 2px;
+}
+
+.btn-final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.btn-final .btn-akhir {
+  padding: 8px 26px;
+  color: white;
+  background-color: #57B98A;
+  border: none;
+  border-radius: 32px;
+  font-size: .9rem;
+  text-decoration: none;
+  padding: 8px 40px;
+  font-size: 16px;
+}
+
+.btn-final .btn-akhir:hover {
+  background-color: #69d19f;
+  color: #ECFFF9;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
