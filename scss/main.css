@@ -3759,7 +3759,57 @@ footer .wrapper .copyright p {
   font-weight: 500;
   font-size: 18px;
   text-transform: uppercase;
-  margin: 10px 0 30px;
+  margin: 10px 0 20px;
+}
+
+#detail-pembayaran .wrapper .content .alert-belumbayar, #detail-pembayaran .wrapper .content .alert-menunggubayar, #detail-pembayaran .wrapper .content .alert-sudahbayar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #084298;
+  font-size: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background-color: #CFE2FF;
+  margin-bottom: 20px;
+}
+
+#detail-pembayaran .wrapper .content .alert-belumbayar p, #detail-pembayaran .wrapper .content .alert-menunggubayar p, #detail-pembayaran .wrapper .content .alert-sudahbayar p {
+  color: #084298;
+  font-weight: 400;
+  text-align: justify;
+  font-size: 13px;
+}
+
+#detail-pembayaran .wrapper .content .menunggu-bayar .rincian .flex, #detail-pembayaran .wrapper .content .sudah-bayar .rincian .flex {
+  margin-bottom: 4px;
+}
+
+#detail-pembayaran .wrapper .content .menunggu-bayar .rincian .flex p:nth-child(1), #detail-pembayaran .wrapper .content .sudah-bayar .rincian .flex p:nth-child(1) {
+  width: 46%;
+}
+
+#detail-pembayaran .wrapper .content .menunggu-bayar .rincian .flex p:nth-child(2), #detail-pembayaran .wrapper .content .sudah-bayar .rincian .flex p:nth-child(2) {
+  width: 54%;
+}
+
+#detail-pembayaran .wrapper .content .menunggu-bayar .rincian .flex:nth-child(1), #detail-pembayaran .wrapper .content .sudah-bayar .rincian .flex:nth-child(1) {
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#detail-pembayaran .wrapper .content .menunggu-bayar .rincian .flex:nth-child(1) img, #detail-pembayaran .wrapper .content .sudah-bayar .rincian .flex:nth-child(1) img {
+  border: 2px solid #EEEEEE;
+  padding: 6px 10px;
+  border-radius: 8px;
 }
 
 #detail-pembayaran .wrapper .content p {
@@ -3799,6 +3849,7 @@ footer .wrapper .copyright p {
   width: 100%;
   border-radius: 20px;
   margin: 20px 0;
+  color: #ECFFF9;
 }
 
 #detail-pembayaran .wrapper .content button a {

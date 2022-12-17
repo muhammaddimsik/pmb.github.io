@@ -65,29 +65,101 @@
             <img src="../img/logo.png" alt="" />
             <p>PMB ITSNU Pekalongan</p>
           </div>
-          <div class="rincian">
-            <p class="bold">Rincian Biaya</p>
-            <div class="flex">
-              <p>Biaya Pendaftaran</p>
-              <p>Rp200.000</p>
+
+          <!-- <div class="belum-bayar">
+            <div class="alert-belumbayar">
+              <p>
+                Anda belum melakukan pembayaran. Segera lakukan pembayaran agar
+                bisa melaksanakan test online!
+              </p>
             </div>
-            <hr />
-            <div class="flex">
-              <p>Total Biaya</p>
-              <p>Rp200.000</p>
+            <div class="rincian">
+              <p class="bold">Rincian Biaya</p>
+              <div class="flex">
+                <p>Biaya Pendaftaran</p>
+                <p>Rp200.000</p>
+              </div>
+              <hr />
+              <div class="flex">
+                <p>Total Biaya</p>
+                <p>Rp200.000</p>
+              </div>
             </div>
+            <button>Bayar Sekarang</button>
+          </div> -->
+
+          <!-- <div class="menunggu-bayar">
+            <div class="alert-menunggubayar">
+              <p>Silakan lakukan pembayaran sebelum batas waktu berakhir!</p>
+            </div>
+            <div class="rincian">
+              <div class="flex">
+                <div class="bank">BTN Virutal Account</div>
+                <img src="../img/btn.png" alt="" />
+              </div>
+              <div class="flex">
+                <p>Nomor Virtual Account</p>
+                <p>: 00211085640923212</p>
+              </div>
+              <div class="flex">
+                <p>Batas Pembayaran</p>
+                <p>:16 Des 2023, 12:45 WIB</p>
+              </div>
+              <div class="flex">
+                <p>Total Pembayaran</p>
+                <p>: 200.000</p>
+              </div>
+              <div class="flex">
+                <p>Status Pembayaran</p>
+                <p>: Menunggu Pembayaran</p>
+              </div>
+            </div>
+            <button>Batalkan Pembayaran</button>
+          </div> -->
+
+          <div class="sudah-bayar">
+            <div class="alert-sudahbayar">
+              <p>
+                Selamat anda sudah melakukan pembayaran. Sekarang anda bisa
+                melakukan test online untuk menyelesaikan pendaftaran.
+              </p>
+            </div>
+            <div class="rincian">
+              <div class="flex">
+                <div class="bank">BTN Virutal Account</div>
+                <img src="../img/btn.png" alt="" />
+              </div>
+              <div class="flex">
+                <p>Nomor Virtual Account</p>
+                <p>: 00211085640923212</p>
+              </div>
+              <div class="flex">
+                <p>Waktu Dibayar</p>
+                <p>:16 Des 2023, 16:45 WIB</p>
+              </div>
+              <div class="flex">
+                <p>Total Dibayar</p>
+                <p>: 200.000</p>
+              </div>
+              <div class="flex">
+                <p>Status Pembayaran</p>
+                <p>: Dibayar (Lunas)</p>
+              </div>
+            </div>
+            <button>Download Invoice</button>
           </div>
-          <button id="open-modal">
-            <a href="#">Pilih Metodhe Pembayaran</a>
-          </button>
-          <label for="bukti">
+
+          <!-- <button id="open-modal">
+            <a href="#">Bayar Sekarang</a>
+          </button> -->
+          <!-- <label for="bukti">
             <input
               type="file"
               name="bukti"
               id="bukti"
               accept=".jpeg, .png, .pdf"
             />
-          </label>
+          </label> -->
         </div>
       </div>
     </main>
@@ -494,6 +566,7 @@
       </div>
     </footer>
     <!-- footer end -->
+
     <script>
       const modal = document.querySelector(".modal-1");
       const tutup = document.querySelector(".tutup");
