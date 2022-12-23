@@ -2292,6 +2292,8 @@ footer .wrapper .copyright p {
 #table .wrapper .flex .pict {
   text-align: center;
   margin-bottom: 20px;
+  min-width: 323px;
+  max-width: 516px;
 }
 
 #table .wrapper .flex .pict h4 {
@@ -2301,6 +2303,8 @@ footer .wrapper .copyright p {
 
 #table .wrapper .flex table {
   border-collapse: collapse;
+  min-width: 323px;
+  max-width: 516px;
 }
 
 #table .wrapper .flex table tr td {
