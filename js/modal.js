@@ -15,7 +15,6 @@ btn.addEventListener("click", () => {
 // Get the <span> element that closes the modal
 const tutup = document.querySelector(".tutup");
 const tutupTwo = document.querySelector(".tutup-2");
-console.log(tutupTwo);
 
 // When the user clicks on <span> (x), close the modal
 tutup.addEventListener("click", () => {

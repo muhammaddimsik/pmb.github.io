@@ -82,6 +82,46 @@
                 font-size: 22px;
             }
         }
+        .alert-konfirmasi{
+            display: flex;
+            border: 1px solid #842029;
+            font-size: 14px;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            padding: 8px 12px;
+            background-color: #F8D7DA;
+            svg{
+                height: 36px;
+                width: 36px;
+            }
+            p{
+                color: #842029;
+                font-weight: 600;
+                text-align: justify;
+            }
+        }
+        .alert-petunjuk{
+            margin: 20px 0;
+            display: flex;
+            border: 1px solid #084298;
+            font-size: 14px;
+            align-items: center;
+            justify-content: center;
+            gap: 14px;
+            padding: 12px 16px;
+            background-color: #CFE2FF;
+            ul{
+                padding: 0 20px;
+                li{
+                color: #084298;
+                font-weight: 600;
+                text-align: justify;
+                font-size: 13px;
+                margin-bottom: 6px;
+                }
+            }
+        }
         form{
             fieldset{
                 border: none;
@@ -115,14 +155,10 @@
                 display: flex;
                 justify-content: end;
                 button{
-                    margin-top: 20px;
-                    padding: 8px 30px;
-                    background-color: $primary;
-                    font-size: 16px;
-                    font-weight: 500;
-                    color: $third;
-                    border-radius: 20px;
-                    border: none;
+                    @include btn-main();
+                    &:hover{
+                        @include btn-main-hover();
+                    }
                 }
             }
         }
@@ -145,14 +181,22 @@
     }
     #input-ub{
         .wrapper{
+            border: 2px solid $primary;
+            padding: 20px;
+            .alert-konfirmasi{
+                svg{
+                    height: 24px;
+                    width: 24px;
+                }
+            }
             form{
-                margin-top: 60px;
+                margin-top: 40px;
                 fieldset{
                     display: flex;
                     flex-wrap: wrap;
                     justify-content: space-between;
                     .file{
-                        width: 300px;
+                        width: 280px;
                         margin-bottom: 30px;
                         label{
                             cursor: pointer;
