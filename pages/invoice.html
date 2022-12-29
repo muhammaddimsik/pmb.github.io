@@ -20,6 +20,7 @@
         padding: 20px;
         width: 640px;
         background-color: white;
+        border: 1px solid #000;
       }
       .flex {
         display: flex;
@@ -72,17 +73,45 @@
         text-transform: uppercase;
         font-weight: 700;
       }
+      .kepada table {
+        border-collapse: collapse;
+      }
+      .kepada table tr td:nth-child(1) {
+        width: 120px;
+      }
+      .kepada table tr td:nth-child(3) {
+        font-weight: 600;
+        width: 140px;
+      }
       .flex-c .penerbit .institut {
         text-transform: none;
         font-weight: 400;
-        color: gray;
+      }
+      .rincian {
+        margin-bottom: 40px;
       }
       .rincian table {
         width: 100%;
         margin-top: 30px;
+        border-collapse: collapse;
       }
       .rincian table tr td {
+        padding: 10px;
+      }
+      .rincian table tr:nth-child(1) td {
+        text-transform: uppercase;
+        font-weight: bold;
         border-bottom: 1px solid #000;
+        border-top: 1px solid #000;
+      }
+      .rincian table tr:nth-child(2) td:nth-child(1) {
+        text-transform: uppercase;
+        font-weight: 600;
+        color: #57b98a;
+      }
+      .terbit p {
+        text-align: right;
+        font-size: 11px;
       }
     </style>
   </head>
@@ -113,7 +142,7 @@
             <div class="penerbit">
               <p>diterbitkan oleh</p>
               <div class="flex">
-                <p class="institut">Institut</p>
+                <p class="institut">Lembaga</p>
                 <p>: ITSNU Pekalongan</p>
               </div>
             </div>
@@ -150,11 +179,10 @@
             </tr>
           </table>
         </div>
-      </div>
-
-      <!-- note -->
-      <div class="terbit">
-        <p>Diterbitkan pada 17 Agustus 2023 13:33 WIB</p>
+        <!-- note -->
+        <div class="terbit">
+          <p><i>Diterbitkan pada 17 Agustus 2023 13:33 WIB</i></p>
+        </div>
       </div>
     </main>
     <!-- invoice end -->
