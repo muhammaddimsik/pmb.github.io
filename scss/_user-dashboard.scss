@@ -85,6 +85,391 @@
                 margin-top: 20px;
             }
         }
+        #petunjuk{
+            .active-1{
+                display: block;
+                .description{
+                    display: flex;
+                    justify-content: center;
+                    .step{
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        width: 250px;
+                        padding: 20px;
+                        h3{
+                            font-size: 14px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            font-size: 12px;
+                            text-align: justify;
+                        }   
+                    }
+                    .step-2, .step-3, .step-4{
+                        display: none;
+                    }
+                }
+                
+                .timeline{
+                    display: flex;
+                    justify-content: center;
+                    .flex{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        .circle-1{
+                            border: 2px solid $primary;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $primary;
+                                font-size: 14px;
+                                font-weight: 600;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .line-1{
+                            height: 1.7px;
+                            width: 20px;
+                            background-color: $primary;
+                        }
+                        .circle-2, .circle-3, .circle-4{
+                            border: 2px solid #ccc;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: #ccc;
+                                font-size: 14px;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .line-2, .line-3, .line-4{
+                            height: 1.7px;
+                            width: 20px;
+                            background-color: #ccc;
+                        }
+                    }
+                }
+            }
+            .active-2{
+                display: none;
+                .description{
+                    display: flex;
+                    justify-content: center;
+                    .step{
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        width: 250px;
+                        padding: 20px;
+                        h3{
+                            font-size: 14px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            font-size: 12px;
+                            text-align: justify;
+                        }   
+                    }
+                }
+                
+                .timeline{
+                    display: flex;
+                    justify-content: center;
+                    .flex{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        .checklist{
+                            background-color: $primary;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $white;
+                                font-size: 14px;
+                                font-weight: 600;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .line-2{
+                            height: 1.7px;
+                            width: 20px;
+                            background-color: $primary;
+                            
+                        }
+                        .circle-2{
+                            border: 2px solid $primary;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $primary;
+                                font-size: 14px;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .circle-3, .circle-4{
+                            border: 2px solid #ccc;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: #ccc;
+                                font-size: 14px;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .line-3, .line-4{
+                            height: 1.7px;
+                            width: 20px;
+                            background-color: #ccc;
+                        }
+                    }
+                }
+            }
+            .active-3{
+                display: none;
+                .description{
+                    display: flex;
+                    justify-content: center;
+                    .step{
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        width: 250px;
+                        padding: 20px;
+                        h3{
+                            font-size: 14px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            font-size: 12px;
+                            text-align: justify;
+                        }   
+                    }
+                }
+                
+                .timeline{
+                    display: flex;
+                    justify-content: center;
+                    .flex{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        .checklist{
+                            background-color: $primary;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $white;
+                                font-size: 14px;
+                                font-weight: 600;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .line-2, .line-3{
+                            height: 1.7px;
+                            width: 20px;
+                            background-color: $primary;
+                            
+                        }
+                        .circle-3{
+                            border: 2px solid $primary;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $primary;
+                                font-size: 14px;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .circle-4{
+                            border: 2px solid #ccc;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: #ccc;
+                                font-size: 14px;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .line-4{
+                            height: 1.7px;
+                            width: 20px;
+                            background-color: #ccc;
+                        }
+                    }
+                }
+            }
+            .active-4{
+                display: none;
+                .description{
+                    display: flex;
+                    justify-content: center;
+                    .step{
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        width: 250px;
+                        padding: 20px;
+                        h3{
+                            font-size: 14px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            font-size: 12px;
+                            text-align: justify;
+                        }   
+                    }
+                }
+                
+                .timeline{
+                    display: flex;
+                    justify-content: center;
+                    .flex{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        .checklist{
+                            background-color: $primary;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $white;
+                                font-size: 14px;
+                                font-weight: 600;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .line-2, .line-3, .line-4{
+                            height: 1.7px;
+                            width: 20px;
+                            background-color: $primary;
+                            
+                        }
+                        .circle-4{
+                            border: 2px solid $primary;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $primary;
+                                font-size: 14px;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .active-5{
+                display: none;
+                .description{
+                    display: flex;
+                    justify-content: center;
+                    .step{
+                        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                        width: 250px;
+                        padding: 20px;
+                        text-align: center;
+                        h3{
+                            font-size: 14px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            font-size: 12px;
+                            text-align: justify;
+                        }   
+                    }
+                }
+                
+                .timeline{
+                    display: flex;
+                    justify-content: center;
+                    .flex{
+                        display: flex;
+                        align-items: center;
+                        margin-top: 20px;
+                        .checklist{
+                            background-color: $primary;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $white;
+                                font-size: 14px;
+                                font-weight: 600;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                        .line-2, .line-3, .line-4{
+                            height: 1.7px;
+                            width: 20px;
+                            background-color: $primary;
+                            
+                        }
+                        .circle-4{
+                            border: 2px solid $primary;
+                            width: 40px;
+                            height: 40px;
+                            border-radius: 100%;
+                            .number{
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                color: $primary;
+                                font-size: 14px;
+                                height: 100%;
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
         .box-menu{
             margin: 40px;
             border: 1.8px solid $primary;
@@ -324,7 +709,8 @@
                         display: block;
                         .description{
                             display: flex;
-                            .step-1, .step-2, .step-3, .step-4{
+                            justify-content: flex-start;
+                            .step{
                                 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                                 width: 250px;
                                 padding: 20px;
@@ -398,7 +784,8 @@
                         display: none;
                         .description{
                             display: flex;
-                            .step-1, .step-2, .step-3, .step-4{
+                            justify-content: flex-start;
+                            .step{
                                 box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
                                 width: 250px;
                                 padding: 20px;
@@ -412,12 +799,6 @@
                                     font-size: 12px;
                                     text-align: justify;
                                 }   
-                            }
-                            .step-1, .step-3, .step-4{
-                                display: none;
-                            }
-                            .step-2{
-                                display: block;
                             }
                         }
                         
@@ -449,9 +830,6 @@
                                     width: 200px;
                                     background-color: $primary;
                                     
-                                }
-                                .circle-1{
-                                    display: none;
                                 }
                                 .circle-2{
                                     border: 2px solid $primary;
@@ -487,6 +865,232 @@
                                     height: 1.7px;
                                     width: 200px;
                                     background-color: #ccc;
+                                }
+                            }
+                        }
+                    }
+                    .active-3{
+                        display: none;
+                        .description{
+                            display: flex;
+                            justify-content: flex-start;
+                            .step{
+                                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                width: 250px;
+                                padding: 20px;
+                                margin-right: 20px;
+                                margin-left: 480px;
+                                h3{
+                                    font-size: 14px;
+                                    margin-bottom: 20px;
+                                }
+                                p{
+                                    font-size: 12px;
+                                    text-align: justify;
+                                }   
+                            }
+                        }
+                        
+                        .timeline{
+                            display: flex;
+                            padding: 0 100px;
+                            .flex{
+                                display: flex;
+                                align-items: center;
+                                margin-top: 20px;
+                                .checklist{
+                                    background-color: $primary;
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 100%;
+                                    .number{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        color: $white;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                }
+                                .line-2, .line-3{
+                                    height: 1.7px;
+                                    width: 200px;
+                                    background-color: $primary;
+                                    
+                                }
+                                .circle-3{
+                                    border: 2px solid $primary;
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 100%;
+                                    .number{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        color: $primary;
+                                        font-size: 14px;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                }
+                                .circle-4{
+                                    border: 2px solid #ccc;
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 100%;
+                                    .number{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        color: #ccc;
+                                        font-size: 14px;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                }
+                                .line-4{
+                                    height: 1.7px;
+                                    width: 200px;
+                                    background-color: #ccc;
+                                }
+                            }
+                        }
+                    }
+                    .active-4{
+                        display: none;
+                        .description{
+                            display: flex;
+                            justify-content: flex-start;
+                            .step{
+                                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                width: 250px;
+                                padding: 20px;
+                                margin-right: 20px;
+                                margin-left: 700px;
+                                h3{
+                                    font-size: 14px;
+                                    margin-bottom: 20px;
+                                }
+                                p{
+                                    font-size: 12px;
+                                    text-align: justify;
+                                }   
+                            }
+                        }
+                        
+                        .timeline{
+                            display: flex;
+                            padding: 0 100px;
+                            .flex{
+                                display: flex;
+                                align-items: center;
+                                margin-top: 20px;
+                                .checklist{
+                                    background-color: $primary;
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 100%;
+                                    .number{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        color: $white;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                }
+                                .line-2, .line-3, .line-4{
+                                    height: 1.7px;
+                                    width: 200px;
+                                    background-color: $primary;
+                                    
+                                }
+                                .circle-4{
+                                    border: 2px solid $primary;
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 100%;
+                                    .number{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        color: $primary;
+                                        font-size: 14px;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .active-5{
+                        display: none;
+                        .description{
+                            display: flex;
+                            justify-content: center;
+                            .step{
+                                box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+                                width: 250px;
+                                padding: 20px;
+                                text-align: center;
+                                h3{
+                                    font-size: 14px;
+                                    margin-bottom: 20px;
+                                }
+                                p{
+                                    font-size: 12px;
+                                    text-align: justify;
+                                }   
+                            }
+                        }
+                        
+                        .timeline{
+                            display: flex;
+                            padding: 0 100px;
+                            .flex{
+                                display: flex;
+                                align-items: center;
+                                margin-top: 20px;
+                                .checklist{
+                                    background-color: $primary;
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 100%;
+                                    .number{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        color: $white;
+                                        font-size: 14px;
+                                        font-weight: 600;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
+                                }
+                                .line-2, .line-3, .line-4{
+                                    height: 1.7px;
+                                    width: 200px;
+                                    background-color: $primary;
+                                    
+                                }
+                                .circle-4{
+                                    border: 2px solid $primary;
+                                    width: 40px;
+                                    height: 40px;
+                                    border-radius: 100%;
+                                    .number{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: center;
+                                        color: $primary;
+                                        font-size: 14px;
+                                        height: 100%;
+                                        width: 100%;
+                                    }
                                 }
                             }
                         }

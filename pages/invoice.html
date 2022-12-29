@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice | PMB ITSNU Pekalongan</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Arial";
+      }
+      body {
+        margin-bottom: 100px;
+      }
+      .container {
+        margin: 10px auto;
+        padding: 20px;
+        width: 640px;
+        background-color: white;
+      }
+      .flex {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .head {
+        margin-bottom: 60px;
+      }
+      .head .flex .img {
+        width: 60px;
+      }
+      .head .flex .img img {
+        width: 100%;
+      }
+      .brand h3 {
+        margin: 0;
+        font-size: 18px;
+      }
+      .flex-h {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .flex-c {
+        display: flex;
+        justify-content: space-between;
+      }
+      .note p {
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-size: 16px;
+      }
+      .note .no-invoice {
+        font-size: 12px;
+        color: #57b98a;
+      }
+      .note p:nth-child(1) {
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-align: right;
+      }
+      p,
+      td {
+        font-size: 12px;
+        margin-bottom: 6px;
+      }
+      .penerbit p,
+      .kepada p {
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+      .flex-c .penerbit .institut {
+        text-transform: none;
+        font-weight: 400;
+        color: gray;
+      }
+      .rincian table {
+        width: 100%;
+        margin-top: 30px;
+      }
+      .rincian table tr td {
+        border-bottom: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- invoice start -->
+    <main>
+      <div class="container">
+        <!-- header -->
+        <div class="head flex-h">
+          <div class="flex">
+            <div class="img">
+              <img src="../img/logo.png" alt="" />
+            </div>
+            <div class="brand">
+              <h3>PMB ITSNU Pekalongan 2023</h3>
+              <p>https://pmb.itsnupekalongan.ac.id</p>
+            </div>
+          </div>
+          <div class="note">
+            <p>invoice</p>
+            <p class="no-invoice">inv/2023/112/mpl/01032023</p>
+          </div>
+        </div>
+
+        <!-- content-1 -->
+        <div class="content">
+          <div class="flex-c">
+            <div class="penerbit">
+              <p>diterbitkan oleh</p>
+              <div class="flex">
+                <p class="institut">Institut</p>
+                <p>: ITSNU Pekalongan</p>
+              </div>
+            </div>
+            <div class="kepada">
+              <p>untuk</p>
+              <table>
+                <tr>
+                  <td>Nama</td>
+                  <td>:</td>
+                  <td>Muhammad Dimsik</td>
+                </tr>
+                <tr>
+                  <td>Tanggal Transaksi</td>
+                  <td>:</td>
+                  <td>17 Agustus 2023</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- rincian -->
+        <div class="rincian">
+          <table>
+            <tr>
+              <td>jenis transaksi</td>
+              <td>total</td>
+              <td>metode pembayaran</td>
+            </tr>
+            <tr>
+              <td>pembayaran biaya pendaftaran itsnu pekalongan</td>
+              <td>Rp200.000</td>
+              <td>BTN Virtual Account</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <!-- note -->
+      <div class="terbit">
+        <p>Diterbitkan pada 17 Agustus 2023 13:33 WIB</p>
+      </div>
+    </main>
+    <!-- invoice end -->
+  </body>
+</html>

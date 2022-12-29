@@ -2035,6 +2035,585 @@ footer .wrapper .copyright p {
   margin-top: 20px;
 }
 
+#menu .wrapper #petunjuk .active-1 {
+  display: block;
+}
+
+#menu .wrapper #petunjuk .active-1 .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-1 .description .step {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 250px;
+  padding: 20px;
+}
+
+#menu .wrapper #petunjuk .active-1 .description .step h3 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#menu .wrapper #petunjuk .active-1 .description .step p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+#menu .wrapper #petunjuk .active-1 .description .step-2, #menu .wrapper #petunjuk .active-1 .description .step-3, #menu .wrapper #petunjuk .active-1 .description .step-4 {
+  display: none;
+}
+
+#menu .wrapper #petunjuk .active-1 .timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-1 .timeline .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+#menu .wrapper #petunjuk .active-1 .timeline .flex .circle-1 {
+  border: 2px solid #57B98A;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-1 .timeline .flex .circle-1 .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #57B98A;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-1 .timeline .flex .line-1 {
+  height: 1.7px;
+  width: 20px;
+  background-color: #57B98A;
+}
+
+#menu .wrapper #petunjuk .active-1 .timeline .flex .circle-2, #menu .wrapper #petunjuk .active-1 .timeline .flex .circle-3, #menu .wrapper #petunjuk .active-1 .timeline .flex .circle-4 {
+  border: 2px solid #ccc;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-1 .timeline .flex .circle-2 .number, #menu .wrapper #petunjuk .active-1 .timeline .flex .circle-3 .number, #menu .wrapper #petunjuk .active-1 .timeline .flex .circle-4 .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ccc;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-1 .timeline .flex .line-2, #menu .wrapper #petunjuk .active-1 .timeline .flex .line-3, #menu .wrapper #petunjuk .active-1 .timeline .flex .line-4 {
+  height: 1.7px;
+  width: 20px;
+  background-color: #ccc;
+}
+
+#menu .wrapper #petunjuk .active-2 {
+  display: none;
+}
+
+#menu .wrapper #petunjuk .active-2 .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-2 .description .step {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 250px;
+  padding: 20px;
+}
+
+#menu .wrapper #petunjuk .active-2 .description .step h3 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#menu .wrapper #petunjuk .active-2 .description .step p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline .flex .checklist {
+  background-color: #57B98A;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline .flex .checklist .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline .flex .line-2 {
+  height: 1.7px;
+  width: 20px;
+  background-color: #57B98A;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline .flex .circle-2 {
+  border: 2px solid #57B98A;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline .flex .circle-2 .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #57B98A;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline .flex .circle-3, #menu .wrapper #petunjuk .active-2 .timeline .flex .circle-4 {
+  border: 2px solid #ccc;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline .flex .circle-3 .number, #menu .wrapper #petunjuk .active-2 .timeline .flex .circle-4 .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ccc;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-2 .timeline .flex .line-3, #menu .wrapper #petunjuk .active-2 .timeline .flex .line-4 {
+  height: 1.7px;
+  width: 20px;
+  background-color: #ccc;
+}
+
+#menu .wrapper #petunjuk .active-3 {
+  display: none;
+}
+
+#menu .wrapper #petunjuk .active-3 .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-3 .description .step {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 250px;
+  padding: 20px;
+}
+
+#menu .wrapper #petunjuk .active-3 .description .step h3 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#menu .wrapper #petunjuk .active-3 .description .step p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline .flex .checklist {
+  background-color: #57B98A;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline .flex .checklist .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline .flex .line-2, #menu .wrapper #petunjuk .active-3 .timeline .flex .line-3 {
+  height: 1.7px;
+  width: 20px;
+  background-color: #57B98A;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline .flex .circle-3 {
+  border: 2px solid #57B98A;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline .flex .circle-3 .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #57B98A;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline .flex .circle-4 {
+  border: 2px solid #ccc;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline .flex .circle-4 .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ccc;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-3 .timeline .flex .line-4 {
+  height: 1.7px;
+  width: 20px;
+  background-color: #ccc;
+}
+
+#menu .wrapper #petunjuk .active-4 {
+  display: none;
+}
+
+#menu .wrapper #petunjuk .active-4 .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-4 .description .step {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 250px;
+  padding: 20px;
+}
+
+#menu .wrapper #petunjuk .active-4 .description .step h3 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#menu .wrapper #petunjuk .active-4 .description .step p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+#menu .wrapper #petunjuk .active-4 .timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-4 .timeline .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+#menu .wrapper #petunjuk .active-4 .timeline .flex .checklist {
+  background-color: #57B98A;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-4 .timeline .flex .checklist .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-4 .timeline .flex .line-2, #menu .wrapper #petunjuk .active-4 .timeline .flex .line-3, #menu .wrapper #petunjuk .active-4 .timeline .flex .line-4 {
+  height: 1.7px;
+  width: 20px;
+  background-color: #57B98A;
+}
+
+#menu .wrapper #petunjuk .active-4 .timeline .flex .circle-4 {
+  border: 2px solid #57B98A;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-4 .timeline .flex .circle-4 .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #57B98A;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-5 {
+  display: none;
+}
+
+#menu .wrapper #petunjuk .active-5 .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-5 .description .step {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+#menu .wrapper #petunjuk .active-5 .description .step h3 {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+#menu .wrapper #petunjuk .active-5 .description .step p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+#menu .wrapper #petunjuk .active-5 .timeline {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#menu .wrapper #petunjuk .active-5 .timeline .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+#menu .wrapper #petunjuk .active-5 .timeline .flex .checklist {
+  background-color: #57B98A;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-5 .timeline .flex .checklist .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  width: 100%;
+}
+
+#menu .wrapper #petunjuk .active-5 .timeline .flex .line-2, #menu .wrapper #petunjuk .active-5 .timeline .flex .line-3, #menu .wrapper #petunjuk .active-5 .timeline .flex .line-4 {
+  height: 1.7px;
+  width: 20px;
+  background-color: #57B98A;
+}
+
+#menu .wrapper #petunjuk .active-5 .timeline .flex .circle-4 {
+  border: 2px solid #57B98A;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+#menu .wrapper #petunjuk .active-5 .timeline .flex .circle-4 .number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #57B98A;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
 #menu .wrapper .box-menu {
   margin: 40px;
   border: 1.8px solid #57B98A;
@@ -2322,19 +2901,22 @@ footer .wrapper .copyright p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
-  #menu .wrapper #petunjuk .active-1 .description .step-1, #menu .wrapper #petunjuk .active-1 .description .step-2, #menu .wrapper #petunjuk .active-1 .description .step-3, #menu .wrapper #petunjuk .active-1 .description .step-4 {
+  #menu .wrapper #petunjuk .active-1 .description .step {
     -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     width: 250px;
     padding: 20px;
     margin-right: 20px;
   }
-  #menu .wrapper #petunjuk .active-1 .description .step-1 h3, #menu .wrapper #petunjuk .active-1 .description .step-2 h3, #menu .wrapper #petunjuk .active-1 .description .step-3 h3, #menu .wrapper #petunjuk .active-1 .description .step-4 h3 {
+  #menu .wrapper #petunjuk .active-1 .description .step h3 {
     font-size: 14px;
     margin-bottom: 20px;
   }
-  #menu .wrapper #petunjuk .active-1 .description .step-1 p, #menu .wrapper #petunjuk .active-1 .description .step-2 p, #menu .wrapper #petunjuk .active-1 .description .step-3 p, #menu .wrapper #petunjuk .active-1 .description .step-4 p {
+  #menu .wrapper #petunjuk .active-1 .description .step p {
     font-size: 12px;
     text-align: justify;
   }
@@ -2416,8 +2998,11 @@ footer .wrapper .copyright p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
-  #menu .wrapper #petunjuk .active-2 .description .step-1, #menu .wrapper #petunjuk .active-2 .description .step-2, #menu .wrapper #petunjuk .active-2 .description .step-3, #menu .wrapper #petunjuk .active-2 .description .step-4 {
+  #menu .wrapper #petunjuk .active-2 .description .step {
     -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     width: 250px;
@@ -2425,19 +3010,13 @@ footer .wrapper .copyright p {
     margin-right: 20px;
     margin-left: 240px;
   }
-  #menu .wrapper #petunjuk .active-2 .description .step-1 h3, #menu .wrapper #petunjuk .active-2 .description .step-2 h3, #menu .wrapper #petunjuk .active-2 .description .step-3 h3, #menu .wrapper #petunjuk .active-2 .description .step-4 h3 {
+  #menu .wrapper #petunjuk .active-2 .description .step h3 {
     font-size: 14px;
     margin-bottom: 20px;
   }
-  #menu .wrapper #petunjuk .active-2 .description .step-1 p, #menu .wrapper #petunjuk .active-2 .description .step-2 p, #menu .wrapper #petunjuk .active-2 .description .step-3 p, #menu .wrapper #petunjuk .active-2 .description .step-4 p {
+  #menu .wrapper #petunjuk .active-2 .description .step p {
     font-size: 12px;
     text-align: justify;
-  }
-  #menu .wrapper #petunjuk .active-2 .description .step-1, #menu .wrapper #petunjuk .active-2 .description .step-3, #menu .wrapper #petunjuk .active-2 .description .step-4 {
-    display: none;
-  }
-  #menu .wrapper #petunjuk .active-2 .description .step-2 {
-    display: block;
   }
   #menu .wrapper #petunjuk .active-2 .timeline {
     display: -webkit-box;
@@ -2480,9 +3059,6 @@ footer .wrapper .copyright p {
     height: 1.7px;
     width: 200px;
     background-color: #57B98A;
-  }
-  #menu .wrapper #petunjuk .active-2 .timeline .flex .circle-1 {
-    display: none;
   }
   #menu .wrapper #petunjuk .active-2 .timeline .flex .circle-2 {
     border: 2px solid #57B98A;
@@ -2530,6 +3106,301 @@ footer .wrapper .copyright p {
     height: 1.7px;
     width: 200px;
     background-color: #ccc;
+  }
+  #menu .wrapper #petunjuk .active-3 {
+    display: none;
+  }
+  #menu .wrapper #petunjuk .active-3 .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #menu .wrapper #petunjuk .active-3 .description .step {
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 250px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 480px;
+  }
+  #menu .wrapper #petunjuk .active-3 .description .step h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  #menu .wrapper #petunjuk .active-3 .description .step p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 100px;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline .flex .checklist {
+    background-color: #57B98A;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline .flex .checklist .number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    height: 100%;
+    width: 100%;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline .flex .line-2, #menu .wrapper #petunjuk .active-3 .timeline .flex .line-3 {
+    height: 1.7px;
+    width: 200px;
+    background-color: #57B98A;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline .flex .circle-3 {
+    border: 2px solid #57B98A;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline .flex .circle-3 .number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #57B98A;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline .flex .circle-4 {
+    border: 2px solid #ccc;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline .flex .circle-4 .number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #ccc;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+  }
+  #menu .wrapper #petunjuk .active-3 .timeline .flex .line-4 {
+    height: 1.7px;
+    width: 200px;
+    background-color: #ccc;
+  }
+  #menu .wrapper #petunjuk .active-4 {
+    display: none;
+  }
+  #menu .wrapper #petunjuk .active-4 .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  #menu .wrapper #petunjuk .active-4 .description .step {
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 250px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-left: 700px;
+  }
+  #menu .wrapper #petunjuk .active-4 .description .step h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  #menu .wrapper #petunjuk .active-4 .description .step p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  #menu .wrapper #petunjuk .active-4 .timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 100px;
+  }
+  #menu .wrapper #petunjuk .active-4 .timeline .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  #menu .wrapper #petunjuk .active-4 .timeline .flex .checklist {
+    background-color: #57B98A;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  #menu .wrapper #petunjuk .active-4 .timeline .flex .checklist .number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    height: 100%;
+    width: 100%;
+  }
+  #menu .wrapper #petunjuk .active-4 .timeline .flex .line-2, #menu .wrapper #petunjuk .active-4 .timeline .flex .line-3, #menu .wrapper #petunjuk .active-4 .timeline .flex .line-4 {
+    height: 1.7px;
+    width: 200px;
+    background-color: #57B98A;
+  }
+  #menu .wrapper #petunjuk .active-4 .timeline .flex .circle-4 {
+    border: 2px solid #57B98A;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  #menu .wrapper #petunjuk .active-4 .timeline .flex .circle-4 .number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #57B98A;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
+  }
+  #menu .wrapper #petunjuk .active-5 {
+    display: none;
+  }
+  #menu .wrapper #petunjuk .active-5 .description {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  #menu .wrapper #petunjuk .active-5 .description .step {
+    -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+  }
+  #menu .wrapper #petunjuk .active-5 .description .step h3 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  #menu .wrapper #petunjuk .active-5 .description .step p {
+    font-size: 12px;
+    text-align: justify;
+  }
+  #menu .wrapper #petunjuk .active-5 .timeline {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 0 100px;
+  }
+  #menu .wrapper #petunjuk .active-5 .timeline .flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 20px;
+  }
+  #menu .wrapper #petunjuk .active-5 .timeline .flex .checklist {
+    background-color: #57B98A;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  #menu .wrapper #petunjuk .active-5 .timeline .flex .checklist .number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    height: 100%;
+    width: 100%;
+  }
+  #menu .wrapper #petunjuk .active-5 .timeline .flex .line-2, #menu .wrapper #petunjuk .active-5 .timeline .flex .line-3, #menu .wrapper #petunjuk .active-5 .timeline .flex .line-4 {
+    height: 1.7px;
+    width: 200px;
+    background-color: #57B98A;
+  }
+  #menu .wrapper #petunjuk .active-5 .timeline .flex .circle-4 {
+    border: 2px solid #57B98A;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+  }
+  #menu .wrapper #petunjuk .active-5 .timeline .flex .circle-4 .number {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #57B98A;
+    font-size: 14px;
+    height: 100%;
+    width: 100%;
   }
   #menu .wrapper .flex {
     display: -webkit-box;
