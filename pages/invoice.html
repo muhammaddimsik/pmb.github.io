@@ -114,7 +114,15 @@
         font-size: 11px;
       }
       .ttd p:nth-child(1) {
-        margin-bottom: 60px;
+        margin-bottom: 80px;
+      }
+      .cut {
+        height: 0.2px;
+        border-style: dashed;
+      }
+      .container-cut {
+        margin: 40px auto;
+        width: 640px;
       }
     </style>
   </head>
@@ -189,6 +197,80 @@
         </div>
       </div>
     </main>
+
+    <div class="container-cut">
+      <div class="cut"></div>
+    </div>
+
+    <section>
+      <div class="container">
+        <!-- header -->
+        <div class="head flex-h">
+          <div class="flex">
+            <div class="img">
+              <img src="../img/logo.png" alt="" />
+            </div>
+            <div class="brand">
+              <h3>PMB ITSNU Pekalongan 2023</h3>
+              <p>https://pmb.itsnupekalongan.ac.id</p>
+            </div>
+          </div>
+          <div class="note">
+            <p>invoice</p>
+            <p class="no-invoice">inv/2023/112/mpl/01032023</p>
+          </div>
+        </div>
+
+        <!-- content-1 -->
+        <div class="content">
+          <div class="flex-c">
+            <div class="penerbit">
+              <p>diterbitkan oleh</p>
+              <div class="flex">
+                <p class="institut">Lembaga</p>
+                <p>: ITSNU Pekalongan</p>
+              </div>
+            </div>
+            <div class="kepada">
+              <p>untuk</p>
+              <table>
+                <tr>
+                  <td>Nama</td>
+                  <td>:</td>
+                  <td>Muhammad Dimsik</td>
+                </tr>
+                <tr>
+                  <td>Tanggal Transaksi</td>
+                  <td>:</td>
+                  <td>17 Agustus 2023</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- rincian -->
+        <div class="rincian">
+          <table>
+            <tr>
+              <td>jenis transaksi</td>
+              <td>total</td>
+              <td>metode pembayaran</td>
+            </tr>
+            <tr>
+              <td>pembayaran biaya pendaftaran itsnu pekalongan</td>
+              <td>Rp200.000</td>
+              <td>BTN Virtual Account</td>
+            </tr>
+          </table>
+        </div>
+        <!-- note -->
+        <div class="ttd">
+          <p>Pekalongan, 17 Agustus 2023</p>
+          <p>(..............................................)</p>
+        </div>
+      </div>
+    </section>
     <!-- invoice end -->
   </body>
 </html>

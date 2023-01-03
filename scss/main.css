@@ -240,6 +240,18 @@ header svg {
   font-weight: 500;
 }
 
+#waktu-pendaftaran .wrapper .content .flex .box .item-block {
+  margin: 20px 0;
+  margin: 0 20px 6px 20px;
+  padding: 20px 0;
+}
+
+#waktu-pendaftaran .wrapper .content .flex .box .item-block p {
+  font-size: 13px;
+  margin-bottom: 12px;
+  font-weight: 500;
+}
+
 #waktu-pendaftaran .wrapper .content .flex .box .box-third {
   margin: 20px 0;
 }
@@ -258,13 +270,13 @@ header svg {
   margin-left: 40px;
 }
 
-#waktu-pendaftaran .wrapper .alur-mobile img {
+#alur-pendaftaran .wrapper .alur-mobile img {
   width: 100%;
   display: block;
   margin: 0 auto;
 }
 
-#waktu-pendaftaran .wrapper .alur-desktop {
+#alur-pendaftaran .wrapper .alur-desktop {
   display: none;
 }
 
@@ -468,23 +480,28 @@ iframe {
         -ms-flex-align: center;
             align-items: center;
   }
+  #waktu-pendaftaran .wrapper .content .box:nth-child(1) {
+    width: 31%;
+  }
+  #waktu-pendaftaran .wrapper .content .box:nth-child(2) {
+    width: 34%;
+  }
+  #waktu-pendaftaran .wrapper .content .box:nth-child(3) {
+    width: 31%;
+  }
   #waktu-pendaftaran .wrapper .content .flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     gap: 20px;
   }
-  #waktu-pendaftaran .wrapper .content .flex .box {
-    width: 32%;
-    margin: 0;
-  }
-  #waktu-pendaftaran .wrapper .content .alur-mobile {
+  #alur-pendaftaran .wrapper .alur-mobile {
     display: none;
   }
-  #waktu-pendaftaran .wrapper .content .alur-desktop {
+  #alur-pendaftaran .wrapper .alur-desktop {
     display: block;
   }
-  #waktu-pendaftaran .wrapper .content .alur-desktop img {
+  #alur-pendaftaran .wrapper .alur-desktop img {
     width: 100%;
     margin: 0;
   }
@@ -526,6 +543,7 @@ iframe {
     -webkit-box-direction: reverse;
         -ms-flex-direction: row-reverse;
             flex-direction: row-reverse;
+    gap: 40px;
   }
   #panduan .wrapper iframe {
     height: 260px;

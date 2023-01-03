@@ -91,7 +91,6 @@
                     background-color: $third;
                     border: 2px solid $primary;
                     margin-top: 20px;
-                
                     h3{
                         font-size: 16px;
                         margin: 12px 20px;
@@ -116,6 +115,16 @@
                             font-weight: 500;
                         }
                     }
+                    .item-block{
+                        margin: 20px 0;
+                        margin: 0 20px 6px 20px;
+                        padding: 20px 0;
+                        p{
+                            font-size: 13px;
+                            margin-bottom: 12px;
+                            font-weight: 500;
+                        }
+                    }
                     .box-third{
                         margin: 20px 0;
                         p{
@@ -133,6 +142,12 @@
                 }
             }
         }
+    }
+}
+// waktu pendaftaran end
+
+#alur-pendaftaran{
+    .wrapper{
         .alur-mobile{
             img{
                 width: 100%;
@@ -143,9 +158,9 @@
         .alur-desktop{
             display: none;
         }
+
     }
 }
-// waktu pendaftaran end
 
 #biaya{
     .wrapper{
@@ -362,23 +377,33 @@ iframe{
                 display: block;
                 justify-content: space-between;
                 align-items: center;
+                .box:nth-child(1){
+                    width: 31%;
+                }
+                .box:nth-child(2){
+                    width: 34%;
+                }
+                .box:nth-child(3){
+                    width: 31%;
+                }
                 .flex{
                     display: flex;
                     gap: 20px;
-                    .box{
-                        width: 32%;
-                        margin: 0;
-                    }
                 }
-                .alur-mobile{
-                    display: none;
-                }
-                .alur-desktop{
-                    display: block;
-                    img{
-                        width: 100%;
-                        margin: 0;
-                    }
+            }
+        }
+    }
+
+    #alur-pendaftaran{
+        .wrapper{
+            .alur-mobile{
+                display: none;
+            }
+            .alur-desktop{
+                display: block;
+                img{
+                    width: 100%;
+                    margin: 0;
                 }
             }
         }
@@ -413,6 +438,7 @@ iframe{
             margin-top: 80px;
             margin-bottom: 40px;
             flex-direction: row-reverse;
+            gap: 40px;
             iframe{
                 height: 260px;
                 width: 460px;
