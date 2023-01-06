@@ -5324,10 +5324,33 @@ footer .wrapper .copyright p {
 }
 
 #detail-pembayaran .wrapper .content .bayar-kampus {
-  background: none;
-  color: #181C27;
+  font-size: 14px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#detail-pembayaran .wrapper .content .bayar-kampus .decoration {
+  height: 1px;
+  width: 100%;
+  border-bottom: 1px solid #181C27;
+}
+
+#detail-pembayaran .wrapper .content .bayar-kampus p {
+  margin: 14px 10px;
   font-weight: 400;
-  border: 1px solid #181C27;
+}
+
+#detail-pembayaran .wrapper .content .bayar-tunai {
+  text-align: center;
+  font-weight: 600;
 }
 
 #detail-pembayaran .wrapper .content .modal {
@@ -5431,7 +5454,7 @@ footer .wrapper .copyright p {
 }
 
 #detail-pembayaran .wrapper .content .modal-1 {
-  display: none;
+  display: block;
   /* Hidden by default */
   position: fixed;
   /* Stay in place */
@@ -5531,15 +5554,31 @@ footer .wrapper .copyright p {
 #detail-pembayaran .wrapper .content .modal-1 .modal-content .text table tr td {
   text-align: left;
   font-size: 12px;
+  font-weight: 500;
 }
 
 #detail-pembayaran .wrapper .content .modal-1 .modal-content .text table tr td:nth-child(1) {
   width: 110px;
 }
 
-#detail-pembayaran .wrapper .content .modal-1 .modal-content .text p {
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 4px;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text .flex svg {
+  margin: 0;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text .flex p {
   font-size: 12px;
-  font-weight: 500;
+  font-weight: 600;
+  text-align: left;
 }
 
 #detail-pembayaran .wrapper .content .modal-1 .modal-content a {

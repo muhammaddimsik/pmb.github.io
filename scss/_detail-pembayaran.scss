@@ -93,10 +93,24 @@
                 }
             }
             .bayar-kampus{
-                background: none;
-                color: $text;
-                font-weight: 400;
-                border: 1px solid $text;
+                font-size: 14px;
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .decoration{
+                    height: 1px;
+                    width: 100%;
+                    border-bottom: 1px solid $text;
+                }
+                p{
+                    margin: 14px 10px;
+                    font-weight: 400;
+                }
+            }
+            .bayar-tunai{
+                text-align: center;
+                font-weight: 600;
             }
             .modal {
                 display: none; /* Hidden by default */
@@ -173,7 +187,7 @@
                 }
             }
             .modal-1 {
-                display: none; /* Hidden by default */
+                display: block; /* Hidden by default */
                 position: fixed; /* Stay in place */
                 z-index: 1; /* Sit on top */
                 left: 0;
@@ -243,15 +257,25 @@
                                 td{
                                     text-align: left;
                                     font-size: 12px;
+                                    font-weight: 500;
                                 }
                                 td:nth-child(1){
                                     width: 110px;
                                 }
                             }
                         }
-                        p{
-                            font-size: 12px;
-                            font-weight: 500;
+                        .flex{
+                            display: flex;
+                            align-items: flex-start;
+                            gap: 4px;
+                            svg{
+                                margin: 0;
+                            }
+                            p{
+                                font-size: 12px;
+                                font-weight: 600;
+                                text-align: left;
+                            }
                         }
                     }
 
