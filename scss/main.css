@@ -4203,15 +4203,7 @@ footer .wrapper .copyright p {
 }
 
 #input-ub .wrapper form .btn-ub {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-
-#input-ub .wrapper form .btn-ub button {
+  float: right;
   padding: 8px 26px;
   color: white;
   background-color: #57B98A;
@@ -4221,10 +4213,103 @@ footer .wrapper .copyright p {
   text-decoration: none;
 }
 
-#input-ub .wrapper form .btn-ub button:hover {
+#input-ub .wrapper form .btn-ub:hover {
   background-color: #69d19f;
   color: #ECFFF9;
   cursor: pointer;
+}
+
+#input-ub .wrapper form .btn-ub a {
+  text-decoration: none;
+  color: white;
+}
+
+#input-ub .wrapper .modal-unggah {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: visible;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+#input-ub .wrapper .modal-unggah .modal-content {
+  border-radius: 10px;
+  background-color: #fefefe;
+  margin: 180px auto;
+  /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  /* Could be more or less, depending on screen size */
+}
+
+#input-ub .wrapper .modal-unggah .modal-content .header-modal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#input-ub .wrapper .modal-unggah .modal-content .header-modal .tutup-2 {
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+
+#input-ub .wrapper .modal-unggah .modal-content .header-modal .tutup-2 svg:hover path {
+  color: black;
+  cursor: pointer;
+}
+
+#input-ub .wrapper .modal-unggah .modal-content .header-modal p {
+  font-weight: 600;
+}
+
+#input-ub .wrapper .modal-unggah .modal-content .text {
+  text-align: center;
+  border-radius: 8px;
+  padding: 4px 0;
+  margin: 8px 12px 40px;
+  border: none;
+  background: none;
+}
+
+#input-ub .wrapper .modal-unggah .modal-content .text svg {
+  width: 50px;
+  margin: 8px;
+}
+
+#input-ub .wrapper .modal-unggah .modal-content .text h3 {
+  margin: 8px auto;
+}
+
+#input-ub .wrapper .modal-unggah .modal-content .text p {
+  font-size: 12px;
+  font-weight: 500;
 }
 
 @media only screen and (min-width: 920px) {
@@ -4238,6 +4323,7 @@ footer .wrapper .copyright p {
   #input-ub .wrapper {
     border: 2px solid #57B98A;
     padding: 20px;
+    height: 600px;
   }
   #input-ub .wrapper .alert-konfirmasi svg {
     height: 24px;
@@ -5200,7 +5286,7 @@ footer .wrapper .copyright p {
 }
 
 #detail-pembayaran .wrapper .content .rincian {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 #detail-pembayaran .wrapper .content .rincian .bold {
@@ -5222,13 +5308,14 @@ footer .wrapper .copyright p {
 }
 
 #detail-pembayaran .wrapper .content button {
-  border: none;
+  border: 1px solid #57B98A;
   background-color: #57B98A;
   padding: 10px 20px;
   width: 100%;
   border-radius: 20px;
-  margin: 20px 0;
+  margin: 2px 0;
   color: #ECFFF9;
+  cursor: pointer;
 }
 
 #detail-pembayaran .wrapper .content button a {
@@ -5236,7 +5323,14 @@ footer .wrapper .copyright p {
   color: #ECFFF9;
 }
 
-#modal-section .wrapper .modal-1 {
+#detail-pembayaran .wrapper .content .bayar-kampus {
+  background: none;
+  color: #181C27;
+  font-weight: 400;
+  border: 1px solid #181C27;
+}
+
+#detail-pembayaran .wrapper .content .modal {
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -5257,255 +5351,86 @@ footer .wrapper .copyright p {
   /* Black w/ opacity */
 }
 
-#modal-section .wrapper .modal-1 .modal-content {
+#detail-pembayaran .wrapper .content .modal .modal-content {
   border-radius: 10px;
   background-color: #fefefe;
-  margin: 10% auto;
+  margin: 200px auto;
   /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 90%;
+  width: 300px;
   /* Could be more or less, depending on screen size */
-  max-width: 360px;
 }
 
-#modal-section .wrapper .modal-1 .modal-content .header-modal {
+#detail-pembayaran .wrapper .content .modal .modal-content .header-modal {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-#modal-section .wrapper .modal-1 .modal-content .header-modal .tutup {
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  cursor: pointer;
-}
-
-#modal-section .wrapper .modal-1 .modal-content .header-modal .tutup svg:hover, #modal-section .wrapper .modal-1 .modal-content .header-modal .tutup svg:focus {
-  cursor: pointer;
-}
-
-#modal-section .wrapper .modal-1 .modal-content .header-modal .tutup svg:hover path, #modal-section .wrapper .modal-1 .modal-content .header-modal .tutup svg:focus path {
-  stroke: #181C27;
-}
-
-#modal-section .wrapper .modal-1 .modal-content .header-modal p {
-  font-weight: 600;
-}
-
-#modal-section .wrapper .modal-1 .modal-content form {
-  padding: 14px 10px;
-}
-
-#modal-section .wrapper .modal-1 .modal-content form .transfer-bank h3 {
-  font-size: 14px;
-  margin: 10px 0;
-}
-
-#modal-section .wrapper .modal-1 .modal-content form .transfer-bank .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  padding: 0;
-  gap: 8px;
-  margin-bottom: 20px;
-}
-
-#modal-section .wrapper .modal-1 .modal-content form .transfer-bank .flex label {
-  width: 80px;
-  padding: 8px 4px;
-  margin-top: 0;
-  border: 2px solid #EEEEEE;
-  border-radius: 6px;
-  background-color: white;
-}
-
-#modal-section .wrapper .modal-1 .modal-content form .transfer-bank .flex label input {
-  display: none;
-}
-
-#modal-section .wrapper .modal-1 .modal-content form .transfer-bank .flex label img {
-  height: 18px;
-  display: block;
-  margin: 0 auto;
-}
-
-#modal-section .wrapper .modal-1 .modal-content form .transfer-bank .flex label:hover {
-  border: 2px solid #57B98A;
-}
-
-#modal-section .wrapper .modal-1 .modal-content button {
-  width: 100%;
-  padding: 8px 0;
-  background-color: #57B98A;
-  border: none;
-  border-radius: 20px;
-  display: block;
-  margin: 20px auto;
-  cursor: pointer;
-}
-
-#modal-section .wrapper .modal-1 .modal-content button a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #ECFFF9;
-  font-size: 16px;
-}
-
-#modal-section .wrapper .modal-2 {
-  display: none;
-  /* Hidden by default */
-  position: fixed;
-  /* Stay in place */
-  z-index: 1;
-  /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%;
-  /* Full width */
-  height: 100%;
-  /* Full height */
-  overflow: auto;
-  /* Enable scroll if needed */
-  background-color: black;
-  /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.4);
-  /* Black w/ opacity */
-}
-
-#modal-section .wrapper .modal-2 .modal-content {
-  border-radius: 10px;
-  background-color: #fefefe;
-  margin: 10% auto;
-  /* 15% from the top and centered */
-  padding: 20px;
-  border: 1px solid #888;
-  width: 90%;
-  /* Could be more or less, depending on screen size */
-  max-width: 360px;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .header-modal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .header-modal .kembali {
-  font-weight: bold;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .header-modal .kembali svg:hover, #modal-section .wrapper .modal-2 .modal-content .header-modal .kembali svg:focus {
-  cursor: pointer;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .header-modal .kembali svg:hover path, #modal-section .wrapper .modal-2 .modal-content .header-modal .kembali svg:focus path {
-  stroke: #181C27;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .header-modal p {
-  font-weight: 600;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .total-tagihan {
-  margin: 30px 0 40px;
-  padding: 0 30px;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .total-tagihan p {
-  font-weight: 600;
-  font-size: 14px;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .total-tagihan p:nth-child(2) {
-  font-size: 16px;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .pilihan-bank {
-  padding: 0 20px;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .pilihan-bank .flex:nth-child(1) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-#modal-section .wrapper .modal-2 .modal-content .pilihan-bank .flex:nth-child(1) p {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .pilihan-bank .flex:nth-child(1) img {
-  border: 2px solid #EEEEEE;
-  padding: 6px 10px;
-  border-radius: 8px;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .pilihan-bank h3 {
-  margin: 20px 0;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .pilihan-bank .flex {
+#detail-pembayaran .wrapper .content .modal .modal-content .header-modal .tutup {
+  font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-#modal-section .wrapper .modal-2 .modal-content .pilihan-bank .flex p {
-  width: 300px;
-  text-align: justify;
-  font-size: 14px;
-}
-
-#modal-section .wrapper .modal-2 .modal-content button {
-  width: 100%;
-  padding: 8px 0;
-  background-color: #57B98A;
-  border: none;
-  border-radius: 20px;
-  display: block;
-  margin: 40px auto 20px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   cursor: pointer;
 }
 
-#modal-section .wrapper .modal-2 .modal-content button a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #ECFFF9;
-  font-size: 16px;
+#detail-pembayaran .wrapper .content .modal .modal-content .header-modal .tutup svg path:hover, #detail-pembayaran .wrapper .content .modal .modal-content .header-modal .tutup svg path:focus {
+  color: black;
+  cursor: pointer;
 }
 
-#modal-section .wrapper .modal-3 {
+#detail-pembayaran .wrapper .content .modal .modal-content .header-modal p {
+  font-weight: 600;
+}
+
+#detail-pembayaran .wrapper .content .modal .modal-content .text {
+  text-align: center;
+  border-radius: 8px;
+  padding: 4px 0;
+  margin: 18px 12px;
+  border: none;
+  background: none;
+}
+
+#detail-pembayaran .wrapper .content .modal .modal-content .text svg {
+  width: 50px;
+  margin: 8px;
+}
+
+#detail-pembayaran .wrapper .content .modal .modal-content .text h3 {
+  margin: 8px auto;
+}
+
+#detail-pembayaran .wrapper .content .modal .modal-content .text p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#detail-pembayaran .wrapper .content .modal .modal-content a {
+  font-size: 12px;
+  margin: 4px auto;
+  border: 1px solid #57B98A;
+}
+
+#detail-pembayaran .wrapper .content .modal .modal-content .transfer-manual {
+  background: none;
+  color: #181C27;
+  border: 1px solid #181C27;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 {
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -5524,30 +5449,33 @@ footer .wrapper .copyright p {
   /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4);
   /* Black w/ opacity */
+  overflow: hidden;
 }
 
-#modal-section .wrapper .modal-3 .modal-content {
+#detail-pembayaran .wrapper .content .modal-1 .modal-content {
   border-radius: 10px;
   background-color: #fefefe;
-  margin: 10% auto;
+  margin: 140px auto;
   /* 15% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 90%;
+  width: 300px;
   /* Could be more or less, depending on screen size */
-  max-width: 360px;
 }
 
-#modal-section .wrapper .modal-3 .modal-content .header-modal {
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .header-modal {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-#modal-section .wrapper .modal-3 .modal-content .header-modal .kembali-1 {
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .header-modal .tutup {
   font-weight: bold;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -5556,100 +5484,73 @@ footer .wrapper .copyright p {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .header-modal .kembali-1 svg:hover, #modal-section .wrapper .modal-3 .modal-content .header-modal .kembali-1 svg:focus {
   cursor: pointer;
 }
 
-#modal-section .wrapper .modal-3 .modal-content .header-modal .kembali-1 svg:hover path, #modal-section .wrapper .modal-3 .modal-content .header-modal .kembali-1 svg:focus path {
-  stroke: #181C27;
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .header-modal .tutup svg path:hover, #detail-pembayaran .wrapper .content .modal-1 .modal-content .header-modal .tutup svg path:focus {
+  color: black;
+  cursor: pointer;
 }
 
-#modal-section .wrapper .modal-3 .modal-content .header-modal p {
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .header-modal p {
   font-weight: 600;
 }
 
-#modal-section .wrapper .modal-3 .modal-content .waktu-pembayaran {
-  margin: 30px 0 40px;
-  padding: 0 30px;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .waktu-pembayaran p {
-  font-size: 14px;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .waktu-pembayaran p:nth-child(2) {
-  font-weight: 800;
-  font-size: 14px;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .pilihan-bank {
-  padding: 0 20px;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .pilihan-bank .flex:nth-child(1) {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .pilihan-bank .flex:nth-child(1) p {
-  font-size: 16px;
-  font-weight: 700;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .pilihan-bank .flex:nth-child(1) img {
-  border: 2px solid #EEEEEE;
-  padding: 6px 10px;
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text {
+  text-align: center;
   border-radius: 8px;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .cara-pembayaran {
-  padding: 0 20px;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .cara-pembayaran h3 {
-  margin: 20px 0;
-  font-size: 16px;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .cara-pembayaran .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 10px;
-  margin-bottom: 10px;
-}
-
-#modal-section .wrapper .modal-3 .modal-content .cara-pembayaran .flex p {
-  width: 300px;
-  text-align: justify;
-  font-size: 14px;
-}
-
-#modal-section .wrapper .modal-3 .modal-content button {
-  width: 100%;
-  padding: 8px 0;
-  background-color: #57B98A;
+  padding: 4px 0;
+  margin: 18px 12px;
   border: none;
-  border-radius: 20px;
-  display: block;
-  margin: 40px auto 20px;
-  cursor: pointer;
+  background: none;
 }
 
-#modal-section .wrapper .modal-3 .modal-content button a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #ECFFF9;
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text svg {
+  width: 50px;
+  margin: 8px;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text h3 {
+  margin: 8px auto;
   font-size: 16px;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text table {
+  border-collapse: collapse;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text hr {
+  border-style: dotted;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text table {
+  margin: 20px 0;
+  width: 100%;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text table tr td {
+  text-align: left;
+  font-size: 12px;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text table tr td:nth-child(1) {
+  width: 110px;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .text p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content a {
+  font-size: 12px;
+  margin: 4px auto;
+}
+
+#detail-pembayaran .wrapper .content .modal-1 .modal-content .transfer-manual {
+  background: none;
+  color: #181C27;
+  border: 1px solid #181C27;
 }
 
 @media only screen and (min-width: 920px) {
@@ -5674,12 +5575,6 @@ footer .wrapper .copyright p {
   }
   #detail-pembayaran .wrapper .content {
     width: 40%;
-  }
-  #modal-section .wrapper .modal {
-    display: none;
-  }
-  #modal-section .wrapper .modal .modal-content {
-    margin: 2% auto;
   }
 }
 

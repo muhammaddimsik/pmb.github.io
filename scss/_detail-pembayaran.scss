@@ -65,7 +65,7 @@
                 font-weight: 600;
             }
             .rincian{
-                margin-bottom: 20px;
+                margin-bottom: 40px;
                 .bold{
                     font-weight: 600;
                     margin-bottom: 5px;
@@ -79,316 +79,190 @@
                 }
             }
             button{
-                border: none;
+                border: 1px solid $primary;
                 background-color: $primary;
                 padding: 10px 20px;
                 width: 100%;
                 border-radius: 20px;
-                margin: 20px 0;
+                margin: 2px 0;
                 color: $third;
+                cursor: pointer;
                 a{
                     text-decoration: none;
                     color: $third;
                 }
             }
-        }
-    }
-}
-
-#modal-section{
-    .wrapper{
-        .modal-1 {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-            .modal-content {
-                border-radius: 10px;
-                background-color: #fefefe;
-                margin: 10% auto; /* 15% from the top and centered */
-                padding: 20px;
-                border: 1px solid #888;
-                width: 90%; /* Could be more or less, depending on screen size */
-                max-width: 360px;
-                .header-modal{
-                    display: flex;
-                    align-items: center;
-                    .tutup {
-                        font-weight: bold;
+            .bayar-kampus{
+                background: none;
+                color: $text;
+                font-weight: 400;
+                border: 1px solid $text;
+            }
+            .modal {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                .modal-content {
+                    border-radius: 10px;
+                    background-color: #fefefe;
+                    margin: 200px auto; /* 15% from the top and centered */
+                    padding: 20px;
+                    border: 1px solid #888;
+                    width: 300px; /* Could be more or less, depending on screen size */
+                    .header-modal{
                         display: flex;
-                        text-align: center;
-                        justify-content: center;
-                        cursor: pointer;
-                        svg{
-                            &:hover, &:focus{
-                                cursor: pointer;
-                                path{
-                                    stroke: $text;
-                                }
-                            }
-                        }
-                    }
-                    p{
-                        font-weight: 600;
-                    }
-                }
-                form{
-                    padding: 14px 10px;
-                    .transfer-bank{
-                        h3{
-                            font-size: 14px;
-                            margin: 10px 0;
-                        }
-                        .flex{
+                        align-items: center;
+                        justify-content: space-between;
+                        .tutup {
+                            font-weight: bold;
                             display: flex;
-                            flex-wrap: wrap;
-                            padding: 0;
-                            gap: 8px;
-                            margin-bottom: 20px;
-                            label{
-                                width: 80px;
-                                padding: 8px 4px;
-                                margin-top: 0;
-                                border: 2px solid $gray;
-                                border-radius: 6px;
-                                background-color: white;
-                                input{
-                                    display: none;
-                                }
-                                img{
-                                    height: 18px;
-                                    display: block;
-                                    margin: 0 auto;
-                                }
-                                &:hover{
-                                    border: 2px solid $primary;
+                            text-align: center;
+                            justify-content: center;
+                            cursor: pointer;
+                            svg{
+                                path{
+                                    &:hover, &:focus{
+                                        color: black;
+                                        cursor: pointer;
+                                    }
                                 }
                             }
                         }
+                        p{
+                            font-weight: 600;
+                        }
                     }
-                }
-                button{
-                    width: 100%;
-                    padding: 8px 0;
-                    background-color: $primary;
-                    border: none;
-                    border-radius: 20px;
-                    display: block;
-                    margin: 20px auto;
-                    cursor: pointer;
+
+                    .text{
+                        text-align: center;
+                        border-radius: 8px;
+                        padding: 4px 0;
+                        margin: 18px 12px;
+                        border: none;
+                        background: none;
+                        svg{
+                            width: 50px;
+                            margin: 8px;
+                        }
+                        h3{
+                            margin: 8px auto;
+                        }
+                        p{
+                            font-size: 12px;
+                            font-weight: 500;
+                        }
+                    }
+
                     a{
-                        text-decoration: none;
-                        font-weight: 500;
-                        color: $third;
-                        font-size: 16px;
+                        font-size: 12px;
+                        margin: 4px auto;
+                        border: 1px solid $primary;
+                    }
+                    .transfer-manual{
+                        background: none;
+                        color: $text;
+                        border: 1px solid $text;
                     }
                 }
             }
-        }
-        .modal-2 {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-            .modal-content {
-                border-radius: 10px;
-                background-color: #fefefe;
-                margin: 10% auto; /* 15% from the top and centered */
-                padding: 20px;
-                border: 1px solid #888;
-                width: 90%; /* Could be more or less, depending on screen size */
-                max-width: 360px;
-                .header-modal{
-                    display: flex;
-                    align-items: center;
-                    .kembali {
-                        font-weight: bold;
+            .modal-1 {
+                display: none; /* Hidden by default */
+                position: fixed; /* Stay in place */
+                z-index: 1; /* Sit on top */
+                left: 0;
+                top: 0;
+                width: 100%; /* Full width */
+                height: 100%; /* Full height */
+                overflow: auto; /* Enable scroll if needed */
+                background-color: rgb(0,0,0); /* Fallback color */
+                background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+                overflow: hidden;
+                .modal-content {
+                    border-radius: 10px;
+                    background-color: #fefefe;
+                    margin: 140px auto; /* 15% from the top and centered */
+                    padding: 20px;
+                    border: 1px solid #888;
+                    width: 300px; /* Could be more or less, depending on screen size */
+                    .header-modal{
                         display: flex;
-                        text-align: center;
-                        justify-content: center;
-                        svg{
-                            &:hover, &:focus{
-                                cursor: pointer;
+                        align-items: center;
+                        justify-content: space-between;
+                        .tutup {
+                            font-weight: bold;
+                            display: flex;
+                            text-align: center;
+                            justify-content: center;
+                            cursor: pointer;
+                            svg{
                                 path{
-                                    stroke: $text;
+                                    &:hover, &:focus{
+                                        color: black;
+                                        cursor: pointer;
+                                    }
                                 }
                             }
                         }
-                    }
-                    p{
-                        font-weight: 600;
-                    }
-                }
-                .total-tagihan{
-                    margin: 30px 0 40px;
-                    padding: 0 30px;
-                    p{
-                        font-weight: 600;
-                        font-size: 14px;
-                    }
-                    p:nth-child(2){
-                        font-size: 16px;
-                    }
-                }
-                .pilihan-bank{
-                    padding: 0 20px;
-                    .flex:nth-child(1){
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
                         p{
-                            font-size: 16px;
-                            font-weight: 700;
-                        }
-                        img{
-                            border: 2px solid $gray;
-                            padding: 6px 10px;
-                            border-radius: 8px;
+                            font-weight: 600;
                         }
                     }
-                    h3{
-                        margin: 20px 0;
-                    }
-                    .flex{
-                        display: flex;
-                        gap: 10px;
-                        margin-bottom: 10px;
-                        p{
-                            width: 300px;
-                            text-align: justify;
-                            font-size: 14px;
-                        }
-                    }
-                }
-                button{
-                    width: 100%;
-                    padding: 8px 0;
-                    background-color: $primary;
-                    border: none;
-                    border-radius: 20px;
-                    display: block;
-                    margin: 40px auto 20px;
-                    cursor: pointer;
-                    a{
-                        text-decoration: none;
-                        font-weight: 500;
-                        color: $third;
-                        font-size: 16px;
-                    }
-                }
-            }
-        }
-        .modal-3 {
-            display: none; /* Hidden by default */
-            position: fixed; /* Stay in place */
-            z-index: 1; /* Sit on top */
-            left: 0;
-            top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: rgb(0,0,0); /* Fallback color */
-            background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-            .modal-content {
-                border-radius: 10px;
-                background-color: #fefefe;
-                margin: 10% auto; /* 15% from the top and centered */
-                padding: 20px;
-                border: 1px solid #888;
-                width: 90%; /* Could be more or less, depending on screen size */
-                max-width: 360px;
-                .header-modal{
-                    display: flex;
-                    align-items: center;
-                    .kembali-1 {
-                        font-weight: bold;
-                        display: flex;
+
+                    .text{
                         text-align: center;
-                        justify-content: center;
+                        border-radius: 8px;
+                        padding: 4px 0;
+                        margin: 18px 12px;
+                        border: none;
+                        background: none;
                         svg{
-                            &:hover, &:focus{
-                                cursor: pointer;
-                                path{
-                                    stroke: $text;
+                            width: 50px;
+                            margin: 8px;
+                        }
+                        h3{
+                            margin: 8px auto;
+                            font-size: 16px;
+                        }
+                        table{
+                            border-collapse: collapse;
+                        }
+                        hr{
+                            border-style: dotted;
+                        }
+                        table{
+                            margin: 20px 0;
+                            width: 100%;
+                            tr{
+                                td{
+                                    text-align: left;
+                                    font-size: 12px;
+                                }
+                                td:nth-child(1){
+                                    width: 110px;
                                 }
                             }
                         }
-                    }
-                    p{
-                        font-weight: 600;
-                    }
-                }
-                .waktu-pembayaran{
-                    margin: 30px 0 40px;
-                    padding: 0 30px;
-                    p{
-                        font-size: 14px;
-                    }
-                    p:nth-child(2){
-                        font-weight: 800;
-                        font-size: 14px;
-                    }
-                }
-                .pilihan-bank{
-                    padding: 0 20px;
-                    .flex:nth-child(1){
-                        display: flex;
-                        justify-content: space-between;
-                        align-items: center;
                         p{
-                            font-size: 16px;
-                            font-weight: 700;
-                        }
-                        img{
-                            border: 2px solid $gray;
-                            padding: 6px 10px;
-                            border-radius: 8px;
+                            font-size: 12px;
+                            font-weight: 500;
                         }
                     }
-                }
-                .cara-pembayaran{
-                    padding: 0 20px;
-                    h3{
-                        margin: 20px 0;
-                        font-size: 16px;
-                    }
-                    .flex{
-                        display: flex;
-                        gap: 10px;
-                        margin-bottom: 10px;
-                        p{
-                            width: 300px;
-                            text-align: justify;
-                            font-size: 14px;
-                        }
-                    }
-                }
-                button{
-                    width: 100%;
-                    padding: 8px 0;
-                    background-color: $primary;
-                    border: none;
-                    border-radius: 20px;
-                    display: block;
-                    margin: 40px auto 20px;
-                    cursor: pointer;
+
                     a{
-                        text-decoration: none;
-                        font-weight: 500;
-                        color: $third;
-                        font-size: 16px;
+                        font-size: 12px;
+                        margin: 4px auto;
+                    }
+                    .transfer-manual{
+                        background: none;
+                        color: $text;
+                        border: 1px solid $text;
                     }
                 }
             }
@@ -411,16 +285,6 @@
             }
             .content{
                 width: 40%;
-            }
-        }
-    }
-    #modal-section{
-        .wrapper{
-            .modal{
-                display: none;
-                .modal-content{
-                    margin: 2% auto;
-                }
             }
         }
     }
